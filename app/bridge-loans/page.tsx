@@ -45,7 +45,7 @@ export default function BridgeLoansPage() {
               need to move fast, our loans help you outbid competition and maximize returns.
             </p>
             <Link
-              href="#"
+              href="/get-pre-qualified"
               className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
             >
               Get Pre-qualified
@@ -126,7 +126,7 @@ export default function BridgeLoansPage() {
                 pricing to maximize your deal.
               </p>
               <Link
-                href="#"
+                href="/get-pre-qualified"
                 className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
               >
                 Get Started Today
@@ -186,7 +186,7 @@ export default function BridgeLoansPage() {
       <div className="w-full bg-pink-300 py-4 text-center">
         <p className="text-lg font-medium text-gray-800">No Application Fee / No Appraisal / No Income Verification</p>
         <Link
-          href="/get-pre-qualification"
+          href="/get-pre-qualified"
           className="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
         >
           Get Pre-qualified Today
@@ -305,7 +305,7 @@ export default function BridgeLoansPage() {
                 </li>
               </ul>
               <Link
-                href="#"
+                href="/get-pre-qualified"
                 className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
               >
                 Get Estimate
@@ -369,7 +369,7 @@ export default function BridgeLoansPage() {
 
           <div className="text-center mt-12">
             <Link
-              href="#"
+              href="/get-pre-qualified"
               className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
             >
               See Your Rate
@@ -402,7 +402,7 @@ export default function BridgeLoansPage() {
                 smooth even after your bridge loan closes.
               </p>
               <Link
-                href="#"
+                href="/get-pre-qualified"
                 className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
               >
                 Visit Our Servicing Page
@@ -427,7 +427,7 @@ export default function BridgeLoansPage() {
                 impact of funding decisions.
               </p>
               <Link
-                href="#"
+                href="/get-pre-qualified"
                 className="inline-block bg-pink-300 hover:bg-pink-400 text-gray-800 font-medium py-3 px-6 rounded-md transition-colors"
               >
                 Watch Our Webinar
@@ -593,7 +593,7 @@ export default function BridgeLoansPage() {
             nationwide.
           </p>
           <Link
-            href="#"
+            href="/get-pre-qualified"
             className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
           >
             Get Started Today

@@ -34,7 +34,7 @@ export default function Navbar() {
       {
         title: "Rental Portfolio",
         description: "Consolidate 5+ properties with rental portfolio loans",
-        href: "/rental-portfolio"
+        href: "/rental"
       }
     ],
     "New Construction": [
@@ -49,7 +49,7 @@ export default function Navbar() {
   const whyKiaviLinks = {
     "About Weconnectinvestmentstocapital": {
       description: "Learn what makes Weconnectinvestmentstocapital the investor's choice",
-      href: "/about-kiavi"
+      href: "/why-us"
     },
     "News": {
       description: "Stay updated with the latest Weconnectinvestmentstocapital news",
@@ -57,7 +57,7 @@ export default function Navbar() {
     },
     "States We Lend In": {
       description: "Investing nationwide? See where we support you",
-      href: "/states-we-lend-in"
+      href: "/lending-areas"
     },
     "FAQ": {
       description: "Got questions? We've got clear, helpful answers",

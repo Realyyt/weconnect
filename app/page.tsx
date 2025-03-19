@@ -291,7 +291,9 @@ export default function Home() {
                 <span>Valuation Comparables</span>
               </li>
             </ul>
-            <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Get Estimate</Button>
+            <Link href="/get-pre-qualified">
+              <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Get Estimate</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -342,9 +344,11 @@ export default function Home() {
             <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8">
               Sign up for our next weekly live webinar to walk through the entire we connect investment to capital process and speak with our experienced team.
             </p>
-            <Button className="w-full md:w-auto bg-pink-600 hover:bg-pink-700 text-white font-medium">
-              Save My Seat
-            </Button>
+            <Link href="/get-pre-qualified">
+              <Button className="w-full md:w-auto bg-pink-600 hover:bg-pink-700 text-white font-medium">
+                Save My Seat
+              </Button>
+            </Link>
           </div>
           
           {/* Video Container */}
@@ -488,11 +492,13 @@ rates options.`}
         <p className="text-gray-600 text-lg mb-8">
           Get empowered with industry insights, how-tos, investor tips and more...
         </p>
-        <Button 
-          className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
-        >
-          Read The we connect investment to capital Blog
-        </Button>
+        <Link href="/get-pre-qualified">
+          <Button 
+            className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
+          >
+            Read The we connect investment to capital Blog
+          </Button>
+        </Link>
       </div>
     </section>
 

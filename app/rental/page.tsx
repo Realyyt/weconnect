@@ -34,7 +34,7 @@ export default function Home() {
               with confidence.
             </p>
             <Link
-              href="/get-pre-qualification"
+              href="/get-pre-qualified"
               className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
             >
               Get Pre-qualified
@@ -164,9 +164,11 @@ export default function Home() {
                 dedicated to helping you navigate your options and setting
                 you up for long-term success.
               </p>
-              <button className="bg-pink-700 hover:bg-pink-800 text-white font-bold py-3 px-6 rounded">
-                Contact Our Rental Portfolio Experts
-              </button>
+              <Link href="/get-pre-qualified">
+                <button className="bg-pink-700 hover:bg-pink-800 text-white font-bold py-3 px-6 rounded">
+                  Get Started
+                </button>
+              </Link>
             </div>
             <div className="w-full md:w-1/2">
               <div className="bg-pink-100 p-6 rounded-lg">
