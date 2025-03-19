@@ -173,16 +173,15 @@ export default function GetPreQualifiedPage() {
     setIsSubmitting(true)
 
     try {
-      // Here you would integrate with your email service
-      // Example:
-      // await fetch('/api/submit-pre-qualification', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(formData)
-      // })
+      const response = await fetch('/api/submit-pre-qualification', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      })
 
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500))
+      if (!response.ok) {
+        throw new Error('Failed to submit form')
+      }
 
       setCurrentStep("success")
     } catch (error) {

@@ -66,7 +66,7 @@ export default function Home() {
               we connect investment to capital uses the power of technology to offer a simpler, more reliable, and faster way for real estate
               investors to access financing for their next investment property.
             </p>
-            <Link href="/get-pre-qualification">
+            <Link href="/get-pre-qualified">
               <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white">
                 Get Pre-qualified
               </Button>

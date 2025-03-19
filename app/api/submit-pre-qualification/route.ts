@@ -16,12 +16,12 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         sender: {
-          name: "Kiavi Pre-qualification Applicant",
-          email: "notifications@weconnectinvestmenttocapital.netlify.app",
+          name: "Weconnectinvestmenttocapital Pre-qualification Applicant",
+          email: "weconnectinvestmenttocapital@gmail.com",
         },
         to: [
           {
-            email: "emmaisaac032@gmail.com",
+            email: "farm360ng@gmail.com",
             name: "Loan Team",
           },
         ],
