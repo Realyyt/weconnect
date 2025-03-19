@@ -419,7 +419,7 @@ export default function GetPreQualifiedPage() {
                 you shortly.
               </p>
               <Link
-                href="/loans/fix-and-flip"
+                href="/"
                 className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
               >
                 Return to Home page
