@@ -56,76 +56,88 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto px-4 relative">
-        {/* Floating Images with Modern Shapes - Now responsive */}
-        <div className="relative h-[30vh] md:h-auto md:absolute md:inset-0 pointer-events-none mb-8 md:mb-0">
-          {/* Left Image */}
-          <div 
-            className="absolute w-36 h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-[30%_70%_70%_30%/30%_30%_70%_70%] overflow-hidden"
-            style={{ 
-              top: '5%', // Moved up on mobile
-              left: '5%',
-              transform: 'rotate(-15deg)'
-            }}
-          >
-            <Image
-              src="/3.jpg"
-              alt="Real estate investment"
-              width={200}
-              height={200}
-              className="h-full w-full object-cover"
-            />
-          </div>
-
-          {/* Right Bottom Image */}
-          <div 
-            className="absolute w-40 h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] overflow-hidden"
-            style={{ 
-              top: '15%', // Changed from bottom to top for mobile
-              right: '2%',
-              transform: 'rotate(10deg)'
-            }}
-          >
-            <Image
-              src="/2.jpg"
-              alt="Property renovation"
-              width={250}
-              height={250}
-              className="h-full w-full object-cover"
-            />
-          </div>
-
-          {/* Right Top Image */}
-          <div 
-            className="absolute w-32 h-32 md:w-44 md:h-44 lg:w-52 lg:h-52 rounded-[40%_60%_70%_30%/40%_40%_60%_50%] overflow-hidden"
-            style={{ 
-              top: '0%',
-              right: '25%',
-              transform: 'rotate(-5deg)'
-            }}
-          >
-            <Image
-              src="/4.jpg"
-              alt="Business professional"
-              width={200}
-              height={200}
-              className="h-full w-full object-cover"
-            />
-          </div>
-        </div>
-
-        {/* Content - Now stacks below images on mobile */}
-        <div className="relative z-10 mr-10 py-8 md:py-12 flex items-center justify-center min-h-[30vh] md:min-h-[50vh]">
-          <div className="max-w-lg mx-auto text-center px-4 sm:px-6 md:px-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+          {/* Content Section */}
+          <div className="w-full lg:w-1/2 text-center lg:text-left z-10">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
               Get the edge in a shifting market.
             </h1>
             <p className="text-base sm:text-lg text-gray-800 mb-6 leading-relaxed">
-              Kiavi uses the power of technology to offer a simpler, more reliable, and faster way for real estate
+              we connect investment to capital uses the power of technology to offer a simpler, more reliable, and faster way for real estate
               investors to access financing for their next investment property.
             </p>
             <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white">
               Get Pre-qualified
             </Button>
+          </div>
+
+          {/* Images Section */}
+          <div className="w-full lg:w-1/2 relative h-[30vh] sm:h-[40vh] lg:h-[50vh]">
+            {/* Left Image - Slides in from left */}
+            <div 
+              className="absolute w-32 h-32 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 
+              rounded-[30%_70%_70%_30%/30%_30%_70%_70%] overflow-hidden
+              animate-slide-in-left opacity-0"
+              style={{ 
+                top: '5%',
+                left: '5%',
+                transform: 'rotate(-15deg)',
+                zIndex: 1,
+                animation: 'slide-in-left 1s ease-out forwards'
+              }}
+            >
+              <Image
+                src="/3.jpg"
+                alt="Real estate investment"
+                width={200}
+                height={200}
+                className="h-full w-full object-cover"
+              />
+            </div>
+
+            {/* Right Bottom Image - Slides in from right */}
+            <div 
+              className="absolute w-36 h-36 sm:w-40 sm:h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 
+              rounded-[60%_40%_30%_70%/60%_30%_70%_40%] overflow-hidden
+              animate-slide-in-right opacity-0"
+              style={{ 
+                bottom: '5%',
+                right: '2%',
+                transform: 'rotate(10deg)',
+                zIndex: 2,
+                animation: 'slide-in-right 1s ease-out 0.3s forwards'
+              }}
+            >
+              <Image
+                src="/2.jpg"
+                alt="Property renovation"
+                width={250}
+                height={250}
+                className="h-full w-full object-cover"
+              />
+            </div>
+
+            {/* Right Top Image - Slides in from top */}
+            <div 
+              className="absolute w-28 h-28 sm:w-32 sm:h-32 md:w-44 md:h-44 lg:w-52 lg:h-52 
+              rounded-[40%_60%_70%_30%/40%_40%_60%_50%] overflow-hidden
+              animate-slide-in-top opacity-0"
+              style={{ 
+                top: '15%',
+                right: '25%',
+                transform: 'rotate(-5deg)',
+                zIndex: 3,
+                animation: 'slide-in-top 1s ease-out 0.6s forwards'
+              }}
+            >
+              <Image
+                src="/4.jpg"
+                alt="Business professional"
+                width={200}
+                height={200}
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -219,7 +231,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get a fast financing estimate</h2>
           <p className="text-base md:text-lg text-gray-600">
-            Stop guessing and start investing with confidence! Kiavi helps you quickly estimate your financing
+            Stop guessing and start investing with confidence! we connect investment to capital helps you quickly estimate your financing
             options—simply add a few project details like the property address and rehab scope to unlock an estimate
             for:
           </p>
@@ -323,10 +335,10 @@ export default function Home() {
               LIVE WEBINAR
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight">
-              Getting to Know Kiavi: Successfully Funding Your Real Estate Investment
+              Getting to Know we connect investment to capital: Successfully Funding Your Real Estate Investment
             </h2>
             <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8">
-              Sign up for our next weekly live webinar to walk through the entire Kiavi process and speak with our experienced team.
+              Sign up for our next weekly live webinar to walk through the entire we connect investment to capital process and speak with our experienced team.
             </p>
             <Button className="w-full md:w-auto bg-pink-600 hover:bg-pink-700 text-white font-medium">
               Save My Seat
@@ -442,7 +454,7 @@ export default function Home() {
     <section className="py-12 md:py-20 bg-gradient-to-b from-pink-50 to-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">
-          See why 17,000+ real estate investors trust Kiavi
+          See why 17,000+ real estate investors trust we connect investment to capital
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {[1, 2, 3].map((i) => (
@@ -477,7 +489,7 @@ rates options.`}
         <Button 
           className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
         >
-          Read The Kiavi Blog
+          Read The we connect investment to capital Blog
         </Button>
       </div>
     </section>

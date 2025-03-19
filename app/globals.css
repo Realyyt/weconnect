@@ -69,3 +69,36 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 }
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%) rotate(-15deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(-15deg);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%) rotate(10deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(10deg);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-top {
+  from {
+    transform: translateY(-100%) rotate(-5deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) rotate(-5deg);
+    opacity: 1;
+  }
+}

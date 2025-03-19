@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kiavi - Real Estate Investment Loans",
+  title: "Weconnectinvestmenttocapital- Real Estate Investment Loans",
   description: "Get fast, reliable financing for your next real estate investment property with Kiavi.",
 };
 
