@@ -44,7 +44,7 @@ export default function FixAndFlipLoansPage() {
               high leverage of up to 95% LTC / 80% ARV.
             </p>
             <Link
-              href="#"
+              href="/get-pre-qualification"
               className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
             >
               Get Pre-qualified

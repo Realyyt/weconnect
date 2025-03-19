@@ -41,7 +41,7 @@ export default function Navbar() {
       {
         title: "New Construction / Infill",
         description: "New construction investments made easy with tailored loans",
-        href: "/new-construction"
+        href: "/new-construction-infill"
       }
     ]
   }
@@ -179,7 +179,9 @@ export default function Navbar() {
           
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button className="bg-pink-600 hover:bg-pink-700 text-white" onClick={handleLinkClick}>Get Pre-qualified</Button>
+            <Link href="/get-pre-qualification">
+              <Button className="bg-pink-600 hover:bg-pink-700 text-white" onClick={handleLinkClick}>Get Pre-qualified</Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -307,9 +309,11 @@ export default function Navbar() {
 
               {/* Mobile CTA Button */}
               <div className="mt-6">
-                <Button className="w-full justify-center bg-pink-600 hover:bg-pink-700 text-white py-4 text-lg" onClick={handleLinkClick}>
-                  Get Pre-qualified
-                </Button>
+                <Link href="/get-pre-qualification">
+                  <Button className="w-full justify-center bg-pink-600 hover:bg-pink-700 text-white py-4 text-lg" onClick={handleLinkClick}>
+                    Get Pre-qualified
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

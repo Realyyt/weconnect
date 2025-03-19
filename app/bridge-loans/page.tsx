@@ -186,7 +186,7 @@ export default function BridgeLoansPage() {
       <div className="w-full bg-pink-300 py-4 text-center">
         <p className="text-lg font-medium text-gray-800">No Application Fee / No Appraisal / No Income Verification</p>
         <Link
-          href="#"
+          href="/get-pre-qualification"
           className="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
         >
           Get Pre-qualified Today
