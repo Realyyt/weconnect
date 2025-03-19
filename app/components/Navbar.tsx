@@ -47,12 +47,12 @@ export default function Navbar() {
   }
 
   const whyKiaviLinks = {
-    "About Kiavi": {
-      description: "Learn what makes Kiavi the investor's choice",
+    "About Weconnectinvestmentstocapital": {
+      description: "Learn what makes Weconnectinvestmentstocapital the investor's choice",
       href: "/about-kiavi"
     },
     "News": {
-      description: "Stay updated with the latest Kiavi news",
+      description: "Stay updated with the latest Weconnectinvestmentstocapital news",
       href: "/news"
     },
     "States We Lend In": {
