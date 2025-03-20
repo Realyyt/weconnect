@@ -44,11 +44,10 @@ export default function LendingAreas() {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-16">
-        <h2 className="text-4xl font-medium text-gray-800 mb-6">States WeConnectInvestments lends in</h2>
+        <h2 className="text-4xl font-medium text-gray-800 mb-6">Our Lending Coverage</h2>
         
         <p className="text-lg text-gray-700 mb-10 max-w-4xl">
-          WeConnectInvestments empowers real estate investors with modern technology, timely capital, and industry
-          support across the country in 30 states + DC to unlock the value of America&apos;s aged homes.
+          We provide financing solutions across 47 states and Washington D.C. Our nationwide coverage helps investors revitalize America's housing stock with flexible lending options.
         </p>
         
         <Link
@@ -69,8 +68,7 @@ export default function LendingAreas() {
             </div>
             <h3 className="text-2xl font-medium text-gray-800 mb-4">Competitive rates</h3>
             <p className="text-gray-700">
-              Our robust capital, low rates, and loan options allow you to confidently make
-              offers to maximize your returns.
+              Access low rates and flexible terms to maximize your investment returns. Our competitive pricing helps you achieve better profitability on your real estate investments.
             </p>
           </div>
 
@@ -81,8 +79,7 @@ export default function LendingAreas() {
             </div>
             <h3 className="text-2xl font-medium text-gray-800 mb-4">Fast and simple processes</h3>
             <p className="text-gray-700">
-              Forget searching for pay stubs and old W-2s. Our platform eliminates manual
-              tasks to speed up the closing process
+              Our streamlined platform eliminates paperwork and speeds up closing. We leverage technology to provide a seamless experience from application to funding.
             </p>
           </div>
 
@@ -93,8 +90,7 @@ export default function LendingAreas() {
             </div>
             <h3 className="text-2xl font-medium text-gray-800 mb-4">Dedicated support</h3>
             <p className="text-gray-700">
-              Grow your business with flexible programs and expert guidance from our
-              industry-leading team every step of the way.
+              Get expert guidance and flexible programs to help you grow your portfolio. Our dedicated team provides personalized support throughout your investment journey.
             </p>
           </div>
         </div>
@@ -128,9 +124,7 @@ export default function LendingAreas() {
       <div className="bg-gray-100 py-16">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-700 max-w-4xl mx-auto mb-10">
-            WeConnectInvestments currently offers hard money loans to entities in AL, AK, AZ, AR, CA, CO, CT, DE, FL,
-            GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV,
-            NY, OH, OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C.
+            We lend to business entities in 47 states plus Washington D.C. Our comprehensive coverage map shows detailed lending availability across the United States.
           </p>
           
           <Link
@@ -146,19 +140,15 @@ export default function LendingAreas() {
       <div className="container mx-auto px-4 py-12">
         <div className="text-xs text-gray-500 max-w-5xl mx-auto">
           <p className="mb-4">
-            *Rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to change. Non owner-occupied rental
-            properties only. Interest rates or charges herein are not recommended, approved, set or established by the State of Kansas. Loans available in AL,
-            AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH, OK, OR, PA, SC,
-            SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C.
+            *Rates vary by loan terms, borrower qualifications, LTV, and property factors. Non-owner-occupied properties only, available in 47 states + D.C.
           </p>
           
           <p className="mb-4">
-            *Ask your loan originator how a Rental Portfolio Loan positively impacts you as an individual.
+            *Contact us to learn how a Rental Portfolio Loan can benefit your investment strategy. Our portfolio loans offer unique advantages for multi-property investors.
           </p>
           
           <p>
-            Loans available in AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV,
-            NY, OH, OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C. Prepayment penalties as allowable by state.
+            Available in 47 states + D.C. Prepayment penalties apply where allowed by state law.
           </p>
         </div>
       </div>

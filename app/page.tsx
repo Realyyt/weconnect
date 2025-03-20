@@ -60,11 +60,10 @@ export default function Home() {
           {/* Content Section */}
           <div className="w-full lg:w-1/2 text-center lg:text-left z-10">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-              Get the edge in a shifting market.
+              Smart Real Estate Financing
             </h1>
             <p className="text-base sm:text-lg text-gray-800 mb-6 leading-relaxed">
-              we connect investment to capital uses the power of technology to offer a simpler, more reliable, and faster way for real estate
-              investors to access financing for their next investment property.
+              We provide fast and reliable financing solutions for real estate investors. Our technology-powered platform streamlines the entire investment process.
             </p>
             <Link href="/get-pre-qualified">
               <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white">
@@ -156,7 +155,7 @@ export default function Home() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Fix and Flip / Bridge</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              High leverage, competitive terms, and fast closings for fix-and-flip deals.
+              Access quick closings with high leverage for renovation projects. Our bridge loans help you seize opportunities in the real estate market.
             </p>
             <Link
               href="/learn-more"
@@ -174,7 +173,7 @@ export default function Home() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">New Construction</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Simple, streamlined, and competitively-priced new construction financing.
+              Get streamlined financing for new construction projects. Our flexible terms support your development goals from ground breaking to completion.
             </p>
             <Link
               href="/learn-more"
@@ -192,7 +191,7 @@ export default function Home() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">DSCR Rental</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Flexible terms, low rates, and easy processes to maximize monthly rental income.
+              Optimize your rental income with flexible terms and competitive rates. Our DSCR loans are designed for long-term rental property investments.
             </p>
             <Link
               href="/learn-more"
@@ -210,7 +209,7 @@ export default function Home() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Rental Portfolio</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Consolidate 5+ properties under one monthly payment and customizable loan.
+              Consolidate multiple properties under one loan with customizable terms. Our portfolio loans simplify managing your real estate investments.
             </p>
             <Link
               href="/learn-more"
@@ -231,11 +230,9 @@ export default function Home() {
     <section className="py-12 md:py-20 bg-pink-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Get a fast financing estimate</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Quick Financing Estimate</h2>
           <p className="text-base md:text-lg text-gray-600">
-            Stop guessing and start investing with confidence! we connect investment to capital helps you quickly estimate your financing
-            options—simply add a few project details like the property address and rehab scope to unlock an estimate
-            for:
+            Get instant financing estimates for your property investment. Our calculator provides tailored options based on your property details and renovation scope.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">

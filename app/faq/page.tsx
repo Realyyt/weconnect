@@ -40,7 +40,7 @@ export default function FAQ() {
       {/* Main Content */}
       <div className="container mx-auto px-4 py-12">
         <p className="text-lg text-gray-700 mb-10 max-w-4xl">
-          Our goal is to keep you informed on processes, updates, and more to ensure you feel confident through every step of the financing process.
+          Get clear answers about our financing process and services. Our comprehensive FAQ section addresses common questions about our lending solutions.
         </p>
 
         <div className="max-w-4xl mx-auto">
@@ -48,11 +48,8 @@ export default function FAQ() {
             question="Who is WeConnectInvestments?" 
             answer={
               <div>
-                <p className="mb-4">
-                  With more than $5+ billion in funded loans, WeConnectInvestments is one of the nation&apos;s fastest-growing private lenders to residential real estate investors (REIs). WeConnectInvestments harnesses the power of data & technology to offer REIs a simpler, more reliable, and faster way to access the capital they need to scale their businesses.
-                </p>
                 <p>
-                  WeConnectInvestments is committed to helping its customers revitalize the approximately $25 trillion worth of aged U.S. housing stock to provide move-in ready homes and rental housing for millions of Americans across the country. For more information, visit www.weconnectinvestments.com.
+                  WeConnectInvestments is a leading private lender with $5+ billion in funded loans. We leverage technology to provide fast, reliable financing for real estate investors while helping revitalize America's housing stock.
                 </p>
               </div>
             } 
@@ -63,37 +60,28 @@ export default function FAQ() {
             answer={
               <div>
                 <p className="mb-4">
-                  Unlike traditional conventional bank loans, a hard money loan is based on the value of the property being used as collateral, not just your financial position. While the rates are typically higher, hard money loans are attractive for real estate investors because they tend to close much faster, provide flexible terms and you can pay them off quickly to offset costs, allowing you to scale your business faster. Here are just a few additional benefits of hard money loans:
+                  Hard money loans are based on property value rather than financial position. These loans provide quick capital access, flexible terms, up to 90% financing, and loyalty rewards for real estate investors.
                 </p>
-                <ul className="list-disc pl-5 mb-4">
-                  <li>Access to quick capital and fast turn times</li>
-                  <li>Flexible terms with various repayment schedules and loan durations</li>
-                  <li>Up to 90% money financed based on the property value and your renovation budget</li>
-                  <li>The more you work with the same lender, the more benefits you may receive such as reduced origination fee, rate, and more</li>
-                </ul>
               </div>
             } 
           />
 
           <FAQItem 
-            question="What types of loans does WeConnectInvestments offer?" 
+            question="What types of loans do you offer?" 
             answer={
               <div>
-                <p className="mb-4">
-                  WeConnectInvestments offers bridge and rental loans for purchases or refinances. A bridge loan is a short-term loan for real estate investors who prefer to finance the purchase and/or rehabilitation of their investment property rather than buying it fully in cash or taking a traditional bank loan. Real estate investors renovate these properties to either quickly sell back in the market or refinance into a rental loan.
-                </p>
                 <p>
-                  A rental loan is for investment properties in which the real estate investor will buy and hold (and rent out to generate passive income), rather than fixing and flipping it quickly for a profit. These need to be turn-key, livable condition properties. Real estate investors use both bridge and rental loans for the BRRRR strategy to increase their portfolio and long-term cash flow.
+                  We offer bridge loans for short-term renovation projects and rental loans for long-term investments. Our bridge loans enable quick flips, while rental loans support buy-and-hold strategies for property investors.
                 </p>
               </div>
             } 
           />
 
           <FAQItem 
-            question="What types of properties does WeConnectInvestments offer loans for?" 
+            question="What types of properties do you finance?" 
             answer={
               <p>
-                WeConnectInvestments offers single asset bridge and rental property loans for 2-4plex, attached/detached-pud, and single-family properties. We are rapidly growing and anticipate adding more property types and portfolios soon. At the moment, we do not lend on mixed-use, commercial, mobile homes, and rural properties (zoned as agricultural/rural property with 4+ acres).
+                We finance 2-4plex, attached/detached-PUD, and single-family properties. Our lending program currently excludes mixed-use, commercial, mobile homes, and rural properties over 4 acres.
               </p>
             } 
           />
@@ -102,41 +90,36 @@ export default function FAQ() {
             question="What states do you lend in?" 
             answer={
               <div>
-                <p className="mb-4">
-                  We currently offer loans in AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C.
-                </p>
                 <p>
-                  <Link href="/lending-areas" className="text-pink-600 hover:underline">Learn more about the States we lend in.</Link>
+                  We lend in 47 states plus Washington D.C. <Link href="/lending-areas" className="text-pink-600 hover:underline">View our lending areas.</Link>
                 </p>
               </div>
             } 
           />
 
           <FAQItem 
-            question="Do I need a business entity to secure a loan with WeConnectInvestments?" 
-            answer={
-              <div>
-                <p>
-                  Yes. We lend to business entities in all states we offer loans. <Link href="/lending-areas" className="text-pink-600 hover:underline">Learn more about the States we lend in.</Link>
-                </p>
-              </div>
-            } 
-          />
-
-          <FAQItem 
-            question="Will I qualify for a WeConnectInvestments loan?" 
+            question="Do I need a business entity?" 
             answer={
               <p>
-                The first step is to apply online. If approved, you will receive your personalized rate in just a few minutes! Begin by answering a few short questions about your experience and the investment property you wish to purchase/finance, and we&apos;ll provide customized estimated terms for you to choose the best loan option for your needs. Please note that we do not offer pre-approvals, but will provide you with a pre-qualification summary once you submit your application.
+                Yes, we only lend to business entities in all states. This requirement ensures proper legal structure and protection for all parties involved.
               </p>
             } 
           />
 
           <FAQItem 
-            question="Why should I partner with WeConnectInvestments for fix-and-flip or rental loans?" 
+            question="Will I qualify for a loan?" 
             answer={
               <p>
-                WeConnectInvestments provides competitive terms, a fast technology-powered process, and dedicated industry support. With our data and innovative financing programs, we empower you to make informed decisions, close deals faster, and realize the full potential of your real estate investment strategies.
+                Apply online for a quick response with personalized rates and terms based on your experience and property details. While we don't offer pre-approvals, you'll receive a pre-qualification summary after application.
+              </p>
+            } 
+          />
+
+          <FAQItem 
+            question="Why choose WeConnectInvestments?" 
+            answer={
+              <p>
+                We offer competitive terms, fast processing, and expert support for real estate investors. Our technology and data-driven approach helps you make better decisions and close deals quickly.
               </p>
             } 
           />
@@ -145,7 +128,7 @@ export default function FAQ() {
             question="Do you require appraisals?" 
             answer={
               <p>
-                Appraisals vary on your financing needs. We do not require appraisals on bridge loans, but we do require them for rental loans.
+                Appraisals are required for rental loans but not for bridge loans. This policy helps streamline the process for short-term renovation projects while ensuring proper valuation for long-term investments.
               </p>
             } 
           />
@@ -154,7 +137,7 @@ export default function FAQ() {
             question="Are there any financing fees?" 
             answer={
               <p>
-                We pride ourselves on transparency throughout the loan process and all fees are collected at closing. We do not require an application fee and the origination fee is based on the final loan amount.
+                No application fee is required to get started. All fees are collected at closing, with the origination fee based on the loan amount.
               </p>
             } 
           />
@@ -164,9 +147,9 @@ export default function FAQ() {
       {/* CTA Section */}
       <div className="bg-gray-100 py-12">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">Capital ready when you are</h2>
+          <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">Ready to Get Started?</h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
-            WeConnectInvestments offers both flexible short-term financing as well as long-term financing options designed to fit a multitude of investment strategies. Take advantage of today&apos;s low rates and experience the easier way to access funding on your next project.
+            Access flexible financing for your next real estate investment. Get your personalized rate today and start your investment journey with confidence.
           </p>
           <Link
             href="/get-pre-qualified"

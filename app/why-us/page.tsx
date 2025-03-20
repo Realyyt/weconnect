@@ -11,7 +11,12 @@ export default function WhyUs() {
       {/* Header */}
       <div className="w-full bg-pink-300 pt-20 py-6">
         <div className="container mx-auto px-4">
-          <h1 className="text-2xl md:text-3xl font-medium text-gray-800 pt-6">Rental Portfolio Loans</h1>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6 mt-4">
+            Scale Your Real Estate Business
+          </h2>
+          <p className="text-gray-700 mb-8">
+            Fast, reliable financing powered by technology to help you grow your investment portfolio. Our innovative solutions streamline the entire investment process.
+          </p>
         </div>
       </div>
 
@@ -23,10 +28,7 @@ export default function WhyUs() {
               Access the capital you need to confidently scale
             </h2>
             <p className="text-gray-700 mb-8">
-              WeConnectInvestments harnesses the power of data & technology to offer 
-              residential real estate investors a simpler, more reliable, 
-              and faster way to access the capital they need to scale 
-              their businesses.
+              WeConnectInvestments harnesses the power of data & technology to offer residential real estate investors a simpler, more reliable way to access capital. Our platform streamlines the entire lending process, helping you scale your business efficiently.
             </p>
             <Link
               href="/get-pre-qualified"
@@ -61,8 +63,7 @@ export default function WhyUs() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Advanced technology</h3>
               <p className="text-gray-600">
-                Our tech platform helps remove barriers to capital and provides 
-                funding to scale
+                Our modern platform removes barriers and speeds up funding. We leverage cutting-edge technology to provide a seamless lending experience.
               </p>
             </div>
             
@@ -73,8 +74,7 @@ export default function WhyUs() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Trusted industry leader</h3>
               <p className="text-gray-600">
-                Well-funded, dependable partner to REIs in over 10,000 
-                projects across the country
+                We're a proven partner with 10,000+ successful projects nationwide. Our track record demonstrates our commitment to investor success.
               </p>
             </div>
             
@@ -85,8 +85,7 @@ export default function WhyUs() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Intelligence & support</h3>
               <p className="text-gray-600">
-                Make informed investment decisions to optimize financial 
-                returns
+                Our data-driven insights help maximize your investment returns. We provide comprehensive support to guide your investment decisions.
               </p>
             </div>
           </div>
@@ -98,22 +97,15 @@ export default function WhyUs() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-medium text-gray-700 mb-6">Bringing lending for REIs into the digital age</h2>
+              <h2 className="text-3xl font-medium text-gray-700 mb-6">Modern Digital Lending</h2>
               <p className="text-gray-700 mb-4">
-                Imagine being able to skip spending hours submitting complex applications, 
-                waiting for approvals and babysitting the steps to close.
+                Skip complex applications and long approval times with our automated platform. Get real-time updates and streamlined processes for faster funding.
               </p>
               <p className="text-gray-700 mb-4">
-                Traditional lenders rely on human decision-makers and paper-based processes. 
-                At WeConnectInvestments, our modern tech platform removes many traditional barriers, 
-                automates time-consuming manual steps and provides quick decisioning and true 
-                transparency throughout the entire process.
+                We combine technology with expert support to offer flexible bridge and rental funding options. Our solutions are tailored to match your investment strategy and goals.
               </p>
               <p className="text-gray-700 mb-6">
-                With a wide range of bridge and rental funding options to choose from, 
-                WeConnectInvestments&apos;s team of experts can create a personalized solution for your 
-                investment strategy. You get reliable, robust capital designed for the way you do 
-                business today...and tomorrow.
+                With a wide range of bridge and rental funding options, our team creates personalized solutions for your investment strategy. You get reliable, robust capital designed for today's market and future growth.
               </p>
               
               <Link
@@ -153,7 +145,7 @@ export default function WhyUs() {
                 </svg>
               </div>
               <h3 className="text-3xl font-bold mb-2">$5+ billion</h3>
-              <p className="text-gray-600">of loans funded</p>
+              <p className="text-gray-600">in funded loans</p>
             </div>
             
             <div className="text-center">
@@ -163,7 +155,7 @@ export default function WhyUs() {
                 </svg>
               </div>
               <h3 className="text-3xl font-bold mb-2">10,000+</h3>
-              <p className="text-gray-600">projects funded</p>
+              <p className="text-gray-600">projects completed</p>
             </div>
             
             <div className="text-center">
@@ -172,8 +164,8 @@ export default function WhyUs() {
                   <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="currentColor"/>
                 </svg>
               </div>
-              <h3 className="text-3xl font-bold mb-2">30 states +</h3>
-              <p className="text-gray-600">where we lend</p>
+              <h3 className="text-3xl font-bold mb-2">47 states +</h3>
+              <p className="text-gray-600">nationwide coverage</p>
             </div>
           </div>
         </div>
@@ -193,16 +185,14 @@ export default function WhyUs() {
                 className="object-cover"
               />
             </div>
-            <h2 className="text-3xl font-medium text-gray-700 mb-6 text-center">It&apos;s all about the ability to scale.</h2>
+            <h2 className="text-3xl font-medium text-gray-700 mb-6 text-center">Scaling Success Stories</h2>
             
             <p className="text-gray-700 mb-4">
-              Our customers are at the heart of our business. They range from first-time real estate investors, 
-              to seasoned professionals who embody the entrepreneurial spirit. We&apos;re thrilled they have chosen 
-              WeConnectInvestments as their trusted partner and allow us to be part of their story.
+              From first-time investors to seasoned professionals, we support entrepreneurs at every stage. Join our community of successful investors who are transforming real estate markets.
             </p>
             
             <p className="text-gray-700 mb-6">
-              WeConnectInvestments is proud to showcase our clients and the work they do in revitalizing homes across the country.
+              WeConnectInvestments proudly showcases our clients and their work in revitalizing homes across the country. Our success stories demonstrate the impact of strategic real estate investment.
             </p>
             
             <div className="text-center">
@@ -222,28 +212,18 @@ export default function WhyUs() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-medium text-gray-700 mb-6">Making a difference together.</h2>
+              <h2 className="text-3xl font-medium text-gray-700 mb-6">Revitalizing America's Housing</h2>
               
               <p className="text-gray-700 mb-4">
-                Homeownership has always been an important part of American life. But now, just as 
-                Millennials are hitting the peak age for buying their first homes, fewer new homes 
-                are being built. In fact, today there are 33% fewer new homes constructed than just 15 years ago.
+                With 65% of U.S. housing stock over 30 years old, real estate investors play a crucial role in modernizing homes. Our financing solutions support investors in providing move-in-ready homes for today's buyers.
               </p>
               
               <p className="text-gray-700 mb-4">
-                Over 65 percent of the U.S. housing stock is more than 30 years old and in need of upgrading 
-                and renovating. And as the demand for move-in-ready homes continues to grow, residential real 
-                estate investors are needed more than ever.
+                We're committed to supporting investors who provide quality rental housing across America. Our lending programs help transform aging properties into modern, comfortable homes.
               </p>
               
               <p className="text-gray-700 mb-4">
-                WeConnectInvestments is committed and proud to support today&apos;s real estate investors in their efforts 
-                to revitalize these aged homes and provide move-in-ready homes and rental housing for 
-                millions of Americans across the country.
-              </p>
-              
-              <p className="text-gray-700 mb-4">
-                We&apos;re just getting started!
+                We're just getting started in transforming America's housing landscape. Join us in creating better living spaces for future generations.
               </p>
               
               <p className="text-gray-700 mt-6">

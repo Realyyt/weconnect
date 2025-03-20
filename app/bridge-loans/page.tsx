@@ -22,7 +22,7 @@ export default function BridgeLoansPage() {
       {/* Top announcement banner */}
       <div className="w-full bg-pink-600 text-white py-3 px-4 text-center">
         <p className="text-sm md:text-base">
-          NEW: Your fast track to financing. Get an instant ARV and Cash to Close estimate now &gt;
+          Get instant ARV and Cash to Close estimates now &gt;
         </p>
       </div>
 
@@ -38,11 +38,10 @@ export default function BridgeLoansPage() {
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6">
-              Bridge the gap with fast short-term financing
+              Fast Short-Term Financing
             </h2>
             <p className="text-gray-700 mb-8">
-              Unlock fast and easy capital, offering high leverage&mdash;up to 95% LTC / 80% ARV. Perfect for investors who
-              need to move fast, our loans help you outbid competition and maximize returns.
+              Quick capital with up to 95% LTC / 80% ARV. Perfect for competitive markets and fast closings.
             </p>
             <Link
               href="/get-pre-qualified"
@@ -76,7 +75,7 @@ export default function BridgeLoansPage() {
                 <HandshakeIcon className="w-16 h-16" />
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Quick closing</h3>
-              <p className="text-gray-600">Close in as few as 7 business days to compete with cash buyers</p>
+              <p className="text-gray-600">Close in 7 business days to compete with cash buyers</p>
             </div>
 
             {/* Feature 2 */}
@@ -86,7 +85,7 @@ export default function BridgeLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Tech-driven approach</h3>
               <p className="text-gray-600">
-                Fast approvals and personalized pricing that prioritizes the property&apos;s potential
+                Fast approvals based on property potential
               </p>
             </div>
 
@@ -96,7 +95,7 @@ export default function BridgeLoansPage() {
                 <MoneyIcon className="w-16 h-16" />
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">High leverage</h3>
-              <p className="text-gray-600">No need to drain your own funds. We offer up to 95% LTC / 80% ARV</p>
+              <p className="text-gray-600">Up to 95% LTC / 80% ARV financing</p>
             </div>
           </div>
         </div>
@@ -117,13 +116,10 @@ export default function BridgeLoansPage() {
             </div>
             <div className="w-full lg:w-1/2 lg:pl-12">
               <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">
-                Speed up your real estate investment game
+                Speed Up Your Investment Game
               </h2>
               <p className="text-gray-600 mb-4">
-                Our bridge loans outpace conventional banking speeds, setting you up to close in as fast as 7 days with
-                an in-house servicing team and no 3rd party appraisals. Say goodbye to tedious paperwork like pay stubs
-                and W-2s; our tech-driven platform cuts through the clutter to offer faster approvals and personalized
-                pricing to maximize your deal.
+                Close in 7 days with in-house servicing and no third-party appraisals. Our tech platform streamlines approvals and maximizes your deal potential.
               </p>
               <Link
                 href="/get-pre-qualified"
@@ -197,11 +193,10 @@ export default function BridgeLoansPage() {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6 text-center">
-            Bridge loans tailored for your real estate strategy
+            Bridge Loans for Every Strategy
           </h2>
           <p className="text-gray-600 mb-12 text-center max-w-4xl mx-auto">
-            Get tailored financing that supports three types of transactions on non-owner occupied properties, including
-            single-family residences, manufactured homes, 2-4 units, condos, and PUDs.
+            Flexible financing for non-owner occupied properties: single-family, 2-4 units, condos, and PUDs.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
@@ -212,8 +207,7 @@ export default function BridgeLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">New purchase</h3>
               <p className="text-gray-600">
-                Get the funds for both purchasing properties and up to 100% of the rehab costs. Our quick closing
-                capabilities let you compete effectively in a market dominated by cash offers.
+                Quick closing for property purchase and rehab costs. Compete effectively with cash offers.
               </p>
             </div>
 
@@ -224,8 +218,7 @@ export default function BridgeLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Refinancing for flexibility</h3>
               <p className="text-gray-600">
-                Leverage your assets with the option to refinance within six months. we connect investments to capital empowers you to maintain
-                liquidity and leverage for continuous investment.
+                Refinance within six months to maintain liquidity and leverage for continuous investment.
               </p>
             </div>
 
@@ -236,8 +229,7 @@ export default function BridgeLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Seasoned financing options</h3>
               <p className="text-gray-600">
-                If you&apos;ve held a property for more than six months, our bridge loans can provide the extra financial
-                support needed to achieve your investment goals successfully.
+                Extra financial support for properties held over six months to achieve your investment goals.
               </p>
             </div>
           </div>

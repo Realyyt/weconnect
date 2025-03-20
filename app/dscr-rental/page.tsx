@@ -8,7 +8,7 @@ export default function RentalLoansPage() {
       {/* Top announcement banner */}
       <div className="w-full bg-pink-600 text-white py-3 px-4 text-center">
         <p className="text-sm md:text-base">
-          NEW: Your fast track to financing. Get an instant ARV and Cash to Close estimate now &gt;
+          Get instant ARV and Cash to Close estimates now &gt;
         </p>
       </div>
 
@@ -24,11 +24,10 @@ export default function RentalLoansPage() {
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6">
-              Easy funding for all of your rental properties
+              Easy Rental Property Financing
             </h2>
             <p className="text-gray-700 mb-8">
-              Want to finance a new purchase, refinance a property, or free up cash in your rental portfolio? we connect investments to capital
-              makes rental financing easy with our advanced online platform and flexible loan options.
+              Fast financing for new purchases, refinancing, or portfolio optimization. Our platform makes rental financing simple and efficient.
             </p>
             <Link
               href="/get-pre-qualified"
@@ -63,8 +62,7 @@ export default function RentalLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Competitive Rates</h3>
               <p className="text-gray-600">
-                Maximize your returns with robust capital, high leverage, competitive rates and a variety of loan
-                options
+                High leverage and competitive rates to maximize your returns
               </p>
             </div>
 
@@ -75,7 +73,7 @@ export default function RentalLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Fast and simple process</h3>
               <p className="text-gray-600">
-                Forget searching for pay stubs and old W-2s. Our platform eliminates these time-consuming, manual tasks.
+                No income verification needed. Our platform streamlines the entire process.
               </p>
             </div>
 
@@ -86,8 +84,7 @@ export default function RentalLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Flexibility and support</h3>
               <p className="text-gray-600">
-                A variety of rental loan options and a dedicated team will help maximize your ROI and create a
-                simplified experience.
+                Multiple loan options and expert support to optimize your investment.
               </p>
             </div>
           </div>
@@ -115,10 +112,9 @@ export default function RentalLoansPage() {
               </div>
             </div>
             <div className="w-full lg:w-1/2 lg:pl-6">
-              <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">we connect investments to capital&apos;s rental investment loans</h2>
+              <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">Rental Investment Loans</h2>
               <p className="text-gray-600 mb-4">
-                Purchase, Rate and Term, and Cash-out Refinance options are available for single-family rental (SFR),
-                manufactured homes, PUDs, 2-4 units, and condos.
+                Available for single-family, manufactured homes, PUDs, 2-4 units, and condos. Purchase, rate and term, or cash-out refinance options.
               </p>
             </div>
           </div>
@@ -188,12 +184,10 @@ export default function RentalLoansPage() {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6 text-center">
-            Adjustable-Rate Mortgages to suit your needs
+            Flexible ARM Options
           </h2>
           <p className="text-gray-600 mb-12 text-center max-w-4xl mx-auto">
-            Many REIs are turning to we connect investments to capital&apos;s adjustable-rate mortgage (ARM) options to increase their monthly cash flow.
-            An ARM starts with a fixed rate for a set period of time. After this initial fixed period, the rate can
-            adjust depending on market conditions.
+            Choose from 5/1 or 7/1 ARMs with fixed initial rates and flexible terms to boost your cash flow.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 max-w-4xl mx-auto">
@@ -202,9 +196,9 @@ export default function RentalLoansPage() {
               <div className="text-pink-500 mb-4 border-2 border-pink-500 rounded-full p-4">
                 <span className="text-3xl font-bold">5/1</span>
               </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">ARM</h3>
+              <h3 className="text-xl font-medium text-gray-800 mb-3">5/1 ARM</h3>
               <p className="text-gray-600">
-                Fixed rate for the first 5 years with fully amortizing and interest-only options
+                Fixed rate for 5 years with fully amortizing or interest-only options
               </p>
             </div>
 
@@ -213,9 +207,9 @@ export default function RentalLoansPage() {
               <div className="text-pink-500 mb-4 border-2 border-pink-500 rounded-full p-4">
                 <span className="text-3xl font-bold">7/1</span>
               </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">ARM</h3>
+              <h3 className="text-xl font-medium text-gray-800 mb-3">7/1 ARM</h3>
               <p className="text-gray-600">
-                Fixed rate for the first 7 years with fully amortizing and interest-only options
+                Fixed rate for 7 years with fully amortizing or interest-only options
               </p>
             </div>
           </div>
@@ -237,15 +231,12 @@ export default function RentalLoansPage() {
           <div className="flex flex-col lg:flex-row items-center">
             <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
               <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">
-                Rental property financing made easy
+                Streamlined Rental Financing
               </h2>
               <p className="text-gray-600 mb-4">
-                Real estate investment loans don&apos;t have to be difficult. At we connect investments to capital, we realize you don&apos;t have time for
-                inconsistent human decisions and slow, paper-based processes you get from other lenders. You can even
-                forget about searching for pay stubs and old W-2s, we don&apos;t verify your income or employment.
+                No income verification or employment checks. Our tech platform makes the process fast and efficient.
               </p>
               <p className="text-gray-600 mb-8">
-                Our tech-forward platform eliminates time-consuming tasks, putting everything at your fingertips.
                 Quickly apply with ease, get pre-qualified, and track your loan&apos;s status – the more you do, the easier
                 it gets.
               </p>

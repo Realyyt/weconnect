@@ -17,7 +17,7 @@ export default function NewConstructionLoansPage() {
       {/* Top announcement banner */}
       <div className="w-full bg-pink-600 text-white py-3 px-4 text-center">
         <p className="text-sm md:text-base">
-          NEW: Your fast track to financing. Get an instant ARV and Cash to Close estimate now &gt;
+          Get instant ARV and Cash to Close estimates now &gt;
         </p>
       </div>
 
@@ -33,12 +33,10 @@ export default function NewConstructionLoansPage() {
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6 mt-4">
-              Build up with new construction financing
+              New Construction Financing
             </h2>
             <p className="text-gray-700 mb-8">
-              Elevate your real estate investment strategy with we connect investments to capital&apos;s new construction loans, designed uniquely for
-              developers. Finance your new construction investment with a simple, streamlined lending process and
-              competitively priced capital.
+              Streamlined lending process with competitive rates for developers. Simple, fast financing for your next construction project.
             </p>
             <Link
               href="/get-pre-qualification"
@@ -73,8 +71,7 @@ export default function NewConstructionLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Easy</h3>
               <p className="text-gray-600">
-                No need to secure time-consuming permits before closing.* Plus, streamlined processes like quick draws
-                save you headaches and time.
+                No permits needed before closing.* Quick draws and streamlined processes save time.
               </p>
             </div>
 
@@ -85,8 +82,7 @@ export default function NewConstructionLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Competitive</h3>
               <p className="text-gray-600">
-                Competitive rates and terms with low origination fees. No surprises like hidden rate adjustments, and
-                appraisals are not required for closing.
+                Low origination fees and competitive rates. No hidden adjustments or closing appraisals.
               </p>
             </div>
 
@@ -97,8 +93,7 @@ export default function NewConstructionLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Flexible</h3>
               <p className="text-gray-600">
-                Flexible options like single or dual closes and build-to-sell or build-to-rent exit strategies. Reliable
-                capital with consistent processes.
+                Single or dual closes. Build-to-sell or build-to-rent options. Reliable capital with consistent processes.
               </p>
             </div>
           </div>
@@ -126,13 +121,9 @@ export default function NewConstructionLoansPage() {
               </div>
             </div>
             <div className="w-full lg:w-1/2 lg:pl-12">
-              <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">Plan-ready new construction loans</h2>
+              <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">Plan-Ready Construction Loans</h2>
               <p className="text-gray-600 mb-4">
-                Kiavi&apos;s new construction loans allow you to free up your own capital by leveraging ours to acquire and
-                build your next investment. Experience the ease of Kiavi&apos;s financing process, designed with developers
-                in mind. From a streamlined application to developer-friendly terms like no permits required* for
-                funding to a quick draws process and in-house servicing, you&apos;ll experience a fast and easy financing
-                process from start to finish.
+                Fast financing from application to completion. No permits needed for funding, quick draws, and in-house servicing.
               </p>
             </div>
           </div>
@@ -202,11 +193,10 @@ export default function NewConstructionLoansPage() {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6 text-center">
-            Fund new purchases or restore your cash position
+            Fund New Projects or Restore Cash
           </h2>
           <p className="text-gray-600 mb-12 text-center max-w-4xl mx-auto">
-            Kiavi&apos;s new construction loans support two types of transactions on investment properties, including
-            single-family residences, 2-4 plexes, and PUDs:
+            Construction loans for investment properties: single-family, 2-4 plexes, and PUDs.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 max-w-4xl mx-auto">
@@ -218,8 +208,7 @@ export default function NewConstructionLoansPage() {
               <div>
                 <h3 className="text-xl font-medium text-gray-800 mb-3">New purchase</h3>
                 <p className="text-gray-600">
-                  Kiavi can provide the funds to purchase the property plus the building costs—and can close quickly,
-                  allowing you to compete against cash buyers.
+                  Quick closing for property purchase and building costs. Compete effectively with cash buyers.
                 </p>
               </div>
             </div>

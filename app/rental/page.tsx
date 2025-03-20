@@ -25,13 +25,10 @@ export default function Home() {
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6 mt-4">
-              Streamline 5+ properties into one loan with ease
+              One Loan for 5+ Properties
             </h2>
             <p className="text-gray-700 mb-8">
-              Partner with trusted experts to craft a rental portfolio loan
-              as unique as your investment strategy. Save time, money
-              and headaches - so you can focus on scaling your portfolio
-              with confidence.
+              Custom rental portfolio loans to streamline your investments. Save time and money while scaling with confidence.
             </p>
             <Link
               href="/get-pre-qualified"
@@ -59,12 +56,10 @@ export default function Home() {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6 text-center">
-            Rental portfolio loans built for investors
+            Portfolio Loans Built for Growth
           </h2>
           <p className="text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            Once you&apos;ve acquired 5+ rental properties, it&apos;s time to start thinking about them
-            as a portfolio instead of individual units. By aggregating all of your properties
-            under a single portfolio umbrella, you&apos;ll see benefits across the board.
+            Manage 5+ properties efficiently under one portfolio loan for better returns and simpler operations.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -75,8 +70,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Peace of Mind</h3>
               <p className="text-gray-600">
-                Create more separation between your personal life and your
-                business with features like limited recourse and carve out guarantees
+                Limited recourse and carve out guarantees for better business separation
               </p>
             </div>
 
@@ -87,8 +81,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Cost Savings</h3>
               <p className="text-gray-600">
-                With economies of scale across your portfolio, we&apos;ll work with
-                you to craft a loan with tangible cost savings
+                Economies of scale across your portfolio for tangible cost reductions
               </p>
             </div>
 
@@ -99,8 +92,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Operational Efficiency</h3>
               <p className="text-gray-600">
-                One monthly payment for all properties with simple processes
-                to free up time and cash for growth
+                One monthly payment and streamlined processes for portfolio growth
               </p>
             </div>
           </div>
@@ -153,16 +145,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row">
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
-              <h2 className="text-4xl font-bold text-gray-800 mb-6">The larger your portfolio, the larger your savings</h2>
+              <h2 className="text-4xl font-bold text-gray-800 mb-6">Bigger Portfolio, Better Savings</h2>
               <p className="text-gray-600 mb-6">
-                When it comes to real estate investing, there is no such
-                thing as one-size-fits-all. That&apos;s why we&apos;ll partner with you
-                to create a loan uniquely tailored to your portfolio. This
-                means customizing a loan for your thriving portfolio with
-                lower fees, points, and even quicker closings. And that&apos;s all
-                backed by our team of seasoned rental portfolio experts
-                dedicated to helping you navigate your options and setting
-                you up for long-term success.
+                Custom loan solutions with lower fees and faster closings. Our expert team helps you optimize your portfolio for long-term success.
               </p>
               <Link href="/get-pre-qualified">
                 <button className="bg-pink-700 hover:bg-pink-800 text-white font-bold py-3 px-6 rounded">
@@ -235,12 +220,9 @@ export default function Home() {
               />
             </div>
             <div className="w-full md:w-1/2 md:pl-8">
-              <h2 className="text-4xl font-bold text-gray-800 mb-4">Competitive rates and terms tailored to your portfolio</h2>
+              <h2 className="text-4xl font-bold text-gray-800 mb-4">Competitive Rates for Your Portfolio</h2>
               <p className="text-gray-600">
-                We Connect Investments to Capital&apos;s Rental Portfolio Loans combine your properties
-                under one umbrella with a low monthly payment to make
-                managing your growing rental business easier and more
-                cost-effective.
+                Combine properties under one loan with low monthly payments for easier portfolio management.
               </p>
             </div>
           </div>
