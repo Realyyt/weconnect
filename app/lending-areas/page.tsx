@@ -47,7 +47,7 @@ export default function LendingAreas() {
         <h2 className="text-4xl font-medium text-gray-800 mb-6">Our Lending Coverage</h2>
         
         <p className="text-lg text-gray-700 mb-10 max-w-4xl">
-          We provide financing solutions across 47 states and Washington D.C. Our nationwide coverage helps investors revitalize America's housing stock with flexible lending options.
+          We provide financing solutions across 47 states and Washington D.C. Our nationwide coverage helps investors revitalize America&apos;s housing stock with flexible lending options.
         </p>
         
         <Link

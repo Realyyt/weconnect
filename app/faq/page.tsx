@@ -49,7 +49,7 @@ export default function FAQ() {
             answer={
               <div>
                 <p>
-                  WeConnectInvestments is a leading private lender with $5+ billion in funded loans. We leverage technology to provide fast, reliable financing for real estate investors while helping revitalize America's housing stock.
+                  WeConnectInvestments is a leading private lender with $5+ billion in funded loans. We leverage technology to provide fast, reliable financing for real estate investors while helping revitalize America&apos;s housing stock.
                 </p>
               </div>
             } 
@@ -110,7 +110,7 @@ export default function FAQ() {
             question="Will I qualify for a loan?" 
             answer={
               <p>
-                Apply online for a quick response with personalized rates and terms based on your experience and property details. While we don't offer pre-approvals, you'll receive a pre-qualification summary after application.
+                Apply online for a quick response with personalized rates and terms based on your experience and property details. While we don&apos;t offer pre-approvals, you&apos;ll receive a pre-qualification summary after application.
               </p>
             } 
           />

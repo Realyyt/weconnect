@@ -74,7 +74,7 @@ export default function WhyUs() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Trusted industry leader</h3>
               <p className="text-gray-600">
-                We're a proven partner with 10,000+ successful projects nationwide. Our track record demonstrates our commitment to investor success.
+                We&apos;re a proven partner with 10,000+ successful projects nationwide. Our track record demonstrates our commitment to investor success.
               </p>
             </div>
             
@@ -105,7 +105,7 @@ export default function WhyUs() {
                 We combine technology with expert support to offer flexible bridge and rental funding options. Our solutions are tailored to match your investment strategy and goals.
               </p>
               <p className="text-gray-700 mb-6">
-                With a wide range of bridge and rental funding options, our team creates personalized solutions for your investment strategy. You get reliable, robust capital designed for today's market and future growth.
+                With a wide range of bridge and rental funding options, our team creates personalized solutions for your investment strategy. You get reliable, robust capital designed for today&apos;s market and future growth.
               </p>
               
               <Link
@@ -212,18 +212,18 @@ export default function WhyUs() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-medium text-gray-700 mb-6">Revitalizing America's Housing</h2>
+              <h2 className="text-3xl font-medium text-gray-700 mb-6">Revitalizing America&apos;s Housing</h2>
               
               <p className="text-gray-700 mb-4">
-                With 65% of U.S. housing stock over 30 years old, real estate investors play a crucial role in modernizing homes. Our financing solutions support investors in providing move-in-ready homes for today's buyers.
+                With 65% of U.S. housing stock over 30 years old, real estate investors play a crucial role in modernizing homes. Our financing solutions support investors in providing move-in-ready homes for today&apos;s buyers.
               </p>
               
               <p className="text-gray-700 mb-4">
-                We're committed to supporting investors who provide quality rental housing across America. Our lending programs help transform aging properties into modern, comfortable homes.
+                We&apos;re committed to supporting investors who provide quality rental housing across America. Our lending programs help transform aging properties into modern, comfortable homes.
               </p>
               
               <p className="text-gray-700 mb-4">
-                We're just getting started in transforming America's housing landscape. Join us in creating better living spaces for future generations.
+                We&apos;re just getting started in transforming America&apos;s housing landscape. Join us in creating better living spaces for future generations.
               </p>
               
               <p className="text-gray-700 mt-6">
