@@ -7,15 +7,13 @@ import {
   HouseIcon,
   RefinanceIcon,
   CalendarIcon,
-  MoneyBagIcon,
-  ProjectsIcon,
-  LocationIcon,
   CircleNumberOne,
   CircleNumberTwo,
   CircleNumberThree,
 } from "./icons"
 
 export default function FixAndFlipLoansPage() {
+  
   return (
     <main className="w-full">
       {/* Top announcement banner */}
@@ -254,8 +252,8 @@ export default function FixAndFlipLoansPage() {
       <div className="py-12 sm:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center">
-            {/* Image and Card Container */}
-            <div className="w-full lg:w-1/2 mb-8 lg:mb-0 relative">
+            {/* Image Container */}
+            <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
               <Image
                 src="/house.jpg"
                 alt="Property with financing estimate"
@@ -263,28 +261,6 @@ export default function FixAndFlipLoansPage() {
                 height={400}
                 className="rounded-md shadow-lg w-full"
               />
-              
-              {/* Financing Card - Stacks on mobile, overlays on desktop */}
-              <div className="lg:absolute lg:top-1/2 lg:right-0 lg:transform lg:-translate-y-1/2 
-                          bg-white p-4 sm:p-6 rounded-md shadow-lg 
-                          w-full lg:w-2/5 mt-6 lg:mt-0 lg:mr-4 
-                          border-l-2 border-b-2 lg:border-l-4 lg:border-b-4 border-pink-400" 
-                style={{
-                  boxShadow: "0 10px 25px -5px rgba(236, 72, 153, 0.1), 0 4px 10px -5px rgba(236, 72, 153, 0.04)"
-                }}>
-                <div className="mb-3 sm:mb-4">
-                  <p className="text-gray-600 text-sm sm:text-base">Estimated ARV</p>
-                  <p className="text-lg sm:text-xl md:text-2xl font-bold">$450,000</p>
-                </div>
-                <div className="mb-3 sm:mb-4">
-                  <p className="text-gray-600 text-sm sm:text-base">Interest Rate</p>
-                  <p className="text-lg sm:text-xl md:text-2xl font-bold">7.75%</p>
-                </div>
-                <div>
-                  <p className="text-gray-600 text-sm sm:text-base">Cash to Close</p>
-                  <p className="text-lg sm:text-xl md:text-2xl font-bold">$45,650</p>
-                </div>
-              </div>
             </div>
 
             {/* Content Section */}
@@ -293,9 +269,7 @@ export default function FixAndFlipLoansPage() {
                 Get a fast financing estimate
               </h2>
               <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
-                Stop guessing and start investing with confidence! we connect investments to capital helps you quickly estimate your financing
-                options—simply add a few project details like the property address and rehab scope to unlock an estimate
-                for:
+                Stop guessing and start investing with confidence. Quickly estimate your financing options with our platform.
               </p>
               <ul className="mb-6 space-y-2 text-sm sm:text-base">
                 <li className="flex items-start">
@@ -342,9 +316,7 @@ export default function FixAndFlipLoansPage() {
               <div>
                 <h3 className="text-xl font-medium text-gray-800 mb-3">Get pre-qualified online</h3>
                 <p className="text-gray-600">
-                  Plug your property&apos;s address into our pricing calculator, and our advanced platform will analyze
-                  eligibility instantly by evaluating factors like square footage, location, and more to identify the
-                  most favorable pricing and terms available for your unique deal.
+                  Start with a soft credit pull for pre-qualification. Our platform assesses property details instantly for favorable terms.
                 </p>
               </div>
             </div>
@@ -357,8 +329,7 @@ export default function FixAndFlipLoansPage() {
               <div>
                 <h3 className="text-xl font-medium text-gray-800 mb-3">Connect with us</h3>
                 <p className="text-gray-600">
-                  When you find your property, let&apos;s discuss your project—leverage our experience and expertise for your
-                  project, we&apos;ve seen it all! Our team of financing experts is here to help.
+                  Share your property details with our team. We&apos;ll help you strategize and optimize your financing.
                 </p>
               </div>
             </div>
@@ -366,13 +337,12 @@ export default function FixAndFlipLoansPage() {
             {/* Step 3 */}
             <div className="flex">
               <div className="mr-6">
-                <CircleNumberThree className="w-16 h-16 text-pink-500" />
+                <CircleNumberThree className="w-16 h-16 text_pink-500" />
               </div>
               <div>
                 <h3 className="text-xl font-medium text-gray-800 mb-3">Submit your application</h3>
                 <p className="text-gray-600">
-                  Like what you see? With no application fee or upfront costs, there&apos;s no obligation for you to access
-                  fast, easy financing for your deal.
+                  Apply without fees or upfront costs. Enjoy a commitment-free process to move forward.
                 </p>
               </div>
             </div>
@@ -395,12 +365,10 @@ export default function FixAndFlipLoansPage() {
           <div className="flex flex-col lg:flex-row items-start">
             <div className="w-full lg:w-2/3 mb-8 lg:mb-0 lg:pr-12">
               <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">
-                Discover the benefits of we connect investments to capital&apos;s in-house loan servicing
+                Discover the benefits of WCI Capital Funding&apos;s in-house loan servicing
               </h2>
               <p className="text-gray-600 mb-6">
-                we connect investments to capital takes pride in servicing all our fix-and-flip loans from close to payoff. Unlike others who
-                outsource, we ensure a seamless, fast, and consistent experience with our in-house team. See how we keep
-                things smooth even after your bridge loan closes.
+                We handle all servicing internally for seamless support. Experience faster, more consistent service throughout your loan.
               </p>
               <Link
                 href="#"
@@ -412,100 +380,7 @@ export default function FixAndFlipLoansPage() {
             <div className="w-full lg:w-1/3">
               <div className="bg-pink-100 p-8 rounded-lg relative">
                 <h3 className="text-2xl font-medium text-gray-800 mb-4">Did you know?</h3>
-                <p className="text-gray-700 mb-4">we connect investments to capital services all our bridge loans from close to payoff.</p>
-                <p className="text-gray-700">
-                  we connect investments to capital&apos;s in-house Servicing Team works to ensure that our customers receive a consistent, fast and easy
-                  experience even after their fix-and-flip loan closes.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Webinar Section */}
-      <div className="py-16 bg-gray-800 text-white">
-        <div className="container mx-auto px-4">
-          <p className="text-pink-300 uppercase tracking-wider mb-4 text-center">On-demand webinar</p>
-          <div className="flex flex-col lg:flex-row items-center">
-            <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-              <h2 className="text-3xl md:text-4xl font-medium mb-6">
-                Want to learn more on how funding decisions can impact your ROI?
-              </h2>
-              <p className="text-gray-300 mb-6">
-                Real estate investors have more options in investment strategies than ever before. we connect investments to capital walks you
-                through the differing factors among these strategies and walks you through real-life examples of the
-                impact of funding decisions.
-              </p>
-              <Link
-                href="#"
-                className="inline-block bg-pink-300 hover:bg-pink-400 text-gray-800 font-medium py-3 px-6 rounded-md transition-colors"
-              >
-                Watch Now
-              </Link>
-            </div>
-            <div className="w-full lg:w-1/2 lg:pl-12">
-              <div className="relative">
-                <Image
-                  src="/vid.jpg"
-                  alt="Webinar preview"
-                  width={600}
-                  height={350}
-                  className="rounded-md shadow-lg"
-                />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-pink-500 rounded-full p-4 shadow-lg">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-white"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Stats Section */}
-      <div className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="flex items-center">
-              <div className="text-pink-500 mr-4">
-                <MoneyBagIcon className="w-12 h-12" />
-              </div>
-              <div>
-                <h3 className="text-2xl font-bold text-gray-800">$23+ billion</h3>
-                <p className="text-gray-600">of loans funded</p>
-              </div>
-            </div>
-
-            <div className="flex items-center">
-              <div className="text-pink-500 mr-4">
-                <ProjectsIcon className="w-12 h-12" />
-              </div>
-              <div>
-                <h3 className="text-2xl font-bold text-gray-800">85,000+</h3>
-                <p className="text-gray-600">projects funded</p>
-              </div>
-            </div>
-
-            <div className="flex items-center">
-              <div className="text-pink-500 mr-4">
-                <LocationIcon className="w-12 h-12" />
-              </div>
-              <div>
-                <h3 className="text-2xl font-bold text-gray-800">45 states + DC</h3>
-                <p className="text-gray-600">where we lend</p>
+                <p className="text-gray-700 mb-4">We service all bridge loans in-house. Enjoy consistent support from close to payoff.</p>
               </div>
             </div>
           </div>
@@ -516,7 +391,7 @@ export default function FixAndFlipLoansPage() {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-12 text-center">
-            We Connect Investments to Capital Fix-and-Flip Loan FAQ
+            WCI Capital Funding Fix-and-Flip Loan FAQ
           </h2>
 
           <div className="max-w-3xl mx-auto">
@@ -534,7 +409,7 @@ export default function FixAndFlipLoansPage() {
                   </h3>
                 </summary>
                 <p className="pl-9 pt-3 text-gray-600">
-                  Our fix-and-flip loans offer high leverage—up to 95% LTC—for purchasing and rehabilitating properties, with terms that support your immediate and long-term investment plans. We provide loans from $100K to $3MM with 12, 18, or 24-month terms and interest-only options.
+                  Our fix-and-flip loans offer high leverage—up to 95% LTC—for purchasing and rehabilitating properties, with terms that support your immediate and long-term investment plans.
                 </p>
               </details>
             </div>
@@ -543,7 +418,7 @@ export default function FixAndFlipLoansPage() {
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
-                  <span className="text-pink-500 mr-3 transform transition-transform duration-200 group-open:rotate-90">
+                  <span className="text_pink-500 mr-3 transform transition-transform duration-200 group-open:rotate-90">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
@@ -553,7 +428,7 @@ export default function FixAndFlipLoansPage() {
                   </h3>
                 </summary>
                 <p className="pl-9 pt-3 text-gray-600">
-                  Our fix-and-flip loans are suitable for a variety of non-owner occupied properties, including single-family homes, condos, multi-unit residences (2-4 units), manufactured homes, PUDs, and more, offering a broad spectrum of investment opportunities.
+                  Our fix-and-flip loans are suitable for a variety of non-owner occupied properties, including single-family homes, condos, and multi-unit residences.
                 </p>
               </details>
             </div>
@@ -657,7 +532,7 @@ export default function FixAndFlipLoansPage() {
         </div>
       </div>
 
-      {/* Disclaimer Section */}
+      {/* Disclaimer Section
       <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 mb-4">
@@ -672,7 +547,18 @@ export default function FixAndFlipLoansPage() {
             secondary financing is obtained, borrowers will be unable to obtain draws until cured.
           </p>
         </div>
-      </div>
+      </div> */}
+
+      {/* Testimonial Section - REMOVED */}
+      {/* Legal Section */}
+      <section className="py-8 bg-white">
+        <div className="container mx-auto px-4">
+          <p className="text-xs text-gray-500 mb-4">
+            *Fix and flip loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to
+            change. Non owner-occupied properties only.
+          </p>
+        </div>
+      </section>
 
       {/* Feedback button 
       <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">

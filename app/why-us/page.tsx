@@ -28,7 +28,7 @@ export default function WhyUs() {
               Access the capital you need to confidently scale
             </h2>
             <p className="text-gray-700 mb-8">
-              WeConnectInvestments harnesses the power of data & technology to offer residential real estate investors a simpler, more reliable way to access capital. Our platform streamlines the entire lending process, helping you scale your business efficiently.
+              WCI Capital Funding harnesses the power of data & technology to offer residential real estate investors a simpler, more reliable way to access capital. Our platform streamlines the entire lending process, helping you scale your business efficiently.
             </p>
             <Link
               href="/get-pre-qualified"
@@ -74,7 +74,7 @@ export default function WhyUs() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Trusted industry leader</h3>
               <p className="text-gray-600">
-                We&apos;re a proven partner with 10,000+ successful projects nationwide. Our track record demonstrates our commitment to investor success.
+                We&apos;re a proven partner with  successful projects nationwide. Our track record demonstrates our commitment to investor success.
               </p>
             </div>
             
@@ -134,7 +134,7 @@ export default function WhyUs() {
         </div>
       </div>
 
-      {/* Stats Section */}
+      {/* Stats Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-12 md:gap-16">
@@ -169,7 +169,7 @@ export default function WhyUs() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/* Customer Showcase */}
       <div className="py-16 bg-gray-100">
@@ -192,7 +192,7 @@ export default function WhyUs() {
             </p>
             
             <p className="text-gray-700 mb-6">
-              WeConnectInvestments proudly showcases our clients and their work in revitalizing homes across the country. Our success stories demonstrate the impact of strategic real estate investment.
+              WCI Capital Funding proudly showcases our clients and their work in revitalizing homes across the country. Our success stories demonstrate the impact of strategic real estate investment.
             </p>
             
             <div className="text-center">
@@ -215,22 +215,11 @@ export default function WhyUs() {
               <h2 className="text-3xl font-medium text-gray-700 mb-6">Revitalizing America&apos;s Housing</h2>
               
               <p className="text-gray-700 mb-4">
-                With 65% of U.S. housing stock over 30 years old, real estate investors play a crucial role in modernizing homes. Our financing solutions support investors in providing move-in-ready homes for today&apos;s buyers.
+                With nearly 80% of U.S housing stock built before 2000, investors are essential in revitalizing aging homes for modern living. Our financing solutions empower these transformations, creating move-in-ready spaces buyers and renters can cherish.
               </p>
               
               <p className="text-gray-700 mb-4">
-                We&apos;re committed to supporting investors who provide quality rental housing across America. Our lending programs help transform aging properties into modern, comfortable homes.
-              </p>
-              
-              <p className="text-gray-700 mb-4">
-                We&apos;re just getting started in transforming America&apos;s housing landscape. Join us in creating better living spaces for future generations.
-              </p>
-              
-              <p className="text-gray-700 mt-6">
-                Want to read more on the state of the aged U.S. housing stock and the opportunity it provides?
-                <Link href="/housing-stock-report" className="text-pink-500 ml-2 hover:underline">
-                  Click here.
-                </Link>
+                Together, we&apos;re reimagining America’s housing landscape, blending the charm of the past with the needs of the future. Let’s shape better living spaces for the generations to come.
               </p>
             </div>
             
@@ -250,15 +239,13 @@ export default function WhyUs() {
       {/* CTA Section */}
       <div className="py-16 bg-pink-200">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-medium text-gray-700 mb-6">Ready to fix some houses?</h2>
-          <p className="text-gray-700 mb-8 max-w-2xl mx-auto">
-            Check out our fast and easy bridge loan options that allow you to compete with cash buyers!
-          </p>
+          <h2 className="text-3xl font-medium text-gray-700 mb-6">Ready to get on your next project? </h2>
+          
           <Link
-            href="/bridge-loans"
+            href="/get-pre-qualified"
             className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
           >
-            Learn More About Our Bridge Loans
+            Get Pre-Qualified
           </Link>
         </div>
       </div>
@@ -267,13 +254,13 @@ export default function WhyUs() {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-medium text-gray-700 mb-6">
-            Get empowered with industry insights, how-tos, investor tips and more...
+          GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
           </h2>
           <Link
             href="/resources"
             className="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
           >
-            View All Resources
+            Read WCI Capital funding blog
           </Link>
         </div>
       </div>
@@ -337,7 +324,7 @@ export default function WhyUs() {
               
               <div>
                 <p className="block text-sm font-medium text-gray-700 mb-2">
-                  Are you a Broker?
+                Are you an Investor?
                 </p>
                 <div className="flex items-center space-x-6">
                   <div className="flex items-center">
@@ -369,7 +356,7 @@ export default function WhyUs() {
               </div>
               
               <div className="text-xs text-gray-500">
-                All fields required. By submitting this contact form, I agree to receive information about WeConnectInvestments&apos;s 
+                All fields required. By submitting this contact form, I agree to receive information about WCI Capital Funding&apos;s 
                 products by email and phone. I understand I can opt-out any time.
               </div>
               

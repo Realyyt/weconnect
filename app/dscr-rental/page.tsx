@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { MoneyIcon, CloudIcon, HeadphonesIcon, MoneyBagIcon, ProjectsIcon, LocationIcon } from "./icons"
+import { MoneyIcon, CloudIcon, HeadphonesIcon } from "./icons"
 
 export default function RentalLoansPage() {
   return (
@@ -266,7 +266,7 @@ export default function RentalLoansPage() {
         </div>
       </div>
 
-      {/* Stats Section */}
+      {/* Stats Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -301,7 +301,7 @@ export default function RentalLoansPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/* DSCR Info Section */}
       <div className="py-16 bg-gray-100">
@@ -338,19 +338,6 @@ export default function RentalLoansPage() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Testimonial Section */}
-      <div className="py-16 bg-pink-200">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <blockquote className="text-center text-gray-700 text-xl md:text-2xl italic">
-            &ldquo;we connect investments to capital gives me the confidence to not only access reliable capital to close more deals but provides a fast
-            platform and industry support that helps my company scale.&rdquo;
-          </blockquote>
-          <div className="mt-6 text-center">
-            <p className="font-medium text-gray-800">Marcel Bonee, Southern CA-based real estate investor</p>
           </div>
         </div>
       </div>
@@ -475,11 +462,8 @@ export default function RentalLoansPage() {
       <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 mb-4">
-            *Rental loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are
-            subject to change. Non owner-occupied rental properties only. Interest rates or charges herein are not
-            recommended, approved, set or established by the State of Kansas. Loans available in AL, AK, AZ, AR, CA, CO,
-            CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH,
-            OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C.
+            *Rental portfolio loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to
+            change. Non owner-occupied rental properties only.
           </p>
         </div>
       </div>

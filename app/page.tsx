@@ -2,63 +2,52 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { BarChart3, Building2, Cloud, Headphones, RefreshCcw } from "lucide-react"
+import { BarChart3, Building2,  RefreshCcw, Scale, Handshake, Zap } from "lucide-react"
 import Button from "@/app/components/ui/button"
 
 export default function Home() {
   return (
     <div className="min-h-screen">
     {/* Hero Section with Curvy Backgrounds */}
-    <section className="pt-20 bg-gradient-to-b from-pink-50 to-white overflow-hidden min-h-[50vh] relative">
-      {/* Curved Background Shapes */}
-      <div className="absolute inset-0 w-full h-full">
-        {/* Curved Shape 1 */}
-        <div 
-          className="absolute top-0 left-0 w-1/2 h-full opacity-20"
-          style={{
-            background: "radial-gradient(circle at 0% 0%, #FDF2F8 0%, transparent 60%)"
-          }}
-        />
-        
-        {/* Curved Shape 2 */}
-        <div 
-          className="absolute bottom-0 right-0 w-1/2 h-full opacity-30"
-          style={{
-            background: "radial-gradient(circle at 100% 100%, #FCE7F3 0%, transparent 50%)"
-          }}
-        />
-
-        {/* Blob Shape */}
-        <svg
-          className="absolute left-1/4 top-1/4 w-96 h-96 text-pink-100 opacity-40 transform -translate-x-1/2 -translate-y-1/2"
-          viewBox="0 0 200 200"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill="currentColor"
-            d="M42.8,-62.9C54.9,-54.7,63.7,-41.3,69.2,-26.6C74.7,-11.9,76.9,4.1,73.4,18.8C69.9,33.5,60.7,47,47.8,56.7C34.9,66.4,18.2,72.3,1.6,70.3C-15,68.4,-30,58.6,-42.7,47.4C-55.4,36.2,-65.8,23.5,-70.1,8.2C-74.4,-7.1,-72.7,-24.9,-63.6,-37.5C-54.5,-50.1,-38,-57.5,-23.1,-64.5C-8.2,-71.5,5.1,-78,19.3,-75.4C33.5,-72.8,48.5,-61.1,42.8,-62.9Z"
-            transform="translate(100 100)"
+    <section className="pt-20 bg-gradient-to-b from-pink-50 to-white overflow-hidden min-h-[70vh] relative">
+      {/* Background Images with Enhanced Animation */}
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="/w4.jpg"
+            alt="Background Image 1"
+            fill
+            className="opacity-0 animate-fade-in-1 object-cover object-[center_30%]"
+            quality={100}
+            priority
           />
-        </svg>
-
-        {/* Wave Shape */}
-        <svg
-          className="absolute right-0 bottom-0 w-full h-24 text-pink-100 opacity-30"
-          viewBox="0 0 1440 320"
-          preserveAspectRatio="none"
-        >
-          <path
-            fill="currentColor"
-            fillOpacity="1"
-            d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,138.7C960,139,1056,117,1152,106.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        </div>
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="/w5.jpg"
+            alt="Background Image 2"
+            fill
+            className="opacity-0 animate-fade-in-2 object-cover object-[center_30%]"
+            quality={100}
+            priority
           />
-        </svg>
+        </div>
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="/w6.jpg"
+            alt="Background Image 3"
+            fill
+            className="opacity-0 animate-fade-in-3 object-cover object-[center_30%]"
+            quality={100}
+            priority
+          />
+        </div>
       </div>
 
-      <div className="container mx-auto px-4 relative">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 h-[70vh]">
           {/* Content Section */}
-          <div className="w-full lg:w-1/2 text-center lg:text-left z-10">
+          <div className="w-full lg:w-1/2 text-center lg:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
               Smart Real Estate Financing
             </h1>
@@ -72,73 +61,18 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* Images Section */}
-          <div className="w-full lg:w-1/2 relative h-[30vh] sm:h-[40vh] lg:h-[50vh]">
-            {/* Left Image - Slides in from left */}
-            <div 
-              className="absolute w-32 h-32 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 
-              rounded-[30%_70%_70%_30%/30%_30%_70%_70%] overflow-hidden
-              animate-slide-in-left opacity-0"
-              style={{ 
-                top: '5%',
-                left: '5%',
-                transform: 'rotate(-15deg)',
-                zIndex: 1,
-                animation: 'slide-in-left 1s ease-out forwards'
-              }}
+          {/* Video Section */}
+          <div className="w-full lg:w-1/2 relative h-[30vh] sm:h-[40vh] lg:h-[50vh] rounded-xl overflow-hidden">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
             >
-              <Image
-                src="/3.jpg"
-                alt="Real estate investment"
-                width={200}
-                height={200}
-                className="h-full w-full object-cover"
-              />
-            </div>
-
-            {/* Right Bottom Image - Slides in from right */}
-            <div 
-              className="absolute w-36 h-36 sm:w-40 sm:h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 
-              rounded-[60%_40%_30%_70%/60%_30%_70%_40%] overflow-hidden
-              animate-slide-in-right opacity-0"
-              style={{ 
-                bottom: '5%',
-                right: '2%',
-                transform: 'rotate(10deg)',
-                zIndex: 2,
-                animation: 'slide-in-right 1s ease-out 0.3s forwards'
-              }}
-            >
-              <Image
-                src="/2.jpg"
-                alt="Property renovation"
-                width={250}
-                height={250}
-                className="h-full w-full object-cover"
-              />
-            </div>
-
-            {/* Right Top Image - Slides in from top */}
-            <div 
-              className="absolute w-28 h-28 sm:w-32 sm:h-32 md:w-44 md:h-44 lg:w-52 lg:h-52 
-              rounded-[40%_60%_70%_30%/40%_40%_60%_50%] overflow-hidden
-              animate-slide-in-top opacity-0"
-              style={{ 
-                top: '15%',
-                right: '25%',
-                transform: 'rotate(-5deg)',
-                zIndex: 3,
-                animation: 'slide-in-top 1s ease-out 0.6s forwards'
-              }}
-            >
-              <Image
-                src="/4.jpg"
-                alt="Business professional"
-                width={200}
-                height={200}
-                className="h-full w-full object-cover"
-              />
-            </div>
+              <source src="/hero-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
@@ -232,7 +166,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Quick Financing Estimate</h2>
           <p className="text-base md:text-lg text-gray-600">
-            Get instant financing estimates for your property investment. Our calculator provides tailored options based on your property details and renovation scope.
+          Get instant financing estimates for your property investment. Our calculator provides tailored options based on your property details and renovation scope to unlock:
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -244,22 +178,7 @@ export default function Home() {
               height={400}
               className="rounded-md shadow-lg"
             />
-            <div className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white p-6 rounded-md shadow-lg w-2/5 mr-4 border-l-4 border-b-4 border-pink-400" style={{
-                boxShadow: "0 10px 25px -5px rgba(236, 72, 153, 0.1), 0 4px 10px -5px rgba(236, 72, 153, 0.04)"
-              }}>
-                <div className="mb-4">
-                  <p className="text-gray-600">Estimated ARV</p>
-                  <p className="text-2xl font-bold">$450,000</p>
-                </div>
-                <div className="mb-4">
-                  <p className="text-gray-600">Interest Rate</p>
-                  <p className="text-2xl font-bold">7.75%</p>
-                </div>
-                <div>
-                  <p className="text-gray-600">Cash to Close</p>
-                  <p className="text-2xl font-bold">$45,650</p>
-                </div>
-            </div>
+            
           </div>
           <div>
             <ul className="space-y-4 text-lg">
@@ -301,15 +220,7 @@ export default function Home() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="text-center">
-            <BarChart3 className="h-12 w-12 mx-auto mb-6 text-pink-600" />
-            <h3 className="text-xl font-bold mb-4">Competitive rates</h3>
-            <p className="text-gray-600">
-              Make confident offers and maximize returns with reliable capital, high leverage, and flexible loan
-              options.
-            </p>
-          </div>
-          <div className="text-center">
-            <Cloud className="h-12 w-12 mx-auto mb-6 text-pink-600" />
+            <Zap className="h-12 w-12 mx-auto mb-6 text-pink-600" />
             <h3 className="text-xl font-bold mb-4">Fast lending processes</h3>
             <p className="text-gray-600">
               Apply for flexible financing, get visibility into the process, and receive funding more quickly. It&apos;s
@@ -317,7 +228,15 @@ export default function Home() {
             </p>
           </div>
           <div className="text-center">
-            <Headphones className="h-12 w-12 mx-auto mb-6 text-pink-600" />
+            <Scale className="h-12 w-12 mx-auto mb-6 text-pink-600" />
+            <h3 className="text-xl font-bold mb-4">Competitive rates</h3>
+            <p className="text-gray-600">
+              Make confident offers and maximize returns with reliable capital, high leverage, and flexible loan
+              options.
+            </p>
+          </div>
+          <div className="text-center">
+            <Handshake className="h-12 w-12 mx-auto mb-6 text-pink-600" />
             <h3 className="text-xl font-bold mb-4">Trusted support</h3>
             <p className="text-gray-600">
               Grow your business with experienced support from an industry-leading team from application to closing.
@@ -333,7 +252,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="text-center md:text-left">
             <span className="text-pink-600 font-medium mb-3 md:mb-4 block text-sm md:text-base">
-              LIVE WEBINAR
+              WATCHOUT FOR LIVE WEBINAR
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight">
               Getting to Know we connect investment to capital: Successfully Funding Your Real Estate Investment
@@ -376,13 +295,13 @@ export default function Home() {
       </div>
     </section>
 
-    {/* Stats Section - Better small screen layout */}
+    {/* 
     <section className="py-12 md:py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-2xl mx-auto">
-          {/* First Column */}
+         
           <div className="space-y-12">
-            {/* Loan Volume Stats */}
+          
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0">
                 <div className="h-12 w-12 text-pink-600">
@@ -399,7 +318,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Properties Stats */}
+            
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0">
                 <div className="h-12 w-12 text-pink-600">
@@ -415,9 +334,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Second Column */}
+          
           <div className="space-y-12">
-            {/* States Stats */}
+           
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0">
                 <div className="h-12 w-12 text-pink-600">
@@ -434,7 +353,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Success Rate Stats */}
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0">
                 <div className="h-12 w-12 text-pink-600">
@@ -451,9 +369,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </section>*/}
 
-    {/* Testimonials Section - Improved mobile layout */}
+    {/* 
     <section className="py-12 md:py-20 bg-gradient-to-b from-pink-50 to-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">
@@ -478,16 +396,16 @@ rates options.`}
       </div>
     </section>
 
-    {/* Testimonials Section ends */}
+   Testimonials Section - Improved mobile layout */}
 
     {/* Get Insights Section */}
     <section className="py-16 bg-pink-200">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          Get insights, how-tos, tips and more
+          GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
         </h2>
         <p className="text-gray-600 text-lg mb-8">
-          Get empowered with industry insights, how-tos, investor tips and more...
+        Read WCI Capital funding blog
         </p>
         <Link href="/get-pre-qualified">
           <Button 
@@ -571,7 +489,7 @@ rates options.`}
       </div>
     </section>*/}
 
-     {/* Disclaimer Section */}
+     {/* Disclaimer Section
      <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 mb-4">
@@ -586,7 +504,7 @@ rates options.`}
             secondary financing is obtained, borrowers will be unable to obtain draws until cured.
           </p>
         </div>
-      </div>
+      </div> */}
 
     </div>
   )

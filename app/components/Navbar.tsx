@@ -13,54 +13,54 @@ export default function Navbar() {
   const [isMobileWhyOpen, setIsMobileWhyOpen] = useState(false)
 
   const productCategories = {
-    "Fix-and-Flip": [
-      {
-        title: "Bridge",
-        description: "Quick, flexible loans to bridge your investment gap",
-        href: "/bridge-loans"
-      },
-      {
-        title: "Fix-and-Flip",
-        description: "Finance your flips with confidence and speed",
-        href: "/fix-flip"
-      }
-    ],
     "Rental": [
       {
         title: "DSCR Rental",
-        description: "Invest in your long-term future with easy rental financing",
+        description: "Streamline cash flow with debt service coverage ratio loans",
         href: "/dscr-rental"
       },
       {
         title: "Rental Portfolio",
-        description: "Consolidate 5+ properties with rental portfolio loans",
+        description: "Expand your real estate holdings with portfolio financing",
         href: "/rental"
+      }
+    ],
+    "Fix-and-Flip": [
+      {
+        title: "Bridge",
+        description: "Short-term financing for immediate property acquisition",
+        href: "/bridge-loans"
+      },
+      {
+        title: "Fix-and-Flip",
+        description: "Accelerate property renovations and resale profits",
+        href: "/fix-flip"
       }
     ],
     "New Construction": [
       {
         title: "New Construction / Infill",
-        description: "New construction investments made easy with tailored loans",
+        description: "Fund ground-up development in high-demand areas",
         href: "/new-construction-infill"
       }
     ]
   }
 
   const whyKiaviLinks = {
-    "About Weconnectinvestmentstocapital": {
-      description: "Learn what makes Weconnectinvestmentstocapital the investor's choice",
+    "About WCI Capital": {
+      description: "Discover why investors choose WCI Capital",
       href: "/why-us"
     },
     "News": {
-      description: "Stay updated with the latest Weconnectinvestmentstocapital news",
+      description: "Latest updates from  WCI Capital",
       href: "/news"
     },
     "States We Lend In": {
-      description: "Investing nationwide? See where we support you",
+      description: "See our nationwide lending coverage",
       href: "/lending-areas"
     },
     "FAQ": {
-      description: "Got questions? We've got clear, helpful answers",
+      description: "Find clear answers to common questions",
       href: "/faq"
     }
   }
@@ -171,8 +171,6 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
-              <Link href="/solutions" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Solutions</Link>
-              <Link href="/programs" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Programs/Partners</Link>
               <Link href="/resources" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Resources</Link>
             </div>
           </div>

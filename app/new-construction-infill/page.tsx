@@ -265,21 +265,6 @@ export default function NewConstructionLoansPage() {
         </div>
       </div>
 
-      {/* Testimonial Section */}
-      <div className="py-16 bg-pink-300">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <blockquote className="text-center text-gray-700 text-xl md:text-2xl italic">
-            &ldquo;Kiavi was so easy to deal with from the beginning to the end. The communication was wonderful, and we
-            really felt like they were a true partner during the entire process[...]. The terms and rates were better
-            than a lot of lenders we had contacted. Can&apos;t wait until our next deal with them!&rdquo;
-          </blockquote>
-          <div className="mt-6 text-center">
-            <p className="font-medium text-gray-800">Matthew R. | Kiavi Customer</p>
-            <p className="text-sm text-gray-600">Google Review</p>
-          </div>
-        </div>
-      </div>
-
       {/* Stats Section */}
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -347,12 +332,7 @@ export default function NewConstructionLoansPage() {
             ***Loans in California are eligible for a maximum loan size of $3M and maximum rehab budget of $2M. All
             other states have a maximum loan size of $2M and maximum rehab budget of $1.5M. Rates are based on loan
             terms, borrower qualifications, LTV, and property factors and are subject to change. Non owner-occupied
-            properties only. Interest rates or charges herein are not recommended, approved, set or established by the
-            State of Kansas. Loans available in AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA,
-            MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and
-            WY as well as Washington D.C. New Construction loans in which the borrower uses secondary financing sources
-            do not qualify for interest as drawn. If secondary financing is obtained, borrowers will be unable to obtain
-            construction draws until cured.
+            properties only.
           </p>
         </div>
       </div>

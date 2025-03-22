@@ -39,9 +39,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/leadership" className="text-gray-400 hover:text-pink-300">
-                  Leadership
-                </Link>
               </li>
               <li>
                 <Link href="/careers" className="text-gray-400 hover:text-pink-300">
@@ -82,14 +79,13 @@ export default function Footer() {
           </div>
           <div>
             <div className="text-sm text-gray-400">
-              <p className="mb-2">2 Allegheny Center, Nova Tower 2, Suite 200</p>
-              <p className="mb-2">Pittsburgh, PA 15212</p>
-              <p>1 (844) 415-4663</p>
+              <p className="mb-2">1457 Kelly Rd, #245, Apex, NC 27502</p>
+              <p>Wecanhelp@WCIcapitalfunding.com</p>
             </div>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-gray-800 text-sm text-gray-400">
-          <p>© We Connect Investments to Capital Funding, Inc. All rights reserved.</p>
+          <p>© WCI Capital Funding, Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>

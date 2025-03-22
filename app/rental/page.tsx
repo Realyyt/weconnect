@@ -5,9 +5,6 @@ import {
   ThumbsUpIcon,
   ChartIcon,
   FlexibleIcon,
-  MoneyBagIcon,
-  ProjectsIcon,
-  LocationIcon,
 } from "./icons"
 
 export default function Home() {
@@ -170,42 +167,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* We Connect Investments to Capital Video Section */}
-      <section className="bg-pink-300 py-8">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-4xl">
-            <div className="bg-black text-white p-4 rounded-lg">
-              <div className="flex items-center mb-2">
-                <div className="bg-white rounded-full p-2 mr-2">
-                  <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-                  </svg>
-                </div>
-                <div>
-                  <span className="font-bold">We Connect Investments to Capital&apos;s Rental Portfolio Loans</span>
-                  <br />
-                  <span className="text-sm">We Connect Investments to Capital</span>
-                </div>
-              </div>
-              <div className="relative pt-[56.25%] bg-gray-900 rounded">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h3 className="text-2xl font-bold text-center">Streamline Your Rental Portfolio<br />with Confidence and Ease</h3>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 flex items-center justify-between p-4">
-                  <button className="bg-pink-500 hover:bg-pink-600 rounded-full p-2">
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                  </button>
-                  <div className="text-sm">01:08</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Competitive Rates Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -229,25 +190,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonial Section */}
+      {/* Testimonial Section
       <section className="bg-pink-300 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <blockquote className="text-2xl font-medium text-gray-800 mb-6">
               &ldquo;We&apos;ve closed a number of Rental Portfolio Loans
-              with We Connect Investments to Capital and love how fast, simple, and smooth the
-              process is. It&apos;s clear that We Connect Investments to Capital truly values its
+              with WCI Capital Funding and love how fast, simple, and smooth the
+              process is. It&apos;s clear that WCI Capital Funding truly values its
               customers because they&apos;re so flexible and
               collaborative when working with us on a Portfolio
-              loan. I&apos;ve worked with many lenders, and We Connect Investments to Capital really
+              loan. I&apos;ve worked with many lenders, and WCI Capital Funding really
               is the best - and they keep getting better!&rdquo;
             </blockquote>
             <cite className="text-gray-600 font-bold">Lexi Burriel, Nevada-based real estate investor</cite>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Stats Section */}
+      {/* Stats Section 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -275,20 +236,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
       
       {/* Legal Section */}
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 mb-4">
             *Rental portfolio loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to
-            change. Non owner-occupied rental properties only. Interest rates or charges herein are not recommended, approved, set or
-            established by the State of Kansas. Loans available in AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA,
-            MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as
-            Washington D.C.
-          </p>
-          <p className="text-xs text-gray-500">
-            **Exceptions may apply.
+            change. Non owner-occupied rental properties only.
           </p>
         </div>
       </section>

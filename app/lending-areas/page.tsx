@@ -100,7 +100,7 @@ export default function LendingAreas() {
       <div className="container mx-auto px-4 py-16">
         <div className="w-full">
           <Image 
-            src="/m.jpg" 
+            src="/sl.png" 
             alt="Map of states where WeConnectInvestments lends" 
             width={1000} 
             height={600}
@@ -109,11 +109,11 @@ export default function LendingAreas() {
           
           <div className="flex flex-col md:flex-row mt-6 gap-4 justify-center">
             <div className="flex items-center">
-              <div className="w-4 h-4 bg-pink-300 mr-2"></div>
+              <div className="w-4 h-4 bg-yellow-500 mr-2"></div>
               <span className="text-sm text-gray-600">States where we lend to entities only (includes D.C.)</span>
             </div>
             <div className="flex items-center">
-              <div className="w-4 h-4 bg-gray-400 mr-2"></div>
+              <div className="w-4 h-4 bg-blue-700 mr-2"></div>
               <span className="text-sm text-gray-600">States where we currently do not lend</span>
             </div>
           </div>

@@ -7,9 +7,6 @@ import {
   HouseIcon,
   RefinanceIcon,
   CalendarIcon,
-  MoneyBagIcon,
-  ProjectsIcon,
-  LocationIcon,
   CircleNumberOne,
   CircleNumberTwo,
   CircleNumberThree,
@@ -17,6 +14,8 @@ import {
 } from "./icons"
 
 export default function BridgeLoansPage() {
+  // Fix unescaped entities
+ 
   return (
     <main className="w-full">
       {/* Top announcement banner */}
@@ -41,7 +40,7 @@ export default function BridgeLoansPage() {
               Fast Short-Term Financing
             </h2>
             <p className="text-gray-700 mb-8">
-              Quick capital with up to 95% LTC / 80% ARV. Perfect for competitive markets and fast closings.
+              Get quick capital with up to 95% LTC / 80% ARV. Perfect for competitive markets and fast closings.
             </p>
             <Link
               href="/get-pre-qualified"
@@ -75,7 +74,7 @@ export default function BridgeLoansPage() {
                 <HandshakeIcon className="w-16 h-16" />
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Quick closing</h3>
-              <p className="text-gray-600">Close in 7 business days to compete with cash buyers</p>
+              <p className="text-gray-600">Close in 7 business days. Compete effectively with cash buyers.</p>
             </div>
 
             {/* Feature 2 */}
@@ -84,9 +83,7 @@ export default function BridgeLoansPage() {
                 <SpeedIcon className="w-16 h-16" />
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Tech-driven approach</h3>
-              <p className="text-gray-600">
-                Fast approvals based on property potential
-              </p>
+              <p className="text-gray-600">Fast approvals based on property potential. Streamlined digital process.</p>
             </div>
 
             {/* Feature 3 */}
@@ -95,7 +92,7 @@ export default function BridgeLoansPage() {
                 <MoneyIcon className="w-16 h-16" />
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">High leverage</h3>
-              <p className="text-gray-600">Up to 95% LTC / 80% ARV financing</p>
+              <p className="text-gray-600">Up to 95% LTC / 80% ARV financing. Maximize your investment potential.</p>
             </div>
           </div>
         </div>
@@ -119,7 +116,7 @@ export default function BridgeLoansPage() {
                 Speed Up Your Investment Game
               </h2>
               <p className="text-gray-600 mb-4">
-                Close in 7 days with in-house servicing and no third-party appraisals. Our tech platform streamlines approvals and maximizes your deal potential.
+                Close deals in 7 days with in-house servicing. Our tech platform streamlines approvals for maximum efficiency.
               </p>
               <Link
                 href="/get-pre-qualified"
@@ -196,7 +193,7 @@ export default function BridgeLoansPage() {
             Bridge Loans for Every Strategy
           </h2>
           <p className="text-gray-600 mb-12 text-center max-w-4xl mx-auto">
-            Flexible financing for non-owner occupied properties: single-family, 2-4 units, condos, and PUDs.
+            Flexible financing for non-owner occupied properties. Ideal for single-family, 2-4 units, condos, and PUDs.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
@@ -218,7 +215,7 @@ export default function BridgeLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Refinancing for flexibility</h3>
               <p className="text-gray-600">
-                Refinance within six months to maintain liquidity and leverage for continuous investment.
+                Refinance within six months to maintain liquidity. Leverage funds for continuous investment.
               </p>
             </div>
 
@@ -229,7 +226,7 @@ export default function BridgeLoansPage() {
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Seasoned financing options</h3>
               <p className="text-gray-600">
-                Extra financial support for properties held over six months to achieve your investment goals.
+                Extra financial support for properties held over six months. Achieve your investment goals efficiently.
               </p>
             </div>
           </div>
@@ -240,7 +237,7 @@ export default function BridgeLoansPage() {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center">
-            <div className="w-full lg:w-1/2 mb-8 lg:mb-0 relative">
+            <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
               <Image
                 src="/house.jpg"
                 alt="Property with financing estimate"
@@ -248,35 +245,11 @@ export default function BridgeLoansPage() {
                 height={400}
                 className="rounded-md shadow-lg w-full"
               />
-              
-              {/* Financing Card - Repositioned for mobile */}
-              <div className="lg:absolute lg:top-1/2 lg:right-0 lg:transform lg:-translate-y-1/2 
-                          bg-white p-4 sm:p-6 rounded-md shadow-lg 
-                          w-full lg:w-2/5 mt-4 lg:mt-0 lg:mr-4 
-                          border-l-2 border-b-2 lg:border-l-4 lg:border-b-4 border-pink-400" 
-                style={{
-                  boxShadow: "0 10px 25px -5px rgba(236, 72, 153, 0.1), 0 4px 10px -5px rgba(236, 72, 153, 0.04)"
-                }}>
-                <div className="mb-3 sm:mb-4">
-                  <p className="text-gray-600 text-sm sm:text-base">Estimated ARV</p>
-                  <p className="text-xl sm:text-2xl font-bold">$450,000</p>
-                </div>
-                <div className="mb-3 sm:mb-4">
-                  <p className="text-gray-600 text-sm sm:text-base">Interest Rate</p>
-                  <p className="text-xl sm:text-2xl font-bold">7.75%</p>
-                </div>
-                <div>
-                  <p className="text-gray-600 text-sm sm:text-base">Cash to Close</p>
-                  <p className="text-xl sm:text-2xl font-bold">$45,650</p>
-                </div>
-              </div>
             </div>
             <div className="w-full lg:w-1/2 lg:pl-12">
               <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">Get a fast financing estimate</h2>
               <p className="text-gray-600 mb-6">
-                Stop guessing and start investing with confidence! we connect investments to capital helps you quickly estimate your financing
-                options&mdash;simply add a few project details like the property address and rehab scope to unlock an estimate
-                for:
+                Stop guessing and start investing with confidence. Quickly estimate your financing options with our platform.
               </p>
               <ul className="mb-6 space-y-2">
                 <li className="flex items-start">
@@ -323,9 +296,7 @@ export default function BridgeLoansPage() {
               <div>
                 <h3 className="text-xl font-medium text-gray-800 mb-3">Online pre-qualification</h3>
                 <p className="text-gray-600">
-                  Start by getting pre-qualified easily online with just a soft credit pull. Plus, when you input a
-                  property&apos;s address into our online calculator, we connect investments to capital&apos;s technology platform instantly assesses details
-                  like square footage and location to pinpoint the most favorable pricing and terms available.
+                  Start with a soft credit pull for pre-qualification. Our platform assesses property details instantly for favorable terms.
                 </p>
               </div>
             </div>
@@ -338,8 +309,7 @@ export default function BridgeLoansPage() {
               <div>
                 <h3 className="text-xl font-medium text-gray-800 mb-3">Connect with us</h3>
                 <p className="text-gray-600">
-                  Once you&apos;ve pinpointed the right property, connect with us. We&apos;ll help you crunch the numbers and
-                  offer our expertise to guide your bridge loan strategy.
+                  Share your property details with our team. We&apos;ll help you strategize and optimize your financing.
                 </p>
               </div>
             </div>
@@ -352,8 +322,7 @@ export default function BridgeLoansPage() {
               <div>
                 <h3 className="text-xl font-medium text-gray-800 mb-3">Submit your application</h3>
                 <p className="text-gray-600">
-                  Ready to move forward? Apply without any application fees or upfront costs, ensuring a commitment-free
-                  process as you take the next step.
+                  Apply without fees or upfront costs. Enjoy a commitment-free process to move forward.
                 </p>
               </div>
             </div>
@@ -377,19 +346,20 @@ export default function BridgeLoansPage() {
             <div className="w-full lg:w-1/3 mb-8 lg:mb-0">
               <div className="bg-pink-100 p-8 rounded-lg relative">
                 <h3 className="text-2xl font-medium text-gray-800 mb-4">Did you know?</h3>
-                <p className="text-gray-700 mb-4">we connect investments to capital services all our bridge loans from close to payoff.</p>
+                <p className="text-gray-700 mb-4">We service all bridge loans in-house. Enjoy consistent support from close to payoff.</p>
+                <p className="text-gray-700 mb-4">WCI Capital Funding services all our bridge loans from close to payoff.</p>
                 <p className="text-gray-700">
-                  we connect investments to capital&apos;s in-house Servicing Team works to ensure that our customers receive a consistent, fast and easy
+                  WCI Capital Funding&apos;s in-house Servicing Team works to ensure that our customers receive a consistent, fast and easy
                   experience even after their bridge loan closes.
                 </p>
               </div>
             </div>
             <div className="w-full lg:w-2/3 lg:pl-12">
               <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">
-                Discover the benefits of we connect investments to capital&apos;s in-house bridge loan servicing
+                Discover the benefits of WCI Capital Funding&apos;s in-house bridge loan servicing
               </h2>
               <p className="text-gray-600 mb-6">
-                we connect investments to capital takes pride in servicing all our bridge loans from close to payoff. Unlike others who outsource,
+                WCI Capital Funding takes pride in servicing all our bridge loans from close to payoff. Unlike others who outsource,
                 we ensure a seamless, fast, and consistent experience with our in-house team. See how we keep things
                 smooth even after your bridge loan closes.
               </p>
@@ -404,10 +374,10 @@ export default function BridgeLoansPage() {
         </div>
       </div>
 
-      {/* Webinar Section */}
+      {/* Webinar Section
       <div className="py-16 bg-gray-800 text-white">
         <div className="container mx-auto px-4">
-          <p className="text-pink-300 uppercase tracking-wider mb-4">On-demand webinar</p>
+          <p className="text-pink-300 uppercase tracking-wider mb-4">WATCHOUT FOR LIVE WEBINAR</p>
           <div className="flex flex-col lg:flex-row items-center">
             <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
               <h2 className="text-3xl md:text-4xl font-medium mb-6">
@@ -454,12 +424,12 @@ export default function BridgeLoansPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* FAQs Section */}
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-12 text-center">we connect investments to capital Bridge Loan FAQs</h2>
+          <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-12 text-center">WCI Capital Funding Bridge Loan FAQs</h2>
 
           <div className="max-w-3xl mx-auto">
             {/* FAQ Item */}
@@ -487,7 +457,7 @@ export default function BridgeLoansPage() {
                   </h3>
                 </summary>
                 <p className="pl-9 pt-3 text-gray-600">
-                  we connect investments to capital prides itself on transparency with fees, ensuring no hidden surprises affect your ROI. For instance, unlike some other lenders, we don&apos;t impose prepayment penalties or exit points. Our team is here to guide you, helping you balance upfront costs with leverage to support your project&apos;s success. Always review the terms for a clear financial picture.
+                  WCI Capital Funding prides itself on transparency with fees, ensuring no hidden surprises affect your ROI. For instance, unlike some other lenders, we don&apos;t impose prepayment penalties or exit points. Our team is here to guide you, helping you balance upfront costs with leverage to support your project&apos;s success. Always review the terms for a clear financial picture.
                 </p>
               </details>
             </div>
@@ -517,7 +487,7 @@ export default function BridgeLoansPage() {
                   </h3>
                 </summary>
                 <p className="pl-9 pt-3 text-gray-600">
-                  Loan terms offer maximum leverage of up to 95% LTC of the purchase price and up to 80% ARV. we connect investments to capital finances 100% of rehab costs, with loan amounts ranging from $100,000 to $1,000,000. We offer competitive rates and a standard fee that includes processing and third-party fees. There&apos;s no application fee.
+                  Loan terms offer maximum leverage of up to 95% LTC of the purchase price and up to 80% ARV. WCI Capital Funding finances 100% of rehab costs, with loan amounts ranging from $100,000 to $1,000,000. We offer competitive rates and a standard fee that includes processing and third-party fees. There&apos;s no application fee.
                 </p>
               </details>
             </div>
@@ -538,7 +508,7 @@ export default function BridgeLoansPage() {
             </div>
           </div>
 
-          {/* Stats Section */}
+          {/* Stats Section 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="flex items-center">
               <div className="text-pink-500 mr-4">
@@ -569,7 +539,7 @@ export default function BridgeLoansPage() {
                 <p className="text-gray-600">where we lend</p>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
 
@@ -581,7 +551,7 @@ export default function BridgeLoansPage() {
           </h2>
           <p className="text-gray-600 mb-8 max-w-3xl mx-auto">
             Unlock our flexible loan options, fast online platform, and experienced support for your next deal. Partner
-            with we connect investments to capital to make your flipping journey a success story, backed by thousands of successful projects
+            with WCI Capital Funding to make your flipping journey a success story, backed by thousands of successful projects
             nationwide.
           </p>
           <Link
@@ -593,22 +563,15 @@ export default function BridgeLoansPage() {
         </div>
       </div>
 
-      {/* Disclaimer Section */}
-      <div className="py-8 bg-white">
+      {/* Legal Section */}
+      <section className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 mb-4">
-            *Bridge loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are
-            subject to change. Non owner-occupied rental properties only. Interest rates or charges herein are not
-            recommended, approved, set or established by the State of Kansas. Loans available in AL, AK, AZ, AR, CA, CO,
-            CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH,
-            OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C.
-          </p>
-          <p className="text-xs text-gray-500">
-            **Loans in which the borrower uses secondary financing sources do not qualify for interest as drawn. If
-            secondary financing is obtained, borrowers will be unable to obtain draws until cured.
+            *Bridge loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to
+            change. Non owner-occupied properties only.
           </p>
         </div>
-      </div>
+      </section>
 
       {/* Feedback button 
       <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
