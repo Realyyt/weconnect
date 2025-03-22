@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
-  ThumbsUpIcon,
+  PeaceOfMindIcon,
   ChartIcon,
   FlexibleIcon,
 } from "./icons"
@@ -63,7 +63,7 @@ export default function Home() {
             {/* Benefit 1 */}
             <div className="flex flex-col items-center text-center">
               <div className="text-pink-500 mb-4">
-                <ThumbsUpIcon className="w-16 h-16" />
+                <PeaceOfMindIcon className="w-16 h-16" />
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-3">Peace of Mind</h3>
               <p className="text-gray-600">
@@ -238,7 +238,7 @@ export default function Home() {
         </div>
       </section>*/}
       
-      {/* Legal Section */}
+      {/* Legal Section
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 mb-4">
@@ -246,7 +246,8 @@ export default function Home() {
             change. Non owner-occupied rental properties only.
           </p>
         </div>
-      </section>
+      </section> */}
+      
     </main>
   );
 }

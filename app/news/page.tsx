@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight, Loader2 } from "lucide-react";
+import Image from 'next/image';
 
 interface NewsItem {
   title: string;
@@ -13,15 +14,8 @@ interface NewsItem {
 
 export default function News() {
   const [news, setNews] = useState<NewsItem[]>([]);
-  const [states, setStates] = useState<string[]>([]);
-  const [loading, setLoading] = useState({
-    news: true,
-    states: true
-  });
-  const [error, setError] = useState({
-    news: '',
-    states: ''
-  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
 
   // Fetch trending news
   useEffect(() => {
@@ -32,10 +26,10 @@ export default function News() {
         const data = await response.json();
         setNews(data);
       } catch (error) {
-        setError(prev => ({...prev, news: 'Failed to load news. Please try again later.'}));
+        setError('Failed to load news. Please check your internet connection or API key.');
         console.error('Error fetching news:', error);
       } finally {
-        setLoading(prev => ({...prev, news: false}));
+        setLoading(false);
       }
     };
 
@@ -43,23 +37,7 @@ export default function News() {
   }, []);
 
   // Fetch states where we lend
-  useEffect(() => {
-    const fetchStates = async () => {
-      try {
-        const response = await fetch('/api/states');
-        if (!response.ok) throw new Error('Failed to fetch states');
-        const data = await response.json();
-        setStates(data);
-      } catch (error) {
-        setError(prev => ({...prev, states: 'Failed to load states. Please try again later.'}));
-        console.error('Error fetching states:', error);
-      } finally {
-        setLoading(prev => ({...prev, states: false}));
-      }
-    };
 
-    fetchStates();
-  }, []);
 
   return (
     <main className="w-full">
@@ -86,9 +64,9 @@ export default function News() {
 
       {/* News Grid */}
       <div className="container mx-auto px-4 py-8">
-        {error.news ? (
-          <div className="text-center py-8 text-red-500">{error.news}</div>
-        ) : loading.news ? (
+        {error ? (
+          <div className="text-center py-8 text-red-500">{error}</div>
+        ) : loading ? (
           <div className="flex justify-center py-8">
             <Loader2 className="h-8 w-8 animate-spin text-pink-500" />
           </div>
@@ -127,26 +105,30 @@ export default function News() {
       {/* States Where We Lend */}
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-medium text-gray-800 mb-8">States Where We Lend</h2>
-          {error.states ? (
-            <div className="text-red-500">{error.states}</div>
-          ) : loading.states ? (
-            <div className="flex justify-center">
-              <Loader2 className="h-8 w-8 animate-spin text-pink-500" />
-            </div>
-          ) : (
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 max-w-4xl mx-auto">
-              {states.map((state, index) => (
-                <div key={index} className="text-gray-700">
-                  {state}
-                </div>
-              ))}
-            </div>
-          )}
+          <h2 className="text-3xl font-medium text-gray-800 mb-8">Where We Lend</h2>
+          <div className="flex justify-center">
+            <Image
+              src="/sl.png" // Update with the correct path to your map image
+              alt="Map of Lending Areas"
+              width={800} // Adjust width as needed
+              height={400} // Adjust height as needed
+              className="rounded-lg shadow-lg"
+            />
+          </div>
         </div>
       </div>
+      <div className="flex flex-col md:flex-row mt-6 gap-4 justify-center mb-10">
+            <div className="flex items-center">
+              <div className="w-4 h-4 bg-yellow-500 mr-2"></div>
+              <span className="text-sm text-gray-600">States where we lend to entities only (includes D.C.)</span>
+            </div>
+            <div className="flex items-center">
+              <div className="w-4 h-4 bg-blue-700 mr-2"></div>
+              <span className="text-sm text-gray-600">States where we currently do not lend</span>
+            </div>
+          </div>
 
-      {/* Social Media */}
+      {/* Social Media 
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-medium text-gray-800 mb-8">Follow Us</h2>
@@ -173,16 +155,16 @@ export default function News() {
             </Link>
           </div>
         </div>
-      </div>
+      </div>*/}
 
-      {/* Legal Note */}
+      {/* Legal Note 
       <div className="py-8 bg-gray-100 border-t border-gray-200">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 max-w-5xl mx-auto text-center">
             *Rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to change. Non owner-occupied rental properties only. Interest rates or charges herein are not recommended, approved, set or established by the State of Kansas. Loans available in AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C.
           </p>
         </div>
-      </div>
+      </div>*/}
     </main>
   );
 }

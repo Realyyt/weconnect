@@ -118,10 +118,9 @@ export default function WhyUs() {
             
             <div className="md:w-1/2">
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-medium text-gray-800 mb-4">Estimate Your Rental Rate</h3>
                 <div className="border rounded-lg p-4">
                   <Image 
-                    src="/4.jpg" 
+                    src="/m1.jpeg" 
                     alt="Rate calculator"
                     width={500}
                     height={400}
@@ -219,7 +218,7 @@ export default function WhyUs() {
               </p>
               
               <p className="text-gray-700 mb-4">
-                Together, we&apos;re reimagining America’s housing landscape, blending the charm of the past with the needs of the future. Let’s shape better living spaces for the generations to come.
+                Together, we&apos;re reimagining America&apos;s housing landscape, blending the charm of the past with the needs of the future. Let&apos;s shape better living spaces for the generations to come.
               </p>
             </div>
             

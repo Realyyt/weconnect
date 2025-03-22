@@ -136,7 +136,7 @@ export default function LendingAreas() {
         </div>
       </div>
 
-      {/* Legal Notes */}
+      {/* Legal Notes
       <div className="container mx-auto px-4 py-12">
         <div className="text-xs text-gray-500 max-w-5xl mx-auto">
           <p className="mb-4">
@@ -151,7 +151,7 @@ export default function LendingAreas() {
             Available in 47 states + D.C. Prepayment penalties apply where allowed by state law.
           </p>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 } 

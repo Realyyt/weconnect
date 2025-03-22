@@ -1,10 +1,11 @@
 import Link from "next/link"
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           <div>
             <h3 className="font-bold mb-4">Loan Types</h3>
             <ul className="space-y-2">
@@ -78,9 +79,27 @@ export default function Footer() {
             </ul>
           </div>
           <div>
+            <h4 className="font-bold mb-4">Mailing Address</h4>
             <div className="text-sm text-gray-400">
               <p className="mb-2">1457 Kelly Rd, #245, Apex, NC 27502</p>
               <p>Wecanhelp@WCIcapitalfunding.com</p>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-bold mb-4">Follow Us</h4>
+            <div className="flex space-x-4">
+              <Link href="https://facebook.com/weconnectinvest" className="text-gray-400 hover:text-pink-300">
+                <FaFacebook size={24} />
+              </Link>
+              <Link href="https://twitter.com/weconnectinvest" className="text-gray-400 hover:text-pink-300">
+                <FaTwitter size={24} />
+              </Link>
+              <Link href="https://instagram.com/weconnectinvest" className="text-gray-400 hover:text-pink-300">
+                <FaInstagram size={24} />
+              </Link>
+              <Link href="https://linkedin.com/company/weconnectinvest" className="text-gray-400 hover:text-pink-300">
+                <FaLinkedin size={24} />
+              </Link>
             </div>
           </div>
         </div>

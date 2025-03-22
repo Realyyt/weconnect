@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { BarChart3, Building2,  RefreshCcw, Scale, Handshake, Zap } from "lucide-react"
+import { Building2,  RefreshCcw, Scale, Handshake, Zap } from "lucide-react"
 import Button from "@/app/components/ui/button"
 
 export default function Home() {
@@ -10,43 +10,62 @@ export default function Home() {
     <div className="min-h-screen">
     {/* Hero Section with Curvy Backgrounds */}
     <section className="pt-20 bg-gradient-to-b from-pink-50 to-white overflow-hidden min-h-[70vh] relative">
-      {/* Background Images with Enhanced Animation */}
+      {/* Enhanced Video Backgrounds */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
-        <div className="absolute inset-0 w-full h-full">
-          <Image
-            src="/w4.jpg"
-            alt="Background Image 1"
-            fill
-            className="opacity-0 animate-fade-in-1 object-cover object-[center_30%]"
-            quality={100}
-            priority
-          />
-        </div>
-        <div className="absolute inset-0 w-full h-full">
-          <Image
-            src="/w5.jpg"
-            alt="Background Image 2"
-            fill
-            className="opacity-0 animate-fade-in-2 object-cover object-[center_30%]"
-            quality={100}
-            priority
-          />
-        </div>
-        <div className="absolute inset-0 w-full h-full">
-          <Image
-            src="/w6.jpg"
-            alt="Background Image 3"
-            fill
-            className="opacity-0 animate-fade-in-3 object-cover object-[center_30%]"
-            quality={100}
-            priority
-          />
-        </div>
+        <video
+          className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in-1"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/1.mp4" type="video/mp4" />
+        </video>
+        <video
+          className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in-2"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/2.mp4" type="video/mp4" />
+        </video>
+        <video
+          className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in-3"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/3.mp4" type="video/mp4" />
+        </video>
+        
+        <style jsx global>{`
+          @keyframes fadeInOut {
+            0% { opacity: 0; }
+            5% { opacity: 1; }
+            28.33% { opacity: 1; }
+            33.33% { opacity: 0; }
+            100% { opacity: 0; }
+          }
+
+          .animate-fade-in-1 {
+            animation: fadeInOut 30s infinite;
+          }
+
+          .animate-fade-in-2 {
+            animation: fadeInOut 30s infinite 10s;
+          }
+
+          .animate-fade-in-3 {
+            animation: fadeInOut 30s infinite 20s;
+          }
+        `}</style>
       </div>
 
+      {/* Rest of the hero section content remains the same */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 h-[70vh]">
-          {/* Content Section */}
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
               Smart Real Estate Financing
@@ -60,31 +79,17 @@ export default function Home() {
               </Button>
             </Link>
           </div>
-
-          {/* Video Section */}
-          <div className="w-full lg:w-1/2 relative h-[30vh] sm:h-[40vh] lg:h-[50vh] rounded-xl overflow-hidden">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover"
-            >
-              <source src="/hero-video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
         </div>
       </div>
     </section>
-
+    
     {/* Products Grid - Improved grid responsiveness */}
     <section className="py-12 md:py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {/* Fix and Flip Card */}
           <div className="group p-8 rounded-xl border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-pink-200">
-            <div className="h-12 w-12 mb-6 text-pink-600">
+            <div className="h-12 w-12 mb-6 text-grey-400">
               <RefreshCcw className="h-full w-full" />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Fix and Flip / Bridge</h3>
@@ -102,7 +107,7 @@ export default function Home() {
 
           {/* New Construction Card */}
           <div className="group p-8 rounded-xl border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-pink-200">
-            <div className="h-12 w-12 mb-6 text-pink-600">
+            <div className="h-12 w-12 mb-6 text-grey-400">
               <Building2 className="h-full w-full" />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">New Construction</h3>
@@ -120,8 +125,14 @@ export default function Home() {
 
           {/* DSCR Rental Card */}
           <div className="group p-8 rounded-xl border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-pink-200">
-            <div className="h-12 w-12 mb-6 text-pink-600">
-              <BarChart3 className="h-full w-full" />
+            <div className="h-12 w-12 mb-6">
+              <Image
+                src="/1.avif"
+                alt="Rising Chart Icon"
+                width={48}
+                height={48}
+                className="h-full w-full object-cover"
+              />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">DSCR Rental</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
@@ -138,7 +149,7 @@ export default function Home() {
 
           {/* Rental Portfolio Card */}
           <div className="group p-8 rounded-xl border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-pink-200">
-            <div className="h-12 w-12 mb-6 text-pink-600">
+            <div className="h-12 w-12 mb-6 text-grey-400">
               <Building2 className="h-full w-full" />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Rental Portfolio</h3>
@@ -255,10 +266,10 @@ export default function Home() {
               WATCHOUT FOR LIVE WEBINAR
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight">
-              Getting to Know we connect investment to capital: Successfully Funding Your Real Estate Investment
+              Getting to Know WCI Capital Funding: Successfully Funding Your Real Estate Investment
             </h2>
             <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8">
-              Sign up for our next weekly live webinar to walk through the entire we connect investment to capital process and speak with our experienced team.
+              Sign up for our next weekly live webinar to walk through the entire WCI Capital Funding process and speak with our experienced team.
             </p>
             <Link href="/get-pre-qualified">
               <Button className="w-full md:w-auto bg-pink-600 hover:bg-pink-700 text-white font-medium">
@@ -411,7 +422,7 @@ rates options.`}
           <Button 
             className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
           >
-            Read The we connect investment to capital Blog
+            Read The Blog
           </Button>
         </Link>
       </div>

@@ -78,9 +78,12 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-pink-600" onClick={handleLinkClick}>
-              WCI Capital
-            </Link>
+            <div className="text-center">
+              <Link href="/" className="text-2xl font-bold text-pink-600" onClick={handleLinkClick}>
+                WCI Capital Funding
+              </Link>
+              <p className="text-sm text-gray-900 font-bold">We connect investors to capital</p>
+            </div>
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center ml-10 space-x-8">
               <div className="relative group">
@@ -134,7 +137,7 @@ export default function Navbar() {
                   className="text-gray-700 hover:text-pink-600 flex items-center"
                   onClick={() => setIsWhyKiaviOpen(!isWhyKiaviOpen)}
                 >
-                  Why we connect investments
+                  Why WCI Capital Funding
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -171,6 +174,7 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
+              <Link href="/lending-criteria/fix-flip-guide" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Lending Criteria</Link>
               <Link href="/resources" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Resources</Link>
             </div>
           </div>

@@ -125,4 +125,18 @@ export function LocationIcon({ className = "w-6 h-6" }: { className?: string }) 
   )
 }
 
+export function PeaceOfMindIcon({ className = "w-6 h-6" }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+    >
+      <path d="M12 3.75A8.25 8.25 0 1 0 20.25 12 8.258 8.258 0 0 0 12 3.75Zm4.06 10.636a.75.75 0 0 1-.45.69 7.511 7.511 0 0 1-3.61.924 7.511 7.511 0 0 1-3.61-.924.75.75 0 0 1-.45-.69c-.366-2.868-.366-5.514 0-8.382a.75.75 0 0 1 .45-.69 7.511 7.511 0 0 1 3.61-.924 7.511 7.511 0 0 1 3.61.924.75.75 0 0 1 .45.69c.366 2.868.366 5.514 0 8.382Z" />
+      <path d="M12 15.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5Zm0-2.5a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5Z" />
+    </svg>
+  )
+}
+
 

@@ -6,9 +6,6 @@ import {
   FlexibleIcon,
   MoneyIcon,
   RefinanceIcon,
-  MoneyBagIcon,
-  ProjectsIcon,
-  LocationIcon,
 } from "./icons"
 
 export default function NewConstructionLoansPage() {
@@ -265,7 +262,7 @@ export default function NewConstructionLoansPage() {
         </div>
       </div>
 
-      {/* Stats Section */}
+      {/* Stats Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -300,24 +297,24 @@ export default function NewConstructionLoansPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/* Resources Section */}
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">
-            Get empowered with industry insights, how-tos, investor tips and more...
+          GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
           </h2>
           <Link
             href="/get-pre-qualification"
             className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
           >
-            View Our Resources
+             Read WCI Capital funding blog
           </Link>
         </div>
       </div>
 
-      {/* Disclaimer Section */}
+      {/* Disclaimer Section 
       <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 mb-4">
@@ -335,7 +332,7 @@ export default function NewConstructionLoansPage() {
             properties only.
           </p>
         </div>
-      </div>
+      </div>*/}
 
       {/* Feedback button 
       <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">

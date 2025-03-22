@@ -550,7 +550,7 @@ export default function FixAndFlipLoansPage() {
       </div> */}
 
       {/* Testimonial Section - REMOVED */}
-      {/* Legal Section */}
+      {/* Legal Section 
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <p className="text-xs text-gray-500 mb-4">
@@ -558,7 +558,7 @@ export default function FixAndFlipLoansPage() {
             change. Non owner-occupied properties only.
           </p>
         </div>
-      </section>
+      </section>*/}
 
       {/* Feedback button 
       <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
