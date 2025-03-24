@@ -34,31 +34,34 @@ export default function BridgeLoansPage() {
 
       {/* Hero Section */}
       <div className="w-full bg-gradient-to-b from-pink-50 to-pink-100 min-h-[50vh] pb-16">
-        <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
-          <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6">
-              Fast Short-Term Financing
-            </h2>
-            <p className="text-gray-700 mb-8">
-              Get quick capital with up to 95% LTC / 80% ARV. Perfect for competitive markets and fast closings.
-            </p>
-            <Link
-              href="/get-pre-qualified"
-              className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
-            >
-              Get Pre-qualified
-            </Link>
-          </div>
-          <div className="w-full lg:w-1/2 mt-8 lg:mt-0 flex justify-end">
-            <div className="relative">
-              <div className="absolute -bottom-10 -left-10 w-20 h-20 bg-pink-600 z-0"></div>
-              <Image
-                src="/review.jpg"
-                alt="Investors reviewing property plans"
-                width={400}
-                height={200}
-                className="relative z-10 rounded-md shadow-lg"
-              />
+        <div className="container mx-auto px-4 py-16">
+          <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Bridge Loans</h1>
+          <div className="flex flex-col lg:flex-row items-center">
+            <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6">
+                Fast Short-Term Financing
+              </h2>
+              <p className="text-gray-700 mb-8">
+                Get quick capital with up to 95% LTC / 80% ARV. Perfect for competitive markets and fast closings.
+              </p>
+              <Link
+                href="/get-pre-qualified"
+                className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
+              >
+                Get Pre-qualified
+              </Link>
+            </div>
+            <div className="w-full lg:w-1/2 mt-8 lg:mt-0 flex justify-end">
+              <div className="relative">
+                <div className="absolute -bottom-10 -left-10 w-20 h-20 bg-pink-600 z-0"></div>
+                <Image
+                  src="/review.jpg"
+                  alt="Investors reviewing property plans"
+                  width={400}
+                  height={200}
+                  className="relative z-10 rounded-md shadow-lg"
+                />
+              </div>
             </div>
           </div>
         </div>

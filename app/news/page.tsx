@@ -63,7 +63,8 @@ export default function News() {
       </div>
 
       {/* News Grid */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-16">
+        <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">In the News</h1>
         {error ? (
           <div className="text-center py-8 text-red-500">{error}</div>
         ) : loading ? (

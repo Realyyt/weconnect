@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* Rest of the hero section content remains the same */}
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 h-[70vh]">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 h-auto lg:h-[70vh]">
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
               Smart Real Estate Financing
@@ -74,7 +74,7 @@ export default function Home() {
               We provide fast and reliable financing solutions for real estate investors. Our technology-powered platform streamlines the entire investment process.
             </p>
             <Link href="/get-pre-qualified">
-              <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white">
+              <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white w-full">
                 Get Pre-qualified
               </Button>
             </Link>

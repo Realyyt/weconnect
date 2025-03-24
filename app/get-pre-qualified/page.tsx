@@ -258,9 +258,9 @@ export default function GetPreQualifiedPage() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-12 max-w-2xl">
+      <div className="container mx-auto px-4 py-16">
+        <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Get Pre-Qualified</h1>
         <div className="bg-white rounded-lg shadow-lg p-8">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">Get Pre-qualified</h1>
           <p className="text-gray-600 mb-6">Complete this form to get pre-qualified for your fix-and-flip loan.</p>
 
           {currentStep !== "success" && renderProgress()}

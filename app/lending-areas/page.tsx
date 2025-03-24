@@ -44,18 +44,19 @@ export default function LendingAreas() {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-16">
-        <h2 className="text-4xl font-medium text-gray-800 mb-6">Our Lending Coverage</h2>
-        
-        <p className="text-lg text-gray-700 mb-10 max-w-4xl">
-          We provide financing solutions across 47 states and Washington D.C. Our nationwide coverage helps investors revitalize America&apos;s housing stock with flexible lending options.
-        </p>
-        
-        <Link
-          href="/get-pre-qualified"
-          className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
-        >
-          Get Started
-        </Link>
+        <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Lending Areas</h1>
+        <div className="flex flex-col items-center">
+          <p className="text-lg text-gray-700 mb-10 max-w-4xl">
+            We provide financing solutions across 47 states and Washington D.C. Our nationwide coverage helps investors revitalize America&apos;s housing stock with flexible lending options.
+          </p>
+          
+          <Link
+            href="/get-pre-qualified"
+            className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
+          >
+            Get Started
+          </Link>
+        </div>
       </div>
 
       {/* Benefits Section */}
