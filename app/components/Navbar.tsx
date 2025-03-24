@@ -4,7 +4,7 @@ import Link from "next/link"
 import Button from "@/app/components/ui/button"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
-
+import LogoWithIcon from "./logo"
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isProductsOpen, setIsProductsOpen] = useState(false)
@@ -78,11 +78,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <div className="text-center">
-              <Link href="/" className="text-2xl font-bold text-pink-600" onClick={handleLinkClick}>
-                WCI Capital Funding
-              </Link>
-              <p className="text-sm text-gray-900 font-bold">We connect investors to capital</p>
+            <div className="">
+              <LogoWithIcon />
             </div>
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center ml-10 space-x-8">

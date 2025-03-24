@@ -12,10 +12,10 @@ export default function WhyUs() {
       <div className="w-full bg-pink-300 pt-20 py-6">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6 mt-4">
-            Scale Your Real Estate Business
+            Scale Your Real Estate Business with Confidence
           </h2>
           <p className="text-gray-700 mb-8">
-            Fast, reliable financing powered by technology to help you grow your investment portfolio. Our innovative solutions streamline the entire investment process.
+            WCI Capital Funding revolutionizes real estate financing with fast, reliable capital solutions powered by cutting-edge technology, helping investors grow portfolios efficiently while minimizing risk. We offer tailored financing for fix-and-flip projects to long-term rentals, adapting to your unique investment strategy.
           </p>
         </div>
       </div>
@@ -28,7 +28,13 @@ export default function WhyUs() {
               Access the capital you need to confidently scale
             </h2>
             <p className="text-gray-700 mb-8">
-              WCI Capital Funding harnesses the power of data & technology to offer residential real estate investors a simpler, more reliable way to access capital. Our platform streamlines the entire lending process, helping you scale your business efficiently.
+              WCI Capital Funding is more than just a lender - we&apos;re your strategic partner in building wealth through real estate. Our team of experienced professionals understands the challenges investors face, which is why we&apos;ve developed a streamlined process that delivers:
+              <ul className="list-disc pl-6 mt-4">
+                <li>Fast approvals and funding in as little as 5 business days</li>
+                <li>Competitive rates and flexible terms tailored to your needs</li>
+                <li>Personalized support from application to closing and beyond</li>
+                <li>Transparent pricing with no hidden fees</li>
+              </ul>
             </p>
             <Link
               href="/get-pre-qualified"
@@ -55,15 +61,20 @@ export default function WhyUs() {
       {/* Three Pillars - Value Proposition */}
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-medium text-gray-700 mb-12 text-center">Why Choose WCI Capital Funding?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Pillar 1 */}
             <div className="flex flex-col items-center text-center">
               <div className="text-pink-500 mb-4">
                 <TrendingUp className="w-16 h-16" />
               </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">Advanced technology</h3>
-              <p className="text-gray-600">
-                Our modern platform removes barriers and speeds up funding. We leverage cutting-edge technology to provide a seamless lending experience.
+              <h3 className="text-xl font-medium text-gray-800 mb-3">Advanced Technology</h3>
+              <p className="text-gray-600">Real-time updates and management
+              <ul className="list-disc pl-4 mt-2 text-left">
+                  <li>24/7 access to your loan status</li>
+                  <li>Secure document uploads</li>
+                  <li>Automated progress tracking</li>
+                </ul>
               </p>
             </div>
             
@@ -72,9 +83,14 @@ export default function WhyUs() {
               <div className="text-pink-500 mb-4">
                 <Building2 className="w-16 h-16" />
               </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">Trusted industry leader</h3>
+              <h3 className="text-xl font-medium text-gray-800 mb-3">Trusted Industry Leader</h3>
               <p className="text-gray-600">
-                We&apos;re a proven partner with  successful projects nationwide. Our track record demonstrates our commitment to investor success.
+                With over $1 billion in funded projects, we bring:
+                <ul className="list-disc pl-4 mt-2 text-left">
+                  <li>Proven track record of success</li>
+                  <li>Deep market knowledge</li>
+                  <li>Strong industry relationships</li>
+                </ul>
               </p>
             </div>
             
@@ -83,9 +99,14 @@ export default function WhyUs() {
               <div className="text-pink-500 mb-4">
                 <BarChart3 className="w-16 h-16" />
               </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">Intelligence & support</h3>
+              <h3 className="text-xl font-medium text-gray-800 mb-3">Intelligence & Support</h3>
               <p className="text-gray-600">
-                Our data-driven insights help maximize your investment returns. We provide comprehensive support to guide your investment decisions.
+                Our team provides:
+                <ul className="list-disc pl-4 mt-2 text-left">
+                  <li>Market analysis and insights</li>
+                  <li>Investment strategy guidance</li>
+                  <li>Dedicated account management</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -97,9 +118,15 @@ export default function WhyUs() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-medium text-gray-700 mb-6">Modern Digital Lending</h2>
+              <h2 className="text-3xl font-medium text-gray-700 mb-6">Modern Digital Lending Experience</h2>
               <p className="text-gray-700 mb-4">
-                Skip complex applications and long approval times with our automated platform. Get real-time updates and streamlined processes for faster funding.
+                Our digital-first approach transforms the lending process, offering:
+                <ul className="list-disc pl-6 mt-2">
+                  <li>Online applications completed in minutes</li>
+                  <li>Instant pre-qualification decisions</li>
+                  <li>Secure e-signature capabilities</li>
+                  <li>Real-time funding status updates</li>
+                </ul>
               </p>
               <p className="text-gray-700 mb-4">
                 We combine technology with expert support to offer flexible bridge and rental funding options. Our solutions are tailored to match your investment strategy and goals.
@@ -132,43 +159,6 @@ export default function WhyUs() {
           </div>
         </div>
       </div>
-
-      {/* Stats Section 
-      <div className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap justify-center gap-12 md:gap-16">
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-4 text-pink-500">
-                <svg className="w-16 h-16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12.31 7L9 9.25V14.75L12.31 17L15.75 14.75V9.25L12.31 7ZM12.31 15L10 13.25V10.75L12.31 9L14.75 10.75V13.25L12.31 15Z" fill="currentColor"/>
-                </svg>
-              </div>
-              <h3 className="text-3xl font-bold mb-2">$5+ billion</h3>
-              <p className="text-gray-600">in funded loans</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-4 text-pink-500">
-                <svg className="w-16 h-16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M17 11V3H7V7H3V21H11V17H13V21H21V11H17ZM7 19H5V17H7V19ZM7 15H5V13H7V15ZM7 11H5V9H7V11ZM11 15H9V13H11V15ZM11 11H9V9H11V11ZM11 7H9V5H11V7ZM15 15H13V13H15V15ZM15 11H13V9H15V11ZM15 7H13V5H15V7ZM19 19H17V17H19V19ZM19 15H17V13H19V15Z" fill="currentColor"/>
-                </svg>
-              </div>
-              <h3 className="text-3xl font-bold mb-2">10,000+</h3>
-              <p className="text-gray-600">projects completed</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-4 text-pink-500">
-                <svg className="w-16 h-16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="currentColor"/>
-                </svg>
-              </div>
-              <h3 className="text-3xl font-bold mb-2">47 states +</h3>
-              <p className="text-gray-600">nationwide coverage</p>
-            </div>
-          </div>
-        </div>
-      </div>*/}
 
       {/* Customer Showcase */}
       <div className="py-16 bg-gray-100">

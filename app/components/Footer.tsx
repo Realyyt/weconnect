@@ -47,7 +47,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-400 hover:text-pink-300">
+                <Link href="/" className="text-gray-400 hover:text-pink-300">
                   Contact
                 </Link>
               </li>
@@ -62,7 +62,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-gray-400 hover:text-pink-300">
+                <Link href="/news" className="text-gray-400 hover:text-pink-300">
                   Blog
                 </Link>
               </li>
@@ -79,10 +79,11 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="font-bold mb-4">Mailing Address</h4>
+            <h4 className="font-bold mb-4">Contact Us</h4>
             <div className="text-sm text-gray-400">
               <p className="mb-2">1457 Kelly Rd, #245, Apex, NC 27502</p>
               <p>Wecanhelp@WCIcapitalfunding.com</p>
+              <p>+1910-418-0181</p>
             </div>
           </div>
           <div>
@@ -104,7 +105,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-gray-800 text-sm text-gray-400">
-          <p>© WCI Capital Funding, Inc. All rights reserved.</p>
+          <p>© WCI Capital Funding, powered by WeConnect Investments, LLC.</p>
         </div>
       </div>
     </footer>

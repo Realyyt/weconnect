@@ -10,7 +10,7 @@ export default function Home() {
     <div className="min-h-screen">
     {/* Hero Section with Curvy Backgrounds */}
     <section className="pt-20 bg-gradient-to-b from-pink-50 to-white overflow-hidden min-h-[70vh] relative">
-      {/* Enhanced Video Backgrounds */}
+     {/*
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <video
           className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in-1"
@@ -61,28 +61,32 @@ export default function Home() {
             animation: fadeInOut 30s infinite 20s;
           }
         `}</style>
-      </div>
+          */}
+      <div
+          className="absolute inset-0 w-full h-full bg-cover bg-center"
+          style={{ backgroundImage: "url(/e.jpg)" }}
+        ></div>
 
-      {/* Rest of the hero section content remains the same */}
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 h-auto lg:h-[70vh]">
-          <div className="w-full lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-              Smart Real Estate Financing
-            </h1>
-            <p className="text-base sm:text-lg text-gray-800 mb-6 leading-relaxed">
-              We provide fast and reliable financing solutions for real estate investors. Our technology-powered platform streamlines the entire investment process.
-            </p>
-            <Link href="/get-pre-qualified">
-              <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white w-full">
-                Get Pre-qualified
-              </Button>
-            </Link>
+        {/* Rest of the hero section content remains the same */}
+        <div className="container mx-auto px-4 relative z-10 flex flex-col justify-end h-[70vh]">
+          <div className="flex flex-col lg:flex-row items-end justify-between gap-8 pb-12">
+            <div className="w-full lg:w-1/2 text-center lg:text-left">
+              <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900  mb-4 leading-tight">
+                Smart Real Estate Financing
+              </h1>
+              <p className="hidden sm:block text-sm sm:text-lg font-bold text-gray-900 mb-6 leading-relaxed">
+                We provide fast and reliable financing solutions for real estate investors. Our technology-powered
+                platform streamlines the entire investment process.
+              </p>
+              <Link href="/get-pre-qualified">
+                <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white w-full">
+                  Get Pre-qualified
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    
+      </section>
     {/* Products Grid - Improved grid responsiveness */}
     <section className="py-12 md:py-20 bg-white">
       <div className="container mx-auto px-4">
