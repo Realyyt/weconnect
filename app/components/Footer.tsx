@@ -79,9 +79,15 @@ export default function Footer() {
             </ul>
           </div>
           <div>
+            <h4 className="font-bold mb-4">Mailing Address</h4>
+            <div className="text-sm text-gray-400">
+              <p>1457 Kelly Rd, #245</p>
+              <p>Apex, NC 27502</p>
+            </div>
+          </div>
+          <div>
             <h4 className="font-bold mb-4">Contact Us</h4>
             <div className="text-sm text-gray-400">
-              <p className="mb-2">1457 Kelly Rd, #245, Apex, NC 27502</p>
               <p>Wecanhelp@WCIcapitalfunding.com</p>
               <p>+1910-418-0181</p>
             </div>

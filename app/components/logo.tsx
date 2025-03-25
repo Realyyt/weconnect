@@ -23,7 +23,7 @@ export default function LogoWithIcon({ onClick }: LogoProps) {
                 <span className="text-pink-600">Fun</span>ding
               </span>
             </div>
-            <span className="text-sm font-semibold text-gray-700 leading-tight">We connect investors to capital</span>
+            <span className="text-[10px] sm:text-[11px] font-semibold text-gray-700 leading-tight">We connect investors to capital</span>
           </div>
         </div>
       </Link>

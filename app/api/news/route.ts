@@ -17,7 +17,9 @@ async function fetchTrendingNews(): Promise<{ title: string; source: string; dat
 
   try {
     const response = await fetch(
-      `https://newsapi.org/v2/everything?q=real+estate+funding&language=en&sortBy=publishedAt&apiKey=${apiKey}`
+      `https://newsapi.org/v2/everything?q=${encodeURIComponent(
+        '"real estate financing" OR "investment property loans" OR "technology-powered lending" OR "fast funding solutions" OR "streamlined investment process"'
+      )}&language=en&sortBy=publishedAt&apiKey=${apiKey}`
     );
     
     if (!response.ok) {
@@ -30,7 +32,16 @@ async function fetchTrendingNews(): Promise<{ title: string; source: string; dat
       throw new Error('No articles found in response');
     }
     
-    return data.articles.map((article: Article) => ({
+    // Filter articles to ensure they're relevant to our specific focus
+    const relevantArticles = data.articles.filter((article: Article) => 
+      article.title.toLowerCase().includes('financing') ||
+      article.title.toLowerCase().includes('funding') ||
+      article.title.toLowerCase().includes('investment') ||
+      article.title.toLowerCase().includes('technology') ||
+      article.title.toLowerCase().includes('streamlined')
+    );
+    
+    return relevantArticles.map((article: Article) => ({
       title: article.title,
       source: article.source.name,
       date: new Date(article.publishedAt).toLocaleDateString(),
@@ -46,4 +57,4 @@ async function fetchTrendingNews(): Promise<{ title: string; source: string; dat
 export async function GET() {
   const news = await fetchTrendingNews();
   return NextResponse.json(news);
-} 
+}

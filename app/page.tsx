@@ -10,7 +10,7 @@ export default function Home() {
     <div className="min-h-screen">
     {/* Hero Section with Curvy Backgrounds */}
     <section className="pt-20 bg-gradient-to-b from-pink-50 to-white overflow-hidden min-h-[70vh] relative">
-     {/*
+    
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <video
           className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in-1"
@@ -61,11 +61,8 @@ export default function Home() {
             animation: fadeInOut 30s infinite 20s;
           }
         `}</style>
-          */}
-      <div
-          className="absolute inset-0 w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: "url(/e.jpg)" }}
-        ></div>
+          </div>
+      
 
         {/* Rest of the hero section content remains the same */}
         <div className="container mx-auto px-4 relative z-10 flex flex-col justify-end h-[70vh]">
@@ -288,7 +285,7 @@ export default function Home() {
               <div className="relative w-full h-full bg-gray-700 rounded-lg overflow-hidden">
                 <video
                   src="/webinar-preview.mp4"
-                  poster="/vid.jpg"
+                  poster="/e.jpg"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 {/* Custom play button overlay */}
