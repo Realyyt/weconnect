@@ -1,40 +1,13 @@
 "use client"
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, Loader2 } from "lucide-react";
-import Image from 'next/image';
 
-interface NewsItem {
-  title: string;
-  source: string;
-  date: string;
-  link: string;
-}
+
+
 
 export default function News() {
-  const [news, setNews] = useState<NewsItem[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
 
-  // Fetch trending news
-  useEffect(() => {
-    const fetchNews = async () => {
-      try {
-        const response = await fetch('/api/news');
-        if (!response.ok) throw new Error('Failed to fetch news');
-        const data = await response.json();
-        setNews(data);
-      } catch (error) {
-        setError('Failed to load news. Please check your internet connection or API key.');
-        console.error('Error fetching news:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchNews();
-  }, []);
 
   // Fetch states where we lend
 
@@ -77,13 +50,13 @@ export default function News() {
           </div>
           <div className="prose text-gray-700">
             <p className="mb-4">
-              In today's fast-paced real estate market, WCI Capital Funding is making waves with its innovative approach to property financing. Our platform connects investors with carefully vetted real estate opportunities, creating a win-win situation for all parties involved.
+              In today&apos;s fast-paced real estate market, WCI Capital Funding is making waves with its innovative approach to property financing. Our platform connects investors with carefully vetted real estate opportunities, creating a win-win situation for all parties involved.
             </p>
             <p className="mb-4">
-              What sets us apart is our commitment to transparency and efficiency. We've developed a proprietary system that streamlines the investment process, making it easier than ever for investors to participate in lucrative real estate deals while providing developers with the capital they need to bring their projects to life.
+              What sets us apart is our commitment to transparency and efficiency. We&apos;ve developed a proprietary system that streamlines the investment process, making it easier than ever for investors to participate in lucrative real estate deals while providing developers with the capital they need to bring their projects to life.
             </p>
             <p>
-              Our team of experienced professionals carefully evaluates each opportunity, ensuring that our investors have access to only the most promising projects. From residential developments to commercial properties, we're reshaping the landscape of real estate investment.
+              Our team of experienced professionals carefully evaluates each opportunity, ensuring that our investors have access to only the most promising projects. From residential developments to commercial properties, we&apos;re reshaping the landscape of real estate investment.
             </p>
           </div>
         </div>

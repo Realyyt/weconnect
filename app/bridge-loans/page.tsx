@@ -10,7 +10,6 @@ import {
   CircleNumberOne,
   CircleNumberTwo,
   CircleNumberThree,
-  ArrowRightCircleIcon,
 } from "./icons"
 
 export default function BridgeLoansPage() {

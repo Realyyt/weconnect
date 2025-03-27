@@ -254,7 +254,7 @@ export default function WhyUs() {
                 <h3 className="text-xl font-medium text-gray-800">First-Time Investor Success</h3>
               </div>
               <p className="text-gray-600 italic">
-                "As a first-time investor, I couldn't have asked for a better partner than WCI Capital Funding. They guided me every step of the way and found the ideal loan for my fix-and-flip project."
+                &ldquo;As a first time investor, I couldn&apos;t have asked for a better partner than WCI Capital Funding. They guided me every step of the way and found the ideal loan for my fix and flip project.&rdquo;
               </p>
             </div>
 
@@ -267,7 +267,7 @@ export default function WhyUs() {
                 <h3 className="text-xl font-medium text-gray-800">Construction Project Made Easy</h3>
               </div>
               <p className="text-gray-600 italic">
-                "WCI Capital Funding exceeded my expectations! Their professionalism and connections turned my new construction dreams into reality - seamlessly and quickly."
+                &ldquo;WCI Capital Funding exceeded my expectations. Their professionalism and connections turned my new construction dreams into reality seamlessly and quickly.&rdquo;
               </p>
             </div>
           </div>
