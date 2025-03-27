@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { TrendingUp, Building2, BarChart3 } from "lucide-react";
+import { TrendingUp, Building2, BarChart3 , Quote} from "lucide-react";
 
 export default function WhyUs() {
   return (
@@ -20,20 +20,21 @@ export default function WhyUs() {
         </div>
       </div>
 
+      
+      {/* Rest of the existing code remains the same */}
       {/* Hero Section */}
       <div className="w-full bg-pink-200 pb-16">
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6 mt-4">
-              Access the capital you need to confidently scale
+            About WCI Capital Funding
             </h2>
             <p className="text-gray-700 mb-8">
-              WCI Capital Funding is more than just a lender - we&apos;re your strategic partner in building wealth through real estate. Our team of experienced professionals understands the challenges investors face, which is why we&apos;ve developed a streamlined process that delivers:
+              WCI Capital Funding is a premier commercial real estate loan brokerage firm, specializing in tailored financing solutions for acquisitions, rental properties, fix-and-flip projects, and new construction. Leveraging an extensive and diverse network of trusted partners, we provide:
               <ul className="list-disc pl-6 mt-4">
-                <li>Fast approvals and funding in as little as 5 business days</li>
-                <li>Competitive rates and flexible terms tailored to your needs</li>
-                <li>Personalized support from application to closing and beyond</li>
-                <li>Transparent pricing with no hidden fees</li>
+                <li>we provide competitive and strategic options for both seasoned investors and newcomers.</li>
+                <li>we empower clients to navigate the complexities of real estate financing efficiently and achieve their investment goals with confidence.</li>
+                
               </ul>
             </p>
             <Link
@@ -238,6 +239,41 @@ export default function WhyUs() {
           </Link>
         </div>
       </div>
+
+      {/* Customer Feedback Section */}
+      <div className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-medium text-gray-700 mb-12 text-center">What Our Clients Are Saying</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Feedback Card 1 */}
+            <div className="bg-gray-50 p-8 rounded-lg shadow-sm">
+              <div className="flex items-center mb-4">
+                <div className="bg-pink-100 p-3 rounded-full mr-4">
+                  <Quote className="w-6 h-6 text-pink-600" />
+                </div>
+                <h3 className="text-xl font-medium text-gray-800">First-Time Investor Success</h3>
+              </div>
+              <p className="text-gray-600 italic">
+                "As a first-time investor, I couldn't have asked for a better partner than WCI Capital Funding. They guided me every step of the way and found the ideal loan for my fix-and-flip project."
+              </p>
+            </div>
+
+            {/* Feedback Card 2 */}
+            <div className="bg-gray-50 p-8 rounded-lg shadow-sm">
+              <div className="flex items-center mb-4">
+                <div className="bg-pink-100 p-3 rounded-full mr-4">
+                  <Quote className="w-6 h-6 text-pink-600" />
+                </div>
+                <h3 className="text-xl font-medium text-gray-800">Construction Project Made Easy</h3>
+              </div>
+              <p className="text-gray-600 italic">
+                "WCI Capital Funding exceeded my expectations! Their professionalism and connections turned my new construction dreams into reality - seamlessly and quickly."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       {/* Resources Section */}
       <div className="py-16 bg-white">

@@ -65,45 +65,31 @@ export default function News() {
       {/* News Grid */}
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">In the News</h1>
-        {error ? (
-          <div className="text-center py-8 text-red-500">{error}</div>
-        ) : loading ? (
-          <div className="flex justify-center py-8">
-            <Loader2 className="h-8 w-8 animate-spin text-pink-500" />
+        <div className="max-w-3xl mx-auto bg-gray-100 p-8 rounded-lg">
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">
+            WCI Capital Funding: Revolutionizing Real Estate Financing
+          </h2>
+          <div className="text-pink-600 font-medium mb-2">
+            WeConnect Blog
           </div>
-        ) : news.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {news.map((item, index) => (
-              <div key={index} className="bg-gray-100 p-6 rounded-md">
-                <h2 className="text-xl font-medium text-gray-800 mb-4">
-                  {item.title}
-                </h2>
-                <div className="text-pink-600 font-medium mb-2">
-                  {item.source}
-                </div>
-                <div className="text-gray-500 mb-6">
-                  {item.date}
-                </div>
-                <Link href={item.link} className="flex items-center text-pink-500 hover:text-pink-700">
-                  Read more <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </div>
-            ))}
+          <div className="text-gray-500 mb-6">
+            October 15, 2023
           </div>
-        ) : (
-          <div className="text-center py-8">
-            <p className="text-gray-600">No news articles found. Please try again later.</p>
-            <button
-              onClick={() => window.location.reload()}
-              className="mt-4 bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600"
-            >
-              Refresh
-            </button>
+          <div className="prose text-gray-700">
+            <p className="mb-4">
+              In today's fast-paced real estate market, WCI Capital Funding is making waves with its innovative approach to property financing. Our platform connects investors with carefully vetted real estate opportunities, creating a win-win situation for all parties involved.
+            </p>
+            <p className="mb-4">
+              What sets us apart is our commitment to transparency and efficiency. We've developed a proprietary system that streamlines the investment process, making it easier than ever for investors to participate in lucrative real estate deals while providing developers with the capital they need to bring their projects to life.
+            </p>
+            <p>
+              Our team of experienced professionals carefully evaluates each opportunity, ensuring that our investors have access to only the most promising projects. From residential developments to commercial properties, we're reshaping the landscape of real estate investment.
+            </p>
           </div>
-        )}
+        </div>
       </div>
 
-      {/* States Where We Lend */}
+      {/* 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-medium text-gray-800 mb-8">Where We Lend</h2>
@@ -127,7 +113,7 @@ export default function News() {
               <div className="w-4 h-4 bg-blue-700 mr-2"></div>
               <span className="text-sm text-gray-600">States where we currently do not lend</span>
             </div>
-          </div>
+          </div>States Where We Lend */}
 
       {/* Social Media 
       <div className="py-16 bg-gray-100">

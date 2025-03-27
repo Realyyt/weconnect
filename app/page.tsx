@@ -98,7 +98,7 @@ export default function Home() {
               Access quick closings with high leverage for renovation projects. Our bridge loans help you seize opportunities in the real estate market.
             </p>
             <Link
-              href="/learn-more"
+              href="/fix-flip"
               className="inline-flex items-center text-pink-600 font-semibold group-hover:text-pink-700"
             >
               Learn More
@@ -116,7 +116,7 @@ export default function Home() {
               Get streamlined financing for new construction projects. Our flexible terms support your development goals from ground breaking to completion.
             </p>
             <Link
-              href="/learn-more"
+              href="/new-construction-infill"
               className="inline-flex items-center text-pink-600 font-semibold group-hover:text-pink-700"
             >
               Learn More
@@ -140,7 +140,7 @@ export default function Home() {
               Optimize your rental income with flexible terms and competitive rates. Our DSCR loans are designed for long-term rental property investments.
             </p>
             <Link
-              href="/learn-more"
+              href="/dscr-rental"
               className="inline-flex items-center text-pink-600 font-semibold group-hover:text-pink-700"
             >
               Learn More
@@ -158,7 +158,7 @@ export default function Home() {
               Consolidate multiple properties under one loan with customizable terms. Our portfolio loans simplify managing your real estate investments.
             </p>
             <Link
-              href="/learn-more"
+              href="/rental"
               className="inline-flex items-center text-pink-600 font-semibold group-hover:text-pink-700"
             >
               Learn More

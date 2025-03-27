@@ -56,11 +56,11 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li>
+              {/*<li>
                 <Link href="/resources" className="text-gray-400 hover:text-pink-300">
                   Resource Center
                 </Link>
-              </li>
+              </li>*/}
               <li>
                 <Link href="/news" className="text-gray-400 hover:text-pink-300">
                   Blog
@@ -71,11 +71,11 @@ export default function Footer() {
                   FAQs
                 </Link>
               </li>
-              <li>
+             {/*} <li>
                 <Link href="/news" className="text-gray-400 hover:text-pink-300">
                   News
                 </Link>
-              </li>
+              </li>*/}
             </ul>
           </div>
           <div>

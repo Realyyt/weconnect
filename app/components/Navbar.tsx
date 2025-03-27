@@ -47,8 +47,8 @@ export default function Navbar() {
   }
 
   const whyKiaviLinks = {
-    "About WCI Capital": {
-      description: "Discover why investors choose WCI Capital",
+    "About WCI Capital Funding": {
+      description: "Discover why investors choose WCI Capital Funding",
       href: "/why-us"
     },
     "News": {
@@ -134,7 +134,7 @@ export default function Navbar() {
                   className="text-gray-700 hover:text-pink-600 flex items-center"
                   onClick={() => setIsWhyKiaviOpen(!isWhyKiaviOpen)}
                 >
-                  Why WCI Capital Funding
+                  About US
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -148,8 +148,8 @@ export default function Navbar() {
                     onMouseLeave={() => setIsWhyKiaviOpen(false)}
                   >
                     <div className="p-8">
-                      <h2 className="text-lg font-semibold text-gray-900 mb-6">Why we connect investments</h2>
-                      <div className="grid grid-cols-3 gap-12 divide-x divide-gray-100">
+                      <h2 className="text-lg font-semibold text-gray-900 mb-6">Why WCI Capital Funding</h2>
+                      <div className="flex flex-row">
                         {Object.entries(whyKiaviLinks).map(([title, { description, href }], index) => (
                           <div key={`why-kiavi-section-${title.replace(/\s+/g, '-')}`} className={`${index > 0 ? 'pl-12' : ''}`}>
                             <Link 
@@ -171,8 +171,8 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
-              <Link href="/lending-criteria/fix-flip-guide" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Lending Criteria</Link>
-              <Link href="/resources" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Resources</Link>
+              {/*<Link href="/lending-criteria/fix-flip-guide" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Lending Criteria</Link>
+              <Link href="/resources" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Resources</Link>*/}
             </div>
           </div>
           

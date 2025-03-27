@@ -142,36 +142,36 @@ export default function BridgeLoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-4xl font-bold mb-2">7.75%*</h3>
-                <p className="text-sm text-gray-300">Rates as low as</p>
+              <p className="text-sm text-gray-300">Rates as low as</p>
+                <h3 className="text-4xl font-bold mb-2">7.27%</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">$100K to $3MM</h3>
-                <p className="text-sm text-gray-300">Loans from</p>
+              <p className="text-sm text-gray-300">Loans from</p>
+                <h3 className="text-2xl font-bold mb-2">$100K to $3M</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
+              <p className="text-sm text-gray-300">Purchase price</p>
                 <h3 className="text-2xl font-bold mb-2">Up to 95%</h3>
-                <p className="text-sm text-gray-300">of purchase price</p>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
+              <p className="text-sm text-gray-300">After-repair value</p>
                 <h3 className="text-2xl font-bold mb-2">Up to 80%</h3>
-                <p className="text-sm text-gray-300">of after-repair value</p>
               </div>
             </div>
 
             <div className="px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">12, 18 + 24 month terms</h3>
-                <p className="text-sm text-gray-300">w/ interest-only options</p>
+              <p className="text-sm text-gray-300">Interest-only option</p>
+                <h3 className="text-2xl font-bold mb-2"> with 12, 18 or 24 month terms</h3>
               </div>
             </div>
           </div>
@@ -180,7 +180,7 @@ export default function BridgeLoansPage() {
 
       {/* No Application Fee Banner */}
       <div className="w-full bg-pink-300 py-4 text-center">
-        <p className="text-lg font-medium text-gray-800">No Application Fee / No Appraisal / No Income Verification</p>
+        <p className="text-lg font-medium text-gray-800">No Application Fee (in some cases) / No Appraisal / No Income Verification</p>
         <Link
           href="/get-pre-qualified"
           className="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
@@ -342,7 +342,7 @@ export default function BridgeLoansPage() {
         </div>
       </div>
 
-      {/* In-house Servicing Section */}
+      {/* In-house Servicing Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-start">
@@ -429,13 +429,13 @@ export default function BridgeLoansPage() {
         </div>
       </div> */}
 
-      {/* FAQs Section */}
+      {/* FAQs Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-12 text-center">WCI Capital Funding Bridge Loan FAQs</h2>
 
           <div className="max-w-3xl mx-auto">
-            {/* FAQ Item */}
+            {/* FAQ Item 
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -450,7 +450,7 @@ export default function BridgeLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item */}
+            {/* FAQ Item 
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -465,7 +465,7 @@ export default function BridgeLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item */}
+            {/* FAQ Item 
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -480,7 +480,7 @@ export default function BridgeLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item */}
+            {/* FAQ Item 
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -495,7 +495,7 @@ export default function BridgeLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item */}
+            {/* FAQ Item *
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -542,11 +542,11 @@ export default function BridgeLoansPage() {
                 <p className="text-gray-600">where we lend</p>
               </div>
             </div>
-          </div>*/}
+          </div>
         </div>
       </div>
 
-      {/* Transform House-Flipping Section */}
+      {/* Transform House-Flipping Section 
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">
