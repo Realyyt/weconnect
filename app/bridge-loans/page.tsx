@@ -11,6 +11,7 @@ import {
   CircleNumberTwo,
   CircleNumberThree,
 } from "./icons"
+import Button from "../components/ui/button"
 
 export default function BridgeLoansPage() {
   // Fix unescaped entities
@@ -236,51 +237,31 @@ export default function BridgeLoansPage() {
       </div>
 
       {/* Fast Financing Estimate Section */}
-      <div className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row items-center">
-            <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-              <Image
-                src="/house.jpg"
-                alt="Property with financing estimate"
-                width={600}
-                height={400}
-                className="rounded-md shadow-lg w-full"
-              />
-            </div>
-            <div className="w-full lg:w-1/2 lg:pl-12">
-              <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">Get a fast financing estimate</h2>
-              <p className="text-gray-600 mb-6">
-                Stop guessing and start investing with confidence. Quickly estimate your financing options with our platform.
-              </p>
-              <ul className="mb-6 space-y-2">
-                <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">•</span>
-                  <span>After Repair Value (ARV)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">•</span>
-                  <span>Cash to Close</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">•</span>
-                  <span>Interest Rate</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">•</span>
-                  <span>Valuation Comparables</span>
-                </li>
-              </ul>
-              <Link
-                href="/get-pre-qualified"
-                className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors"
-              >
-                Get Estimate
-              </Link>
-            </div>
+       {/* Fast Financing Section - Better mobile layout */}
+    <section className="py-12 md:py-20 bg-pink-50">
+      <div className="container mx-auto px-4">
+       
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="relative">
+            <Image
+              src="/house.jpg"
+              alt="Property with financing estimate"
+              width={600}
+              height={400}
+              className="rounded-md shadow-lg"
+            />
+            <Link href="/get-pre-qualified" className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+              <Button className="bg-pink-600 hover:bg-pink-700 text-white">Get Pre-Qualified</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="https://meet.google.com/lookup/abc123xyz" target="_blank" rel="noopener noreferrer">
+              <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Schedule a Meeting</Button>
+            </Link>
           </div>
         </div>
       </div>
+    </section>
 
       {/* Kickstart Your Bridge Loan Section */}
       <div className="py-16 bg-white">

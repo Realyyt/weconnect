@@ -175,12 +175,7 @@ export default function Home() {
     {/* Fast Financing Section - Better mobile layout */}
     <section className="py-12 md:py-20 bg-pink-50">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Quick Financing Estimate</h2>
-          <p className="text-base md:text-lg text-gray-600">
-          Get instant financing estimates for your property investment. Our calculator provides tailored options based on your property details and renovation scope to unlock:
-          </p>
-        </div>
+       
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="relative">
             <Image
@@ -190,37 +185,13 @@ export default function Home() {
               height={400}
               className="rounded-md shadow-lg"
             />
-            
+            <Link href="/get-pre-qualified" className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+              <Button className="bg-pink-600 hover:bg-pink-700 text-white">Get Pre-Qualified</Button>
+            </Link>
           </div>
           <div>
-            <ul className="space-y-4 text-lg">
-              <li className="flex items-center space-x-3">
-                <span className="h-6 w-6 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center">
-                  ✓
-                </span>
-                <span>After Repair Value (ARV)</span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <span className="h-6 w-6 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center">
-                  ✓
-                </span>
-                <span>Cash to Close</span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <span className="h-6 w-6 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center">
-                  ✓
-                </span>
-                <span>Interest Rate</span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <span className="h-6 w-6 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center">
-                  ✓
-                </span>
-                <span>Valuation Comparables</span>
-              </li>
-            </ul>
-            <Link href="/get-pre-qualified">
-              <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Get Estimate</Button>
+            <Link href="https://meet.google.com/lookup/abc123xyz" target="_blank" rel="noopener noreferrer">
+              <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Schedule a Meeting</Button>
             </Link>
           </div>
         </div>

@@ -134,7 +134,7 @@ export default function Navbar() {
                   className="text-gray-700 hover:text-pink-600 flex items-center"
                   onClick={() => setIsWhyKiaviOpen(!isWhyKiaviOpen)}
                 >
-                  About US
+                  About Us
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -171,8 +171,8 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
-              {/*<Link href="/lending-criteria/fix-flip-guide" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Lending Criteria</Link>
-              <Link href="/resources" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Resources</Link>*/}
+              {/*<Link href="/lending-criteria/fix-flip-guide" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Lending Criteria</Link>*/}
+              <Link href="/resources" className="text-gray-700 hover:text-pink-600" onClick={handleLinkClick}>Resources</Link>
             </div>
           </div>
           
