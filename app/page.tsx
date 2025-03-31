@@ -525,9 +525,9 @@ rates options.`}
           GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
         </h2>
         <p className="text-gray-600 text-lg mb-8">
-        Read WCI Capital funding blog
+        Read Our Blog
         </p>
-        <Link href="/get-pre-qualified">
+        <Link href="/news">
           <Button 
             className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
           >

@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { MoneyIcon, CloudIcon, HeadphonesIcon } from "./icons"
+import Button from "../components/ui/button"
 
 export default function RentalLoansPage() {
   return (
@@ -180,7 +181,7 @@ export default function RentalLoansPage() {
         </Link>
       </div>
 
-      {/* Adjustable-Rate Mortgages Section */}
+      {/* 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6 text-center">
@@ -191,7 +192,7 @@ export default function RentalLoansPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 max-w-4xl mx-auto">
-            {/* ARM 1 */}
+          
             <div className="flex flex-col items-center text-center">
               <div className="text-pink-500 mb-4 border-2 border-pink-500 rounded-full p-4">
                 <span className="text-3xl font-bold">5/1</span>
@@ -202,7 +203,7 @@ export default function RentalLoansPage() {
               </p>
             </div>
 
-            {/* ARM 2 */}
+       
             <div className="flex flex-col items-center text-center">
               <div className="text-pink-500 mb-4 border-2 border-pink-500 rounded-full p-4">
                 <span className="text-3xl font-bold">7/1</span>
@@ -223,9 +224,9 @@ export default function RentalLoansPage() {
             </Link>
           </div>
         </div>
-      </div>
+      </div>  */}
 
-      {/* Rental Property Financing Made Easy Section */}
+      {/* Rental Property Financing Made Easy Section
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center">
@@ -303,7 +304,7 @@ export default function RentalLoansPage() {
         </div>
       </div>*/}
 
-      {/* DSCR Info Section */}
+      {/* DSCR Info Section
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-start">
@@ -342,7 +343,7 @@ export default function RentalLoansPage() {
         </div>
       </div>
 
-      {/* BRRRR Strategy Section */}
+      {/* BRRRR Strategy Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center">
@@ -443,6 +444,32 @@ export default function RentalLoansPage() {
         </div>
       </div>*/}
 
+      {/* Fast Financing Section - Better mobile layout */}
+    <section className="py-12 md:py-20 bg-pink-50">
+      <div className="container mx-auto px-4">
+       
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="relative">
+            <Image
+              src="/house.jpg"
+              alt="Property with financing estimate"
+              width={600}
+              height={400}
+              className="rounded-md shadow-lg"
+            />
+            <Link href="/get-pre-qualified" className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+              <Button className="bg-pink-600 hover:bg-pink-700 text-white">Get Pre-Qualified</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="https://calendly.com/robert-wc247" target="_blank" rel="noopener noreferrer">
+              <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Schedule a Meeting</Button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+
       {/* Resources Section */}
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4 text-center">
@@ -453,7 +480,7 @@ export default function RentalLoansPage() {
             href="/news"
             className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
           >
-            Read WCI Capital funding blog
+            Read Our Blog
           </Link>
         </div>
       </div>

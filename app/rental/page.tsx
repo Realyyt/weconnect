@@ -6,6 +6,7 @@ import {
   ChartIcon,
   FlexibleIcon,
 } from "./icons"
+import Button from '../components/ui/button';
 
 export default function Home() {
   return (
@@ -158,7 +159,7 @@ export default function Home() {
             <div className="w-full md:w-1/2">
               <div className="bg-pink-100 p-6 rounded-lg">
                 <Image 
-                  src="/k3.png"
+                  src="/happy.jpg"
                   alt="Loan Details Example"
                   width={500}
                   height={300}
@@ -170,28 +171,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Competitive Rates Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="w-full md:w-1/2 mb-8 md:mb-0">
-              <Image 
-                src="/3.jpg"
-                alt="Competitive rates and terms"
-                width={600}
-                height={400}
-                className="w-full h-120 object-cover rounded-lg shadow-lg"
-              />
-            </div>
-            <div className="w-full md:w-1/2 md:pl-8">
-              <h2 className="text-4xl font-bold text-gray-800 mb-4">Competitive Rates for Your Portfolio</h2>
-              <p className="text-gray-600">
-                Combine properties under one loan with low monthly payments for easier portfolio management.
-              </p>
-            </div>
+      <section className="py-12 md:py-20 bg-pink-50">
+      <div className="container mx-auto px-4">
+       
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="relative">
+            <Image
+              src="/house.jpg"
+              alt="Property with financing estimate"
+              width={600}
+              height={400}
+              className="rounded-md shadow-lg"
+            />
+            <Link href="/get-pre-qualified" className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+              <Button className="bg-pink-600 hover:bg-pink-700 text-white">Get Pre-Qualified</Button>
+            </Link>
+          </div>
+          <div>
+            <Link href="https://calendly.com/robert-wc247" target="_blank" rel="noopener noreferrer">
+              <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Schedule a Meeting</Button>
+            </Link>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Testimonial Section
       <section className="bg-pink-300 py-16">

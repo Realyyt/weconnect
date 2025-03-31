@@ -46,11 +46,7 @@ export default function Footer() {
                   Careers
                 </Link>
               </li>
-              <li>
-                <Link href="/" className="text-gray-400 hover:text-pink-300">
-                  Contact
-                </Link>
-              </li>
+              
             </ul>
           </div>
           <div>
@@ -82,7 +78,7 @@ export default function Footer() {
             <h4 className="font-bold mb-4">Mailing Address</h4>
             <div className="text-sm text-gray-400">
               <p>1457 Kelly Rd, #245</p>
-              <p>Apex, NC 27502</p>
+              <p>Apex, NC 27502 USA</p>
             </div>
           </div>
           <div>
