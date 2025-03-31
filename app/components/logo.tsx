@@ -27,7 +27,7 @@ export default function LogoWithIcon({ onClick }: LogoProps) {
               <span className="text-xl font-bold text-black leading-tight tracking-tight ml-1">Funding</span>
               
             </div>
-            <span className="text-[10px] sm:text-[11px] font-semibold text-red-600 leading-tight">We connect investors to capital</span>
+            <span className="text-[10px] sm:text-[11px] font-semibold text-red-600 leading-tight">We Connect Investors to Capital</span>
           </div>
         </div>
       </Link>

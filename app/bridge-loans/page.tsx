@@ -255,7 +255,7 @@ export default function BridgeLoansPage() {
             </Link>
           </div>
           <div>
-            <Link href="https://meet.google.com/lookup/abc123xyz" target="_blank" rel="noopener noreferrer">
+          <Link href="https://calendly.com/robert-wc247" target="_blank" rel="noopener noreferrer">
               <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Schedule a Meeting</Button>
             </Link>
           </div>
