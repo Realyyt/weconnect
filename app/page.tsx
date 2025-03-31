@@ -353,7 +353,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 text-sm italic">
-                "As a first-time investor, I couldn't have asked for a better partner than WCI Capital Funding. They guided me every step of the way and found the ideal loan for my fix-and-flip project."
+                &quot;As a first-time investor, I couldn&apos;t have asked for a better partner than WCI Capital Funding. They guided me every step of the way and found the ideal loan for my fix-and-flip project.&quot;
               </p>
             </div>
 
@@ -395,12 +395,11 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 text-sm italic">
-                "WCI Capital Funding exceeded my expectations! Their professionalism and connections turned my new construction dream into reality - seamlessly and quickly"
+                &quot;WCI Capital Funding exceeded my expectations! Their professionalism and connections turned my new construction dream into reality - seamlessly and quickly&quot;
               </p>
             </div>
 
             {/* Project 3 */}
-            
 
          
           </div>
