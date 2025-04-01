@@ -4,12 +4,6 @@ import {
   HandshakeIcon,
   SpeedIcon,
   MoneyIcon,
-  HouseIcon,
-  RefinanceIcon,
-  CalendarIcon,
-  CircleNumberOne,
-  CircleNumberTwo,
-  CircleNumberThree,
 } from "./icons"
 import Button from "../components/ui/button"
 
@@ -189,7 +183,7 @@ export default function BridgeLoansPage() {
         </Link>
       </div>
 
-      {/* Bridge Loans Tailored Section */}
+      {/* Bridge Loans Tailored Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6 text-center">
@@ -200,7 +194,7 @@ export default function BridgeLoansPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
-            {/* Strategy 1 */}
+            
             <div className="flex flex-col">
               <div className="text-pink-500 mb-4">
                 <HouseIcon className="w-12 h-12" />
@@ -211,7 +205,7 @@ export default function BridgeLoansPage() {
               </p>
             </div>
 
-            {/* Strategy 2 */}
+         
             <div className="flex flex-col">
               <div className="text-pink-500 mb-4">
                 <RefinanceIcon className="w-12 h-12" />
@@ -222,7 +216,7 @@ export default function BridgeLoansPage() {
               </p>
             </div>
 
-            {/* Strategy 3 */}
+            
             <div className="flex flex-col">
               <div className="text-pink-500 mb-4">
                 <CalendarIcon className="w-12 h-12" />
@@ -234,7 +228,7 @@ export default function BridgeLoansPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/* Fast Financing Estimate Section */}
        {/* Fast Financing Section - Better mobile layout */}
@@ -244,7 +238,7 @@ export default function BridgeLoansPage() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="relative">
             <Image
-              src="/house.jpg"
+              src="/house1.jpg"
               alt="Property with financing estimate"
               width={600}
               height={400}
@@ -263,15 +257,30 @@ export default function BridgeLoansPage() {
       </div>
     </section>
 
-      {/* Kickstart Your Bridge Loan Section */}
+    <section className="py-16 ">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
+        </h2>
+        <Link href="/blog">
+          <Button 
+            className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
+          >
+            Read Our Blog
+          </Button>
+        </Link>
+      </div>
+    </section>
+
+   {/* Kickstart Your Bridge Loan Section 
       <div className="py-16 bg-white">
-        <div className="container mx-auto px-4">
+          <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-12 text-center">
             Kickstart your bridge loan financing
           </h2>
 
           <div className="grid grid-cols-1 gap-12 max-w-3xl mx-auto">
-            {/* Step 1 */}
+            
             <div className="flex">
               <div className="mr-6">
                 <CircleNumberOne className="w-16 h-16 text-pink-500" />
@@ -284,7 +293,7 @@ export default function BridgeLoansPage() {
               </div>
             </div>
 
-            {/* Step 2 */}
+            
             <div className="flex">
               <div className="mr-6">
                 <CircleNumberTwo className="w-16 h-16 text-pink-500" />
@@ -297,7 +306,7 @@ export default function BridgeLoansPage() {
               </div>
             </div>
 
-            {/* Step 3 */}
+           
             <div className="flex">
               <div className="mr-6">
                 <CircleNumberThree className="w-16 h-16 text-pink-500" />
@@ -309,7 +318,7 @@ export default function BridgeLoansPage() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> 
 
           <div className="text-center mt-12">
             <Link
@@ -320,7 +329,7 @@ export default function BridgeLoansPage() {
             </Link>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/* In-house Servicing Section 
       <div className="py-16 bg-white">

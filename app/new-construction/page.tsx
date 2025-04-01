@@ -4,38 +4,36 @@ import {
   ThumbsUpIcon,
   ChartIcon,
   FlexibleIcon,
-  MoneyIcon,
-  RefinanceIcon,
 } from "./icons"
+import Button from "../components/ui/button"
 
 export default function NewConstructionLoansPage() {
   return (
     <main className="w-full">
       {/* Top announcement banner */}
-      <div className="w-full bg-pink-600 text-white py-3 px-4 text-center">
+      <div className="w-full bg-pink-600 text-white py极3 px-4 text-center">
         <p className="text-sm md:text-base">
           Get instant ARV and Cash to Close estimates now &gt;
         </p>
       </div>
 
-      {/* New Construction / Infill Loans Header */}
-      <div className="w-full bg-pink-300 py-6">
+      {/* New Construction Loans Header */}
+      <div className="w-full bg-pink-300 py-10">
         <div className="container mx-auto px-4">
-          <h1 className="text-2xl md:text-3xl font-medium text-gray-800 pt-6">New Construction / Infill Loans</h1>
+          <h1 className="text-2xl md:text-3xl font-medium text-gray-800 pt-6">New Construction Loans</h1>
         </div>
       </div>
 
       {/* Hero Section */}
       <div className="w-full bg-pink-200 pb-16">
         <div className="container mx-auto px-4 py-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">New Construction Loans</h1>
           <div className="flex flex-col lg:flex-row items-center">
             <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6 mt-4">
                 New Construction Financing
               </h2>
               <p className="text-gray-700 mb-8">
-                Streamlined lending process with competitive rates for developers. Simple, fast financing for your next construction project.
+              Funding available for single-family, 2-4 plexes, and Planned Unit Developments (PUDs), including new purchase and/or refinance. Minimum 650 FICO Score required. Collateral loans available for consideration.
               </p>
               <Link
                 href="/get-pre-qualification"
@@ -91,7 +89,7 @@ export default function NewConstructionLoansPage() {
               <div className="text-pink-500 mb-4">
                 <FlexibleIcon className="w-16 h-16" />
               </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">Flexible</h3>
+              <h3 className="text-xl font-medium text-gray-极800 mb-3">Flexible</h3>
               <p className="text-gray-600">
                 Single or dual closes. Build-to-sell or build-to-rent options. Reliable capital with consistent processes.
               </p>
@@ -130,11 +128,11 @@ export default function NewConstructionLoansPage() {
         </div>
       </div>
 
-      {/* New Construction / Infill Loan Rates + Terms Section */}
+      {/* New Construction Loan Rates + Terms Section */}
       <div className="py-16 bg-gray-800 text-white">
         <div className="container mx-auto px-4">
           <h2 className="text-center text-pink-300 text-xl tracking-wider uppercase mb-12">
-            New Construction / Infill Loan Rates + Terms
+            New Construction Loan Rates + Terms
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
             {/* Rate Item */}
@@ -189,8 +187,7 @@ export default function NewConstructionLoansPage() {
         </Link>
       </div>
 
-      {/* Fund New Purchases Section */}
-      <div className="py-16 bg-white">
+      {/* Fund New Purchases Section 
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6 text-center">
             Fund New Projects or Restore Cash
@@ -200,7 +197,7 @@ export default function NewConstructionLoansPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 max-w-4xl mx-auto">
-            {/* Transaction 1 */}
+           
             <div className="flex">
               <div className="text-pink-500 mr-4 flex-shrink-0">
                 <MoneyIcon className="w-12 h-12" />
@@ -213,7 +210,7 @@ export default function NewConstructionLoansPage() {
               </div>
             </div>
 
-            {/* Transaction 2 */}
+           
             <div className="flex">
               <div className="text-pink-500 mr-4 flex-shrink-0">
                 <RefinanceIcon className="w-12 h-12" />
@@ -228,9 +225,9 @@ export default function NewConstructionLoansPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* Quick and Easy Way Section */}
+      {/* Quick and Easy Way Section
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center">
@@ -302,20 +299,44 @@ export default function NewConstructionLoansPage() {
         </div>
       </div>*/}
 
-      {/* Resources Section */}
-      <div className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">
+<section className="py-16 bg-pink-100">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
-          </h2>
-          <Link
-            href="/get-pre-qualification"
-            className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
+        </h2>
+        <Link href="/blog">
+          <Button 
+            className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
           >
-             Read WCI Capital funding blog
-          </Link>
+            Read Our Blog
+          </Button>
+        </Link>
+      </div>
+    </section>
+       <section className="py-12 md:py-20 bg-pink-50">
+      <div className="container mx-auto px-4">
+       
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="relative">
+            <Image
+              src="/house3.jpg"
+              alt="Property with financing estimate"
+              width={600}
+              height={400}
+              className="rounded-md shadow-lg"
+            />
+            <Link href="/get-pre-qualified" className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+              <Button className="bg-pink-600 hover:bg-pink-700 text-white">Get Pre-Qualified</Button>
+            </Link>
+          </div>
+          <div>
+          <Link href="https://calendly.com/robert-wc247" target="_blank" rel="noopener noreferrer">
+              <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Schedule a Meeting</Button>
+            </Link>
+          </div>
         </div>
       </div>
+    </section>
 
       {/* Disclaimer Section 
       <div className="py-8 bg-white">

@@ -524,14 +524,11 @@ rates options.`}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
         </h2>
-        <p className="text-gray-600 text-lg mb-8">
-        Read Our Blog
-        </p>
-        <Link href="/news">
+        <Link href="/blog">
           <Button 
             className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
           >
-            Read The Blog
+            Read Our Blog
           </Button>
         </Link>
       </div>

@@ -39,9 +39,9 @@ export default function Navbar() {
     ],
     "New Construction": [
       {
-        title: "New Construction / Infill",
+        title: "New Construction  ",
         description: "Fund ground-up development in high-demand areas",
-        href: "/new-construction-infill"
+        href: "/new-construction"
       }
     ]
   }

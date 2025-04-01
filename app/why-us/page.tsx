@@ -3,7 +3,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { TrendingUp, Building2, BarChart3 , Quote} from "lucide-react";
+import {  Quote} from "lucide-react";
+import Button from '../components/ui/button';
 
 export default function WhyUs() {
   return (
@@ -11,12 +12,7 @@ export default function WhyUs() {
       {/* Header */}
       <div className="w-full bg-pink-300 pt-20 py-6">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6 mt-4">
-            Scale Your Real Estate Business with Confidence
-          </h2>
-          <p className="text-gray-700 mb-8">
-            WCI Capital Funding revolutionizes real estate financing with fast, reliable capital solutions powered by cutting-edge technology, helping investors grow portfolios efficiently while minimizing risk. We offer tailored financing for fix-and-flip projects to long-term rentals, adapting to your unique investment strategy.
-          </p>
+          
         </div>
       </div>
 
@@ -30,12 +26,7 @@ export default function WhyUs() {
             About WCI Capital Funding
             </h2>
             <p className="text-gray-700 mb-8">
-              WCI Capital Funding is a premier commercial real estate loan brokerage firm, specializing in tailored financing solutions for acquisitions, rental properties, fix-and-flip projects, and new construction. Leveraging an extensive and diverse network of trusted partners, we provide:
-              <ul className="list-disc pl-6 mt-4">
-                <li>we provide competitive and strategic options for both seasoned investors and newcomers.</li>
-                <li>we empower clients to navigate the complexities of real estate financing efficiently and achieve their investment goals with confidence.</li>
-                
-              </ul>
+            WCI Capital Funding is a premier commercial real estate loan brokerage firm, specializing in tailored financing solutions for acquisitions, rental properties, fix-and-flip projects, and new construction. Leveraging an extensive and diverse network of trusted partners, we provide competitive and strategic options for both seasoned investors and newcomers. Committed to excellence, we empower clients to navigate the complexities of real estate financing efficiently and achieve their investment goals with confidence.
             </p>
             <Link
               href="/get-pre-qualified"
@@ -63,58 +54,15 @@ export default function WhyUs() {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-medium text-gray-700 mb-12 text-center">Why Choose WCI Capital Funding?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Pillar 1 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="text-pink-500 mb-4">
-                <TrendingUp className="w-16 h-16" />
-              </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">Advanced Technology</h3>
-              <p className="text-gray-600">Real-time updates and management
-              <ul className="list-disc pl-4 mt-2 text-left">
-                  <li>24/7 access to your loan status</li>
-                  <li>Secure document uploads</li>
-                  <li>Automated progress tracking</li>
-                </ul>
-              </p>
-            </div>
-            
-            {/* Pillar 2 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="text-pink-500 mb-4">
-                <Building2 className="w-16 h-16" />
-              </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">Trusted Industry Leader</h3>
-              <p className="text-gray-600">
-                With over $1 billion in funded projects, we bring:
-                <ul className="list-disc pl-4 mt-2 text-left">
-                  <li>Proven track record of success</li>
-                  <li>Deep market knowledge</li>
-                  <li>Strong industry relationships</li>
-                </ul>
-              </p>
-            </div>
-            
-            {/* Pillar 3 */}
-            <div className="flex flex-col items-center text-center">
-              <div className="text-pink-500 mb-4">
-                <BarChart3 className="w-16 h-16" />
-              </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-3">Intelligence & Support</h3>
-              <p className="text-gray-600">
-                Our team provides:
-                <ul className="list-disc pl-4 mt-2 text-left">
-                  <li>Market analysis and insights</li>
-                  <li>Investment strategy guidance</li>
-                  <li>Dedicated account management</li>
-                </ul>
-              </p>
-            </div>
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-gray-600 text-lg">
+              WCI Capital Funding stands out as a top choice for private money brokerage due to its commitment to providing fast, reliable, and tailored financing solutions. With in-house servicing and proprietary online platforms owned by its partners, WCI ensures a seamless and efficient process from start to finish. Their expertise in private money lending, combined with a focus on personalized service, makes them a trusted partner for real estate investors looking to close deals quickly and effectively.
+            </p>
           </div>
         </div>
       </div>
 
-      {/* Digital Lending Section */}
+      {/* Digital Lending Section 
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-12">
@@ -159,9 +107,9 @@ export default function WhyUs() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
-      {/* Customer Showcase */}
+      {/* Customer Showcase 
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -195,10 +143,10 @@ export default function WhyUs() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/* Industry Impact Section */}
-      <div className="py-16 bg-white">
+      <div className="py-16 bg-pink-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
@@ -225,6 +173,32 @@ export default function WhyUs() {
           </div>
         </div>
       </div>
+
+
+      <section className="py-12 md:py-20 ">
+      <div className="container mx-auto px-4">
+       
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="relative">
+            <Image
+              src="/house4.jpg"
+              alt="Property with financing estimate"
+              width={600}
+              height={400}
+              className="rounded-md shadow-lg"
+            />
+            <Link href="/get-pre-qualified" className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+              <Button className="bg-pink-600 hover:bg-pink-700 text-white">Get Pre-Qualified</Button>
+            </Link>
+          </div>
+          <div>
+          <Link href="https://calendly.com/robert-wc247" target="_blank" rel="noopener noreferrer">
+              <Button className="mt-8 bg-pink-600 hover:bg-pink-700 text-white">Schedule a Meeting</Button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
 
       {/* CTA Section */}
       <div className="py-16 bg-pink-200">
@@ -282,10 +256,10 @@ export default function WhyUs() {
           GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
           </h2>
           <Link
-            href="/resources"
+            href="/blog"
             className="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
           >
-            Read WCI Capital funding blog
+            Read Our Blog
           </Link>
         </div>
       </div>

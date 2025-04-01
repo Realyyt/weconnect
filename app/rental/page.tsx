@@ -195,6 +195,20 @@ export default function Home() {
         </div>
       </div>
     </section>
+    <section className="py-16 bg-pink-100">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
+        </h2>
+        <Link href="/blog">
+          <Button 
+            className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
+          >
+            Read Our Blog
+          </Button>
+        </Link>
+      </div>
+    </section>
 
       {/* Testimonial Section
       <section className="bg-pink-300 py-16">

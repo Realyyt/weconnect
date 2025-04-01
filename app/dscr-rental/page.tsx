@@ -477,7 +477,7 @@ export default function RentalLoansPage() {
           GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
           </h2>
           <Link
-            href="/news"
+            href="/blog"
             className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-6 rounded-md transition-colors mt-4"
           >
             Read Our Blog

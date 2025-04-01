@@ -4,12 +4,6 @@ import {
   ClockIcon,
   ThumbsUpIcon,
   PiggyBankIcon,
-  HouseIcon,
-  RefinanceIcon,
-  CalendarIcon,
-  CircleNumberOne,
-  CircleNumberTwo,
-  CircleNumberThree,
 } from "./icons"
 import Button from "../components/ui/button"
 
@@ -34,8 +28,7 @@ export default function FixAndFlipLoansPage() {
       {/* Hero Section */}
       <div className="w-full bg-pink-200 pb-16">
         <div className="container mx-auto px-4 py-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Fix & Flip Loans</h1>
-          <div className="flex flex-col lg:flex-row items-center">
+         <div className="flex flex-col lg:flex-row items-center">
             <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6">
                 Short-term financing for your fix-and-flip projects
@@ -128,9 +121,8 @@ export default function FixAndFlipLoansPage() {
                 Fast funding for real estate investments
               </h2>
               <p className="text-gray-600 mb-4">
-                Unlock fast, easy, and reliable financing with fast closings to keep pace with cash buyers. Benefit from
-                we connect investments to capital&apos;s in-house servicing, no 3rd party appraisals, and online pricing platform for a seamless and
-                efficient experience from beginning to end, personalized for your next deal.
+                &ldquo;Thanks to WCI Capital Funding, securing financing has never been smoother! Their quick closings helped me stay competitive with cash buyers. Their online pricing platform was the cherry on top, making every step seamless and tailored to my needs. Truly a game-changer for my real estate deals!&rdquo;
+                <span className="block mt-2 font-medium">&mdash; Emily Carter</span>
               </p>
             </div>
           </div>
@@ -189,7 +181,7 @@ export default function FixAndFlipLoansPage() {
         </div>
       </div>
 
-      {/* No Application Fee Banner */}
+      {/* No Application Fee Banner
       <div className="w-full bg-pink-300 py-4 text-center">
         <p className="text-lg font-medium text-gray-800">No Application Fee / No Appraisal / No Income Verification</p>
         <Link
@@ -200,7 +192,7 @@ export default function FixAndFlipLoansPage() {
         </Link>
       </div>
 
-      {/* Loans Tailored Section */}
+      
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6 text-center">
@@ -213,7 +205,7 @@ export default function FixAndFlipLoansPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
-            {/* Strategy 1 */}
+       
             <div className="flex flex-col">
               <div className="text-pink-500 mb-4">
                 <HouseIcon className="w-12 h-12" />
@@ -225,7 +217,7 @@ export default function FixAndFlipLoansPage() {
               </p>
             </div>
 
-            {/* Strategy 2 */}
+       
             <div className="flex flex-col">
               <div className="text-pink-500 mb-4">
                 <RefinanceIcon className="w-12 h-12" />
@@ -237,7 +229,7 @@ export default function FixAndFlipLoansPage() {
               </p>
             </div>
 
-            {/* Strategy 3 */}
+      
             <div className="flex flex-col">
               <div className="text-pink-500 mb-4">
                 <CalendarIcon className="w-12 h-12" />
@@ -250,7 +242,7 @@ export default function FixAndFlipLoansPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Fast Financing Estimate Section */}
  {/* Fast Financing Section - Better mobile layout */}
@@ -260,7 +252,7 @@ export default function FixAndFlipLoansPage() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="relative">
             <Image
-              src="/house.jpg"
+              src="/house2.jpg"
               alt="Property with financing estimate"
               width={600}
               height={400}
@@ -279,7 +271,22 @@ export default function FixAndFlipLoansPage() {
       </div>
     </section>
 
-      {/* Kickstart Your Fix-and-Flip Loan Section */}
+    <section className="py-16 ">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          GET EMPOWERED WITH INDUSTRY INSIGHTS AND MORE
+        </h2>
+        <Link href="/blog">
+          <Button 
+            className="bg-pink-200 hover:bg-pink-400 text-gray-800 px-8 py-3 rounded-md transition-colors"
+          >
+            Read Our Blog
+          </Button>
+        </Link>
+      </div>
+    </section>
+
+      {/* Kickstart Your Fix-and-Flip Loan Section
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-12 text-center">
@@ -287,7 +294,7 @@ export default function FixAndFlipLoansPage() {
           </h2>
 
           <div className="grid grid-cols-1 gap-12 max-w-3xl mx-auto">
-            {/* Step 1 */}
+           
             <div className="flex">
               <div className="mr-6">
                 <CircleNumberOne className="w-16 h-16 text-pink-500" />
@@ -300,7 +307,7 @@ export default function FixAndFlipLoansPage() {
               </div>
             </div>
 
-            {/* Step 2 */}
+          
             <div className="flex">
               <div className="mr-6">
                 <CircleNumberTwo className="w-16 h-16 text-pink-500" />
@@ -313,7 +320,7 @@ export default function FixAndFlipLoansPage() {
               </div>
             </div>
 
-            {/* Step 3 */}
+         
             <div className="flex">
               <div className="mr-6">
                 <CircleNumberThree className="w-16 h-16 text_pink-500" />
@@ -336,9 +343,9 @@ export default function FixAndFlipLoansPage() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* In-house Servicing Section */}
+      {/* In-house Servicing Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-start">
@@ -364,9 +371,9 @@ export default function FixAndFlipLoansPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
-      {/* FAQs Section */}
+      {/* FAQs Section 
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-12 text-center">
@@ -374,7 +381,7 @@ export default function FixAndFlipLoansPage() {
           </h2>
 
           <div className="max-w-3xl mx-auto">
-            {/* FAQ Item 1 */}
+           
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -393,7 +400,7 @@ export default function FixAndFlipLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item 2 */}
+          
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -412,7 +419,7 @@ export default function FixAndFlipLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item 3 */}
+          
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -431,7 +438,7 @@ export default function FixAndFlipLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item 4 */}
+           
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -450,7 +457,7 @@ export default function FixAndFlipLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item 5 */}
+           
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -469,7 +476,7 @@ export default function FixAndFlipLoansPage() {
               </details>
             </div>
 
-            {/* FAQ Item 6 */}
+            
             <div className="border-b border-gray-200 py-4">
               <details className="group">
                 <summary className="flex items-center cursor-pointer [&::-webkit-details-marker]:hidden list-none">
@@ -489,9 +496,9 @@ export default function FixAndFlipLoansPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
-      {/* Transform Fix-and-Flip Section */}
+      {/* Transform Fix-and-Flip Section 
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-medium text-gray-700 mb-6">
@@ -509,7 +516,7 @@ export default function FixAndFlipLoansPage() {
             See Your Rate
           </Link>
         </div>
-      </div>
+      </div>*/}
 
       {/* Disclaimer Section
       <div className="py-8 bg-white">

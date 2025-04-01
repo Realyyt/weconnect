@@ -137,6 +137,8 @@ export default function LendingAreas() {
         </div>
       </div>
 
+      
+
       {/* Legal Notes
       <div className="container mx-auto px-4 py-12">
         <div className="text-xs text-gray-500 max-w-5xl mx-auto">
