@@ -138,36 +138,36 @@ export default function NewConstructionLoansPage() {
             {/* Rate Item */}
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-4xl font-bold mb-2">9.45%<sup>+</sup></h3>
-                <p className="text-sm text-gray-300">Rates as low as</p>
+                <p className="text-sm text-gray-300 mb-2">Rates as low as</p>
+                <h3 className="text-4xl font-bold">9.45%<sup>+</sup></h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">$150K to $3MM</h3>
-                <p className="text-sm text-gray-300">Loans from</p>
+                <p className="text-sm text-gray-300 mb-2">Loans from</p>
+                <h3 className="text-2xl font-bold">$150K to $3M</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">Up to 85% of total costs**</h3>
-                <p className="text-sm text-gray-300">(purchase price + construction costs)</p>
+                <p className="text-sm text-gray-300 mb-2">(purchase price + construction costs)</p>
+                <h3 className="text-2xl font-bold">Up to 85% of total costs</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">Up to 70%</h3>
-                <p className="text-sm text-gray-300">of ARV (after-repair-value)</p>
+                <p className="text-sm text-gray-300 mb-2"> ARV (after-repair-value)</p>
+                <h3 className="text-2xl font-bold">Up to 70%</h3>
               </div>
             </div>
 
             <div className="px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">24-month terms</h3>
-                <p className="text-sm text-gray-300">with 3 or 6 month extension options</p>
+                <p className="text-sm text-gray-300 mb-2">24-month terms</p>
+                <h3 className="text-2xl font-bold">3 or 6 month extension options</h3>
               </div>
             </div>
           </div>

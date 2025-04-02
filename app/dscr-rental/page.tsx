@@ -132,38 +132,38 @@ export default function RentalLoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-4xl font-bold mb-2">
+                <p className="text-sm text-gray-300 mb-2">Rates as low as</p>
+                <h3 className="text-4xl font-bold">
                   6.625%<sup>+</sup>
                 </h3>
-                <p className="text-sm text-gray-300">Rates as low as</p>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">Up to 80%</h3>
-                <p className="text-sm text-gray-300">LTV (loan-to-value)</p>
+                <p className="text-sm text-gray-300 mb-2">LTV (loan-to-value) of</p>
+                <h3 className="text-2xl font-bold">Up to 80%</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">No prepayment penalty</h3>
-                <p className="text-sm text-gray-300">after year 3</p>
+                <p className="text-sm text-gray-300 mb-2">No prepayment penalty until</p>
+                <h3 className="text-2xl font-bold">after year 3</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">5/1 + 7/1 ARMs</h3>
-                <p className="text-sm text-gray-300">fully amortizing</p>
+                <p className="text-sm text-gray-300 mb-2">Fully amortizing of</p>
+                <h3 className="text-2xl font-bold">5/1 + 7/1 ARMs</h3>
               </div>
             </div>
 
             <div className="px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">30-year fixed rates</h3>
-                <p className="text-sm text-gray-300">Interest-only options</p>
+                <p className="text-sm text-gray-300 mb-2">Interest-only options upto</p>
+                <h3 className="text-2xl font-bold">30-year fixed rates</h3>
               </div>
             </div>
           </div>

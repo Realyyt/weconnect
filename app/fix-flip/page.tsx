@@ -139,42 +139,43 @@ export default function FixAndFlipLoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-6 gap-6 text-center">
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-4xl font-bold mb-2">7.75%*</h3>
-                <p className="text-sm text-gray-300">Rates as low as</p>
+                <p className="text-sm text-gray-300 mb-2">Rates as low as</p>
+                <h3 className="text-4xl font-bold">7.75%*</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">$100K to $3MM</h3>
-                <p className="text-sm text-gray-300">Loans from</p>
+                <p className="text-sm text-gray-300 mb-2">Loans from</p>
+                <h3 className="text-2xl font-bold">$100K to $3MM</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">Up to 95%</h3>
-                <p className="text-sm text-gray-300">of purchase price</p>
+                <p className="text-sm text-gray-300 mb-2">Purchase price of</p>
+                <h3 className="text-2xl font-bold">Up to 95%</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">Up to 80%</h3>
-                <p className="text-sm text-gray-300">of after-repair value</p>
+                <p className="text-sm text-gray-300 mb-2">After-repair value of </p>
+                <h3 className="text-2xl font-bold">Up to 80%</h3>
               </div>
             </div>
 
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">12, 18 + 24 month terms</h3>
-                <p className="text-sm text-gray-300">w/ interest-only options</p>
+                <p className="text-sm text-gray-300 mb-2">Interest-only options of</p>
+                <h3 className="text-2xl font-bold">12, 18 + 24 month terms</h3>
               </div>
             </div>
 
             <div className="px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">100% of rehab cost</h3>
+                <p className="text-sm text-gray-300 mb-2">Rehab cost of</p>
+                <h3 className="text-2xl font-bold">100%</h3>
               </div>
             </div>
           </div>

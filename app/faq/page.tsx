@@ -222,6 +222,16 @@ export default function FAQ() {
           </div>
         </div>
       </div>
+                {/* Disclaimer Section*/}
+                <div className="py-8 bg-white">
+        <div className="container mx-auto px-4">
+          <p className="text-xs text-gray-500">
+            DISCLAIMER: All loan rates relate to non-owner-occupied rental properties only and are based on lender disposition, loan terms, borrower qualifications, LTV, and property factors. All loan rates are subject to change. Interest rates or charges herein are not recommended, approved, set or established by states. Loans are available in all states, except CA, OR, NV, AZ, UT, ID, ND, SD, MN, NC, NJ, NY and VT.
+            **Exceptions may apply.
+          </p>
+        </div>
+      </div> 
+
     </main>
   );
 }

@@ -99,7 +99,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       {/* Rates Section */}
       <div className="py-16 bg-gray-800 text-white">
         <div className="container mx-auto px-4">
@@ -109,32 +108,32 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-4xl font-bold mb-2">6.625%<sup>+</sup></h3>
-                <p className="text-sm text-gray-300">Rates as low as</p>
+                <p className="text-sm text-gray-300 mb-2">Rates as low as</p>
+                <h3 className="text-4xl font-bold">6.625%<sup>+</sup></h3>
               </div>
             </div>
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">Up to 80%</h3>
-                <p className="text-sm text-gray-300">LTV (loan-to-value)</p>
+                <p className="text-sm text-gray-300 mb-2">LTV (loan-to-value)</p>
+                <h3 className="text-2xl font-bold">Up to 80%</h3>
               </div>
             </div>
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">10-30 year</h3>
-                <p className="text-sm text-gray-300">term options</p>
+                <p className="text-sm text-gray-300 mb-2">Term options upto</p>
+                <h3 className="text-2xl font-bold">10-30 year</h3>
               </div>
             </div>
             <div className="border-r border-gray-600 px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">$500K+</h3>
-                <p className="text-sm text-gray-300">loan amounts</p>
+                <p className="text-sm text-gray-300 mb-2">Loan amounts</p>
+                <h3 className="text-2xl font-bold">$500K+</h3>
               </div>
             </div>
             <div className="px-4">
               <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">Interest-only</h3>
-                <p className="text-sm text-gray-300">options available</p>
+                <p className="text-sm text-gray-300 mb-2">Options available</p>
+                <h3 className="text-2xl font-bold">Interest-only</h3>
               </div>
             </div>
           </div>

@@ -29,7 +29,6 @@ export default function BridgeLoansPage() {
       {/* Hero Section */}
       <div className="w-full bg-gradient-to-b from-pink-50 to-pink-100 min-h-[50vh] pb-16">
         <div className="container mx-auto px-4 py-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6 text-center">Bridge Loans</h1>
           <div className="flex flex-col lg:flex-row items-center">
             <div className="w-full lg:w-1/2 pr-0 lg:pr-8">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-700 mb-6">
@@ -555,15 +554,18 @@ export default function BridgeLoansPage() {
         </div>
       </div>
 
-      {/* Legal Section 
-      <section className="py-8 bg-white">
+          {/* Disclaimer Section*/}
+          <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
-          <p className="text-xs text-gray-500 mb-4">
-            *Bridge loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to
-            change. Non owner-occupied properties only.
+          <p className="text-xs text-gray-500">
+            DISCLAIMER: All loan rates relate to non-owner-occupied rental properties only and are based on lender disposition, loan terms, borrower qualifications, LTV, and property factors. All loan rates are subject to change. Interest rates or charges herein are not recommended, approved, set or established by states. Loans are available in all states, except CA, OR, NV, AZ, UT, ID, ND, SD, MN, NC, NJ, NY and VT.
+            **Exceptions may apply.
           </p>
         </div>
-      </section>*/}
+      </div> 
+
+
+
 
       {/* Feedback button 
       <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
