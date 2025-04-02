@@ -55,7 +55,7 @@ export default function Navbar() {
       description: "Latest updates from  WCI Capital",
       href: "/news"
     },
-    "States We Lend In": {
+    "Focused State": {
       description: "See our nationwide lending coverage",
       href: "/lending-areas"
     },
@@ -148,7 +148,6 @@ export default function Navbar() {
                     onMouseLeave={() => setIsWhyKiaviOpen(false)}
                   >
                     <div className="p-8">
-                      <h2 className="text-lg font-semibold text-gray-900 mb-6">Why WCI Capital Funding</h2>
                       <div className="flex flex-row">
                         {Object.entries(whyKiaviLinks).map(([title, { description, href }], index) => (
                           <div key={`why-kiavi-section-${title.replace(/\s+/g, '-')}`} className={`${index > 0 ? 'pl-12' : ''}`}>
@@ -250,7 +249,7 @@ export default function Navbar() {
                   onClick={() => setIsMobileWhyOpen(!isMobileWhyOpen)}
                   className="w-full flex items-center justify-between p-4 text-left text-lg font-semibold text-gray-900 hover:bg-gray-50 rounded-lg"
                 >
-                  <span>Why WCI Capital Funding</span>
+                  <span>About Us</span>
                   <svg
                     className={`w-5 h-5 transition-transform duration-200 ${
                       isMobileWhyOpen ? 'transform rotate-180' : ''
