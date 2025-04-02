@@ -606,22 +606,15 @@ rates options.`}
       </div>
     </section>*/}
 
-     {/* Disclaimer Section
+     {/* Disclaimer Section*/}
      <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
-          <p className="text-xs text-gray-500 mb-4">
-            *Bridge loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are
-            subject to change. Non owner-occupied rental properties only. Interest rates or charges herein are not
-            recommended, approved, set or established by the State of Kansas. Loans available in AL, AK, AZ, AR, CA, CO,
-            CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH,
-            OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C.
-          </p>
           <p className="text-xs text-gray-500">
-            **Loans in which the borrower uses secondary financing sources do not qualify for interest as drawn. If
-            secondary financing is obtained, borrowers will be unable to obtain draws until cured.
+            DISCLAIMER: All loan rates relate to non-owner-occupied rental properties only and are based on lender disposition, loan terms, borrower qualifications, LTV, and property factors. All loan rates are subject to change. Interest rates or charges herein are not recommended, approved, set or established by states. Loans are available in all states, except CA, OR, NV, AZ, UT, ID, ND, SD, MN, NC, NJ, NY and VT.
+            **Exceptions may apply.
           </p>
         </div>
-      </div> */}
+      </div> 
 
     </div>
   )

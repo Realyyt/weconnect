@@ -117,14 +117,15 @@ export default function News() {
         </div>
       </div>*/}
 
-      {/* Legal Note 
-      <div className="py-8 bg-gray-100 border-t border-gray-200">
+          {/* Disclaimer Section*/}
+          <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
-          <p className="text-xs text-gray-500 max-w-5xl mx-auto text-center">
-            *Rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to change. Non owner-occupied rental properties only. Interest rates or charges herein are not recommended, approved, set or established by the State of Kansas. Loans available in AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MT, NC, NE, ND, NH, NJ, NV, NY, OH, OK, OR, PA, SC, SD, TN, TX, VA, WA, WI, WV, and WY as well as Washington D.C.
+          <p className="text-xs text-gray-500">
+            DISCLAIMER: All loan rates relate to non-owner-occupied rental properties only and are based on lender disposition, loan terms, borrower qualifications, LTV, and property factors. All loan rates are subject to change. Interest rates or charges herein are not recommended, approved, set or established by states. Loans are available in all states, except CA, OR, NV, AZ, UT, ID, ND, SD, MN, NC, NJ, NY and VT.
+            **Exceptions may apply.
           </p>
         </div>
-      </div>*/}
+      </div> 
     </main>
   );
 }

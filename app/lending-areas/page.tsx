@@ -139,22 +139,15 @@ export default function LendingAreas() {
 
       
 
-      {/* Legal Notes
-      <div className="container mx-auto px-4 py-12">
-        <div className="text-xs text-gray-500 max-w-5xl mx-auto">
-          <p className="mb-4">
-            *Rates vary by loan terms, borrower qualifications, LTV, and property factors. Non-owner-occupied properties only, available in 47 states + D.C.
-          </p>
-          
-          <p className="mb-4">
-            *Contact us to learn how a Rental Portfolio Loan can benefit your investment strategy. Our portfolio loans offer unique advantages for multi-property investors.
-          </p>
-          
-          <p>
-            Available in 47 states + D.C. Prepayment penalties apply where allowed by state law.
+     {/* Disclaimer Section*/}
+     <div className="py-8 bg-white">
+        <div className="container mx-auto px-4">
+          <p className="text-xs text-gray-500">
+            DISCLAIMER: All loan rates relate to non-owner-occupied rental properties only and are based on lender disposition, loan terms, borrower qualifications, LTV, and property factors. All loan rates are subject to change. Interest rates or charges herein are not recommended, approved, set or established by states. Loans are available in all states, except CA, OR, NV, AZ, UT, ID, ND, SD, MN, NC, NJ, NY and VT.
+            **Exceptions may apply.
           </p>
         </div>
-      </div> */}
+      </div> 
     </main>
   );
 } 

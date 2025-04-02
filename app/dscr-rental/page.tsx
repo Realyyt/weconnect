@@ -485,17 +485,15 @@ export default function RentalLoansPage() {
         </div>
       </div>
 
-      {/* Disclaimer Section 
-      <div className="py-8 bg-white">
+     {/* Disclaimer Section*/}
+     <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
-          <p className="text-xs text-gray-500 mb-4">
-            *Rental portfolio loan rates are based on loan terms, borrower qualifications, LTV, and property factors and are subject to
-            change. Non owner-occupied rental properties only.
+          <p className="text-xs text-gray-500">
+            DISCLAIMER: All loan rates relate to non-owner-occupied rental properties only and are based on lender disposition, loan terms, borrower qualifications, LTV, and property factors. All loan rates are subject to change. Interest rates or charges herein are not recommended, approved, set or established by states. Loans are available in all states, except CA, OR, NV, AZ, UT, ID, ND, SD, MN, NC, NJ, NY and VT.
+            **Exceptions may apply.
           </p>
         </div>
-      </div>*/}
-
-      {/* Feedback button */}
+      </div> 
       
     </main>
   )

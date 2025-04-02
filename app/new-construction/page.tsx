@@ -338,25 +338,15 @@ export default function NewConstructionLoansPage() {
       </div>
     </section>
 
-      {/* Disclaimer Section 
-      <div className="py-8 bg-white">
+          {/* Disclaimer Section*/}
+          <div className="py-8 bg-white">
         <div className="container mx-auto px-4">
-          <p className="text-xs text-gray-500 mb-4">
-            **Total project costs are defined as the sum of: Land/Structure, Soft Costs (i.e. permitting, GC, etc.), and
-            Hard Costs (i.e. cost to &ldquo;go vertical&rdquo;).
-          </p>
-          <p className="text-xs text-gray-500 mb-4">
-            +In order to receive their first draw, borrowers must have permits secured. Permits not required for
-            closing.
-          </p>
-          <p className="text-xs text-gray-500 mb-4">
-            ***Loans in California are eligible for a maximum loan size of $3M and maximum rehab budget of $2M. All
-            other states have a maximum loan size of $2M and maximum rehab budget of $1.5M. Rates are based on loan
-            terms, borrower qualifications, LTV, and property factors and are subject to change. Non owner-occupied
-            properties only.
+          <p className="text-xs text-gray-500">
+            DISCLAIMER: All loan rates relate to non-owner-occupied rental properties only and are based on lender disposition, loan terms, borrower qualifications, LTV, and property factors. All loan rates are subject to change. Interest rates or charges herein are not recommended, approved, set or established by states. Loans are available in all states, except CA, OR, NV, AZ, UT, ID, ND, SD, MN, NC, NJ, NY and VT.
+            **Exceptions may apply.
           </p>
         </div>
-      </div>*/}
+      </div> 
 
       {/* Feedback button 
       <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
