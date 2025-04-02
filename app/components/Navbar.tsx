@@ -250,7 +250,7 @@ export default function Navbar() {
                   onClick={() => setIsMobileWhyOpen(!isMobileWhyOpen)}
                   className="w-full flex items-center justify-between p-4 text-left text-lg font-semibold text-gray-900 hover:bg-gray-50 rounded-lg"
                 >
-                  <span>Why we connect investments</span>
+                  <span>Why WCI Capital Funding</span>
                   <svg
                     className={`w-5 h-5 transition-transform duration-200 ${
                       isMobileWhyOpen ? 'transform rotate-180' : ''
